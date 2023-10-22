@@ -49,7 +49,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus}) => {
           redirect: "follow",
         };
         return fetch(
-          "https://paiwebservices.paiweb.gov.co:8081/api/interoperabilidad/GetEPSPersonaMSS",
+          "https://proxy-cors-service.onrender.com/api/interoperabilidad/GetEPSPersonaMSS",
           requestOptionsSecondFetch
         );
       })
