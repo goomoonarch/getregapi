@@ -1,20 +1,21 @@
 import React, { useState } from "react";
 import CustomDropdown from "./CustomSelect";
 
-import UserCard from "./UserCard";
-import OkAlert from "./okAlert";
-import NoAlert from "./NoAlert";
-
-export const Search = ({ onPersonData, onERAsegData, onUserStatus}) => {
+export const Search = ({ onPersonData, onERAsegData, onUserStatus, setLoadingState }) => {
   const [selectedValue, setSelectedValue] = useState("");
   const [inputValue, setInputValue] = useState("");
   const [Error, setError] = useState("");
+
 
   const handleDropdownChange = (value) => {
     setSelectedValue(value);
   };
 
+  
+
   const fetchData = () => {
+    
+    setLoadingState(true);
 
     var requestOptions = {
       method: "GET",
@@ -29,8 +30,10 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus}) => {
 
         onUserStatus(response.status);
         return response.json();
+
       })
       .then((result) => {
+
         onPersonData(result);
 
         var myHeaders = new Headers();
@@ -53,9 +56,11 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus}) => {
           requestOptionsSecondFetch
         );
       })
-      .then((response) => response.json())
+      .then((response) => {
+        setLoadingState(false);
+        return response.json();
+      })
       .then((resultSecondFetch) => {
-        setEpsData(resultSecondFetch);
         onERAsegData(resultSecondFetch);
       })
       .catch((error) => {
@@ -74,6 +79,10 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus}) => {
     setInputValue(e.target.value);
   };
 
+  const handleButtonClick = () => {
+    fetchData();
+  };
+
   const clearInput = () => {
     setInputValue("");
   };
@@ -81,7 +90,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus}) => {
   return (
     <div>
       <div className="flex items-center justify-center">
-        <div className="flex px-4 py-3 bg-white rounded-[8px] shadow-md">
+        <div className="flex px-4 py-3 bg-white rounded-[8px] shadow-md w-[390px] sm:w-[490px]">
           <CustomDropdown onChange={handleDropdownChange} />
           <div className="flex pl-[4px] items-center justify-center">
             <div className="h-[35px] w-[1.3px] rounded-lg bg-gray-300" />
@@ -109,14 +118,14 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus}) => {
               </svg>
             </button>
           )}
-          <button onClick={fetchData}>
+          <button onClick={handleButtonClick}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="2.5"
               stroke="currentColor"
-              className="h-5 w-8 stroke-[#b3b4b9] hover:stroke-blue-gray-700"
+              className="h-5 w-5 stroke-[#b3b4b9] hover:stroke-blue-gray-700"
             >
               <path
                 strokeLinecap="round"

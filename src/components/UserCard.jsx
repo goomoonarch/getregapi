@@ -1,11 +1,8 @@
 import React from "react";
 import { BsGenderMale, BsGenderFemale } from "react-icons/bs";
 import { IconContext } from "react-icons";
-import OkAlert from "./okAlert";
-import NoAlert from "./NoAlert";
-import ERAsegWarning from "./ERAsegWarning";
 
-export default function ({ PersonData, ERAsegData, UserStatus }) {
+export default function ({ PersonData }) {
   function formatDate(dateString) {
     const options = { year: "numeric", month: "2-digit", day: "2-digit" };
     return new Date(dateString).toLocaleDateString(undefined, options);
@@ -32,6 +29,7 @@ export default function ({ PersonData, ERAsegData, UserStatus }) {
     <div>
       <div className="flex flex-col items-start w-[400px] font-SFpro justify-center bg-white shadow-md rounded-[8px] p-4 my-1 border">
         <div className="pt-2 px-6">
+          {console.log(PersonData)}
           <h1 className="text-[25px] font-semibold text-blue-gray-700">
             {toPascalCase(
               PersonData.primerApellido + " " + PersonData.primerNombre
