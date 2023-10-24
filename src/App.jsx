@@ -62,6 +62,10 @@ function App() {
           </div>
         ) : null}
       </div>
+      <div className="m-5  text-blue-gray-500">
+        <h1 className="font-SFpro text-[12px]">v1.1.0</h1>
+        <h1 className="font-SFpro text-[12px]">Developer version for institutional use</h1>
+      </div>
     </main>
   );
 }
