@@ -1,0 +1,6728 @@
+[
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5001",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "MEDELLÍN"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5002",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ABEJORRAL"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5004",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ABRIAQUÍ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5021",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ALEJANDRÍA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5030",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "AMAGÁ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5031",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "AMALFI"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5034",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ANDES"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5036",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ANGELÓPOLIS"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5038",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ANGOSTURA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5040",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ANORÍ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5042",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SANTA FÉ DE ANTIOQUIA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5044",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ANZÁ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5045",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "APARTADÓ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5051",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ARBOLETES"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5055",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ARGELIA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5059",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ARMENIA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5079",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "BARBOSA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5086",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "BELMIRA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5088",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "BELLO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5091",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "BETANIA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5093",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "BETULIA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5101",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CIUDAD BOLÍVAR"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5107",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "BRICEÑO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5113",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "BURITICÁ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5120",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CÁCERES"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5125",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CAICEDO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5129",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CALDAS"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5134",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CAMPAMENTO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5138",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CAÑASGORDAS"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5142",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CARACOLÍ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5145",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CARAMANTA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5147",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CAREPA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5148",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "EL CARMEN DE VIBORAL"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5150",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CAROLINA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5154",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CAUCASIA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5172",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CHIGORODÓ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5190",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CISNEROS"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5197",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "COCORNÁ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5206",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CONCEPCIÓN"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5209",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "CONCORDIA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5212",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "COPACABANA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5234",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "DABEIBA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5237",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "DONMATÍAS"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5240",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "EBÉJICO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5250",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "EL BAGRE"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5264",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ENTRERRÍOS"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5266",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ENVIGADO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5282",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "FREDONIA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5284",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "FRONTINO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5306",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "GIRALDO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5308",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "GIRARDOTA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5310",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "GÓMEZ PLATA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5313",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "GRANADA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5315",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "GUADALUPE"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5318",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "GUARNE"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5321",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "GUATAPÉ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5347",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "HELICONIA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5353",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "HISPANIA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5360",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ITAGÜÍ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5361",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ITUANGO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5364",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "JARDÍN"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5368",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "JERICÓ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5376",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "LA CEJA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5380",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "LA ESTRELLA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5390",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "LA PINTADA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5400",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "LA UNIÓN"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5411",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "LIBORINA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5425",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "MACEO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5440",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "MARINILLA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5467",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "MONTEBELLO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5475",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "MURINDÓ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5480",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "MUTATÁ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5483",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "NARIÑO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5490",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "NECOCLÍ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5495",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "NECHÍ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5501",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "OLAYA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5541",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "PEÑOL"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5543",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "PEQUE"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5576",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "PUEBLORRICO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5579",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "PUERTO BERRÍO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5585",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "PUERTO NARE"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5591",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "PUERTO TRIUNFO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5604",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "REMEDIOS"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5607",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "RETIRO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5615",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "RIONEGRO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5628",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SABANALARGA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5631",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SABANETA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5642",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SALGAR"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5647",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SAN ANDRÉS DE CUERQUÍA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5649",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SAN CARLOS"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5652",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SAN FRANCISCO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5656",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SAN JERÓNIMO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5658",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SAN JOSÉ DE LA MONTAÑA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5659",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SAN JUAN DE URABÁ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5660",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SAN LUIS"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5664",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SAN PEDRO DE LOS MILAGROS"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5665",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SAN PEDRO DE URABÁ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5667",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SAN RAFAEL"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5670",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SAN ROQUE"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5674",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SAN VICENTE FERRER"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5679",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SANTA BÁRBARA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5686",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SANTA ROSA DE OSOS"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5690",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SANTO DOMINGO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5697",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "EL SANTUARIO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5736",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SEGOVIA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5756",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SONSÓN"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5761",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "SOPETRÁN"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5789",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "TÁMESIS"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5790",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "TARAZÁ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5792",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "TARSO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5809",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "TITIRIBÍ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5819",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "TOLEDO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5837",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "TURBO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5842",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "URAMITA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5847",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "URRAO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5854",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "VALDIVIA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5856",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "VALPARAÍSO"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5858",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "VEGACHÍ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5861",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "VENECIA"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5873",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "VIGÍA DEL FUERTE"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5885",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "YALÍ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5887",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "YARUMAL"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5890",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "YOLOMBÓ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5893",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "YONDÓ"
+  },
+  {
+    "cod_depto": "5",
+    "cod_mpio": "5895",
+    "dpto": "ANTIOQUIA",
+    "nom_mpio": "ZARAGOZA"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8001",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "BARRANQUILLA"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8078",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "BARANOA"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8137",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "CAMPO DE LA CRUZ"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8141",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "CANDELARIA"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8296",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "GALAPA"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8372",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "JUAN DE ACOSTA"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8421",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "LURUACO"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8433",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "MALAMBO"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8436",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "MANATÍ"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8520",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "PALMAR DE VARELA"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8549",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "PIOJÓ"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8558",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "POLONUEVO"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8560",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "PONEDERA"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8573",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "PUERTO COLOMBIA"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8606",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "REPELÓN"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8634",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "SABANAGRANDE"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8638",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "SABANALARGA"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8675",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "SANTA LUCÍA"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8685",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "SANTO TOMÁS"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8758",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "SOLEDAD"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8770",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "SUAN"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8832",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "TUBARÁ"
+  },
+  {
+    "cod_depto": "8",
+    "cod_mpio": "8849",
+    "dpto": "ATLÁNTICO",
+    "nom_mpio": "USIACURÍ"
+  },
+  {
+    "cod_depto": "11",
+    "cod_mpio": "11001",
+    "dpto": "BOGOTÁ. D.C.",
+    "nom_mpio": "BOGOTÁ. D.C."
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13001",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "CARTAGENA DE INDIAS"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13006",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "ACHÍ"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13030",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "ALTOS DEL ROSARIO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13042",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "ARENAL"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13052",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "ARJONA"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13062",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "ARROYOHONDO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13074",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "BARRANCO DE LOBA"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13140",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "CALAMAR"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13160",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "CANTAGALLO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13188",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "CICUCO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13212",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "CÓRDOBA"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13222",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "CLEMENCIA"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13244",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "EL CARMEN DE BOLÍVAR"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13248",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "EL GUAMO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13268",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "EL PEÑÓN"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13300",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "HATILLO DE LOBA"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13430",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "MAGANGUÉ"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13433",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "MAHATES"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13440",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "MARGARITA"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13442",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "MARÍA LA BAJA"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13458",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "MONTECRISTO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13468",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "SANTA CRUZ DE MOMPOX"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13473",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "MORALES"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13490",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "NOROSÍ"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13549",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "PINILLOS"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13580",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "REGIDOR"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13600",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "RÍO VIEJO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13620",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "SAN CRISTÓBAL"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13647",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "SAN ESTANISLAO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13650",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "SAN FERNANDO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13654",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "SAN JACINTO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13655",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "SAN JACINTO DEL CAUCA"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13657",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "SAN JUAN NEPOMUCENO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13667",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "SAN MARTÍN DE LOBA"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13670",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "SAN PABLO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13673",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "SANTA CATALINA"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13683",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "SANTA ROSA"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13688",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "SANTA ROSA DEL SUR"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13744",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "SIMITÍ"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13760",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "SOPLAVIENTO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13780",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "TALAIGUA NUEVO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13810",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "TIQUISIO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13836",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "TURBACO"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13838",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "TURBANÁ"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13873",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "VILLANUEVA"
+  },
+  {
+    "cod_depto": "13",
+    "cod_mpio": "13894",
+    "dpto": "BOLÍVAR",
+    "nom_mpio": "ZAMBRANO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15001",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TUNJA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15022",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "ALMEIDA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15047",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "AQUITANIA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15051",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "ARCABUCO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15087",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "BELÉN"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15090",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "BERBEO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15092",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "BETÉITIVA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15097",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "BOAVITA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15104",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "BOYACÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15106",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "BRICEÑO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15109",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "BUENAVISTA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15114",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "BUSBANZÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15131",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CALDAS"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15135",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CAMPOHERMOSO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15162",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CERINZA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15172",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CHINAVITA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15176",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CHIQUINQUIRÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15180",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CHISCAS"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15183",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CHITA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15185",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CHITARAQUE"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15187",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CHIVATÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15189",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CIÉNEGA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15204",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CÓMBITA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15212",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "COPER"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15215",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CORRALES"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15218",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "COVARACHÍA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15223",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CUBARÁ"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19318",
+    "dpto": "CAUCA",
+    "nom_mpio": "GUAPI"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15224",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CUCAITA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15226",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CUÍTIVA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15232",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CHÍQUIZA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15236",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "CHIVOR"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15238",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "DUITAMA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15244",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "EL COCUY"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15248",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "EL ESPINO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15272",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "FIRAVITOBA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15276",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "FLORESTA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15293",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "GACHANTIVÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15296",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "GÁMEZA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15299",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "GARAGOA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15317",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "GUACAMAYAS"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15322",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "GUATEQUE"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15325",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "GUAYATÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15332",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "GÜICÁN DE LA SIERRA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15362",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "IZA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15367",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "JENESANO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15368",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "JERICÓ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15377",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "LABRANZAGRANDE"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15380",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "LA CAPILLA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15401",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "LA VICTORIA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15403",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "LA UVITA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15407",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "VILLA DE LEYVA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15425",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "MACANAL"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15442",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "MARIPÍ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15455",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "MIRAFLORES"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15464",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "MONGUA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15466",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "MONGUÍ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15469",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "MONIQUIRÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15476",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "MOTAVITA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15480",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "MUZO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15491",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "NOBSA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15494",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "NUEVO COLÓN"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15500",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "OICATÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15507",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "OTANCHE"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15511",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "PACHAVITA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15514",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "PÁEZ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15516",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "PAIPA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15518",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "PAJARITO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15522",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "PANQUEBA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15531",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "PAUNA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15533",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "PAYA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15537",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "PAZ DE RÍO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15542",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "PESCA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15550",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "PISBA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15572",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "PUERTO BOYACÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15580",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "QUÍPAMA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15599",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "RAMIRIQUÍ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15600",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "RÁQUIRA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15621",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "RONDÓN"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15632",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SABOYÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15638",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SÁCHICA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15646",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SAMACÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15660",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SAN EDUARDO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15664",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SAN JOSÉ DE PARE"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15667",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SAN LUIS DE GACENO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15673",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SAN MATEO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15676",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SAN MIGUEL DE SEMA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15681",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SAN PABLO DE BORBUR"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15686",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SANTANA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15690",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SANTA MARÍA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15693",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SANTA ROSA DE VITERBO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15696",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SANTA SOFÍA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15720",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SATIVANORTE"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15723",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SATIVASUR"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15740",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SIACHOQUE"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15753",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SOATÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15755",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SOCOTÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15757",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SOCHA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15759",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SOGAMOSO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15761",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SOMONDOCO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15762",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SORA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15763",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SOTAQUIRÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15764",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SORACÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15774",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SUSACÓN"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15776",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SUTAMARCHÁN"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15778",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "SUTATENZA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15790",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TASCO"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15798",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TENZA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15804",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TIBANÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15806",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TIBASOSA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15808",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TINJACÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15810",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TIPACOQUE"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15814",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TOCA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15816",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TOGÜÍ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15820",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TÓPAGA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15822",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TOTA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15832",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TUNUNGUÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15835",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TURMEQUÉ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15837",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TUTA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15839",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "TUTAZÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15842",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "ÚMBITA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15861",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "VENTAQUEMADA"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15879",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "VIRACACHÁ"
+  },
+  {
+    "cod_depto": "15",
+    "cod_mpio": "15897",
+    "dpto": "BOYACÁ",
+    "nom_mpio": "ZETAQUIRA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17001",
+    "dpto": "CALDAS",
+    "nom_mpio": "MANIZALES"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17013",
+    "dpto": "CALDAS",
+    "nom_mpio": "AGUADAS"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17042",
+    "dpto": "CALDAS",
+    "nom_mpio": "ANSERMA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17050",
+    "dpto": "CALDAS",
+    "nom_mpio": "ARANZAZU"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17088",
+    "dpto": "CALDAS",
+    "nom_mpio": "BELALCÁZAR"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17174",
+    "dpto": "CALDAS",
+    "nom_mpio": "CHINCHINÁ"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17272",
+    "dpto": "CALDAS",
+    "nom_mpio": "FILADELFIA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17380",
+    "dpto": "CALDAS",
+    "nom_mpio": "LA DORADA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17388",
+    "dpto": "CALDAS",
+    "nom_mpio": "LA MERCED"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17433",
+    "dpto": "CALDAS",
+    "nom_mpio": "MANZANARES"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17442",
+    "dpto": "CALDAS",
+    "nom_mpio": "MARMATO"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17444",
+    "dpto": "CALDAS",
+    "nom_mpio": "MARQUETALIA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17446",
+    "dpto": "CALDAS",
+    "nom_mpio": "MARULANDA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17486",
+    "dpto": "CALDAS",
+    "nom_mpio": "NEIRA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17495",
+    "dpto": "CALDAS",
+    "nom_mpio": "NORCASIA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17513",
+    "dpto": "CALDAS",
+    "nom_mpio": "PÁCORA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17524",
+    "dpto": "CALDAS",
+    "nom_mpio": "PALESTINA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17541",
+    "dpto": "CALDAS",
+    "nom_mpio": "PENSILVANIA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17614",
+    "dpto": "CALDAS",
+    "nom_mpio": "RIOSUCIO"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17616",
+    "dpto": "CALDAS",
+    "nom_mpio": "RISARALDA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17653",
+    "dpto": "CALDAS",
+    "nom_mpio": "SALAMINA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17662",
+    "dpto": "CALDAS",
+    "nom_mpio": "SAMANÁ"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17665",
+    "dpto": "CALDAS",
+    "nom_mpio": "SAN JOSÉ"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17777",
+    "dpto": "CALDAS",
+    "nom_mpio": "SUPÍA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17867",
+    "dpto": "CALDAS",
+    "nom_mpio": "VICTORIA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17873",
+    "dpto": "CALDAS",
+    "nom_mpio": "VILLAMARÍA"
+  },
+  {
+    "cod_depto": "17",
+    "cod_mpio": "17877",
+    "dpto": "CALDAS",
+    "nom_mpio": "VITERBO"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18001",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "FLORENCIA"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18029",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "ALBANIA"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18094",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "BELÉN DE LOS ANDAQUÍES"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18150",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "CARTAGENA DEL CHAIRÁ"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18205",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "CURILLO"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18247",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "EL DONCELLO"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18256",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "EL PAUJÍL"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18410",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "LA MONTAÑITA"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18460",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "MILÁN"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18479",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "MORELIA"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18592",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "PUERTO RICO"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18610",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "SAN JOSÉ DEL FRAGUA"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18753",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "SAN VICENTE DEL CAGUÁN"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18756",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "SOLANO"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18785",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "SOLITA"
+  },
+  {
+    "cod_depto": "18",
+    "cod_mpio": "18860",
+    "dpto": "CAQUETÁ",
+    "nom_mpio": "VALPARAÍSO"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19001",
+    "dpto": "CAUCA",
+    "nom_mpio": "POPAYÁN"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19022",
+    "dpto": "CAUCA",
+    "nom_mpio": "ALMAGUER"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19050",
+    "dpto": "CAUCA",
+    "nom_mpio": "ARGELIA"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19075",
+    "dpto": "CAUCA",
+    "nom_mpio": "BALBOA"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19100",
+    "dpto": "CAUCA",
+    "nom_mpio": "BOLÍVAR"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19110",
+    "dpto": "CAUCA",
+    "nom_mpio": "BUENOS AIRES"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19130",
+    "dpto": "CAUCA",
+    "nom_mpio": "CAJIBÍO"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19137",
+    "dpto": "CAUCA",
+    "nom_mpio": "CALDONO"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19142",
+    "dpto": "CAUCA",
+    "nom_mpio": "CALOTO"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19212",
+    "dpto": "CAUCA",
+    "nom_mpio": "CORINTO"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19256",
+    "dpto": "CAUCA",
+    "nom_mpio": "EL TAMBO"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19290",
+    "dpto": "CAUCA",
+    "nom_mpio": "FLORENCIA"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19300",
+    "dpto": "CAUCA",
+    "nom_mpio": "GUACHENÉ"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19355",
+    "dpto": "CAUCA",
+    "nom_mpio": "INZÁ"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19364",
+    "dpto": "CAUCA",
+    "nom_mpio": "JAMBALÓ"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19392",
+    "dpto": "CAUCA",
+    "nom_mpio": "LA SIERRA"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19397",
+    "dpto": "CAUCA",
+    "nom_mpio": "LA VEGA"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19418",
+    "dpto": "CAUCA",
+    "nom_mpio": "LÓPEZ DE MICAY"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19450",
+    "dpto": "CAUCA",
+    "nom_mpio": "MERCADERES"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19455",
+    "dpto": "CAUCA",
+    "nom_mpio": "MIRANDA"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19473",
+    "dpto": "CAUCA",
+    "nom_mpio": "MORALES"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19513",
+    "dpto": "CAUCA",
+    "nom_mpio": "PADILLA"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19517",
+    "dpto": "CAUCA",
+    "nom_mpio": "PÁEZ"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19532",
+    "dpto": "CAUCA",
+    "nom_mpio": "PATÍA"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19533",
+    "dpto": "CAUCA",
+    "nom_mpio": "PIAMONTE"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19548",
+    "dpto": "CAUCA",
+    "nom_mpio": "PIENDAMÓ - TUNÍA"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19573",
+    "dpto": "CAUCA",
+    "nom_mpio": "PUERTO TEJADA"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19585",
+    "dpto": "CAUCA",
+    "nom_mpio": "PURACÉ"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19622",
+    "dpto": "CAUCA",
+    "nom_mpio": "ROSAS"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19693",
+    "dpto": "CAUCA",
+    "nom_mpio": "SAN SEBASTIÁN"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19698",
+    "dpto": "CAUCA",
+    "nom_mpio": "SANTANDER DE QUILICHAO"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19701",
+    "dpto": "CAUCA",
+    "nom_mpio": "SANTA ROSA"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19743",
+    "dpto": "CAUCA",
+    "nom_mpio": "SILVIA"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19760",
+    "dpto": "CAUCA",
+    "nom_mpio": "SOTARÁ PAISPAMBA"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19780",
+    "dpto": "CAUCA",
+    "nom_mpio": "SUÁREZ"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19785",
+    "dpto": "CAUCA",
+    "nom_mpio": "SUCRE"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19807",
+    "dpto": "CAUCA",
+    "nom_mpio": "TIMBÍO"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19809",
+    "dpto": "CAUCA",
+    "nom_mpio": "TIMBIQUÍ"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19821",
+    "dpto": "CAUCA",
+    "nom_mpio": "TORIBÍO"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19824",
+    "dpto": "CAUCA",
+    "nom_mpio": "TOTORÓ"
+  },
+  {
+    "cod_depto": "19",
+    "cod_mpio": "19845",
+    "dpto": "CAUCA",
+    "nom_mpio": "VILLA RICA"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20001",
+    "dpto": "CESAR",
+    "nom_mpio": "VALLEDUPAR"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20011",
+    "dpto": "CESAR",
+    "nom_mpio": "AGUACHICA"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20013",
+    "dpto": "CESAR",
+    "nom_mpio": "AGUSTÍN CODAZZI"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20032",
+    "dpto": "CESAR",
+    "nom_mpio": "ASTREA"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20045",
+    "dpto": "CESAR",
+    "nom_mpio": "BECERRIL"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20060",
+    "dpto": "CESAR",
+    "nom_mpio": "BOSCONIA"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20175",
+    "dpto": "CESAR",
+    "nom_mpio": "CHIMICHAGUA"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20178",
+    "dpto": "CESAR",
+    "nom_mpio": "CHIRIGUANÁ"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20228",
+    "dpto": "CESAR",
+    "nom_mpio": "CURUMANÍ"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20238",
+    "dpto": "CESAR",
+    "nom_mpio": "EL COPEY"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20250",
+    "dpto": "CESAR",
+    "nom_mpio": "EL PASO"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20295",
+    "dpto": "CESAR",
+    "nom_mpio": "GAMARRA"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20310",
+    "dpto": "CESAR",
+    "nom_mpio": "GONZÁLEZ"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20383",
+    "dpto": "CESAR",
+    "nom_mpio": "LA GLORIA"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20400",
+    "dpto": "CESAR",
+    "nom_mpio": "LA JAGUA DE IBIRICO"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20443",
+    "dpto": "CESAR",
+    "nom_mpio": "MANAURE BALCÓN DEL CESAR"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20517",
+    "dpto": "CESAR",
+    "nom_mpio": "PAILITAS"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20550",
+    "dpto": "CESAR",
+    "nom_mpio": "PELAYA"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20570",
+    "dpto": "CESAR",
+    "nom_mpio": "PUEBLO BELLO"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20614",
+    "dpto": "CESAR",
+    "nom_mpio": "RÍO DE ORO"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20621",
+    "dpto": "CESAR",
+    "nom_mpio": "LA PAZ"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20710",
+    "dpto": "CESAR",
+    "nom_mpio": "SAN ALBERTO"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20750",
+    "dpto": "CESAR",
+    "nom_mpio": "SAN DIEGO"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20770",
+    "dpto": "CESAR",
+    "nom_mpio": "SAN MARTÍN"
+  },
+  {
+    "cod_depto": "20",
+    "cod_mpio": "20787",
+    "dpto": "CESAR",
+    "nom_mpio": "TAMALAMEQUE"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23001",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "MONTERÍA"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23068",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "AYAPEL"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23079",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "BUENAVISTA"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23090",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "CANALETE"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23162",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "CERETÉ"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23168",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "CHIMÁ"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23182",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "CHINÚ"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23189",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "CIÉNAGA DE ORO"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23300",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "COTORRA"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23350",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "LA APARTADA"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23417",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "LORICA"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23419",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "LOS CÓRDOBAS"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23464",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "MOMIL"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23466",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "MONTELÍBANO"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23500",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "MOÑITOS"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23555",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "PLANETA RICA"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23570",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "PUEBLO NUEVO"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23574",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "PUERTO ESCONDIDO"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23580",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "PUERTO LIBERTADOR"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23586",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "PURÍSIMA DE LA CONCEPCIÓN"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23660",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "SAHAGÚN"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23670",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "SAN ANDRÉS DE SOTAVENTO"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23672",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "SAN ANTERO"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23675",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "SAN BERNARDO DEL VIENTO"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23678",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "SAN CARLOS"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23682",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "SAN JOSÉ DE URÉ"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23686",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "SAN PELAYO"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23807",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "TIERRALTA"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23815",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "TUCHÍN"
+  },
+  {
+    "cod_depto": "23",
+    "cod_mpio": "23855",
+    "dpto": "CÓRDOBA",
+    "nom_mpio": "VALENCIA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25001",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "AGUA DE DIOS"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25019",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "ALBÁN"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25035",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "ANAPOIMA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25040",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "ANOLAIMA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25053",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "ARBELÁEZ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25086",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "BELTRÁN"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25095",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "BITUIMA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25099",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "BOJACÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25120",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "CABRERA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25123",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "CACHIPAY"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25126",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "CAJICÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25148",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "CAPARRAPÍ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25151",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "CÁQUEZA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25154",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "CARMEN DE CARUPA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25168",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "CHAGUANÍ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25175",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "CHÍA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25178",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "CHIPAQUE"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25181",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "CHOACHÍ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25183",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "CHOCONTÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25200",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "COGUA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25214",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "COTA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25224",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "CUCUNUBÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25245",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "EL COLEGIO"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25258",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "EL PEÑÓN"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25260",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "EL ROSAL"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25269",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "FACATATIVÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25279",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "FÓMEQUE"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25281",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "FOSCA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25286",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "FUNZA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25288",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "FÚQUENE"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25290",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "FUSAGASUGÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25293",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "GACHALÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25295",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "GACHANCIPÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25297",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "GACHETÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25299",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "GAMA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25307",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "GIRARDOT"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25312",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "GRANADA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25317",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "GUACHETÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25320",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "GUADUAS"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25322",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "GUASCA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25324",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "GUATAQUÍ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25326",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "GUATAVITA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25328",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "GUAYABAL DE SÍQUIMA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25335",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "GUAYABETAL"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25339",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "GUTIÉRREZ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25368",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "JERUSALÉN"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25372",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "JUNÍN"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25377",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "LA CALERA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25386",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "LA MESA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25394",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "LA PALMA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25398",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "LA PEÑA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25402",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "LA VEGA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25407",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "LENGUAZAQUE"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25426",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "MACHETÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25430",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "MADRID"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25436",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "MANTA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25438",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "MEDINA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25473",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "MOSQUERA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25483",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "NARIÑO"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25486",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "NEMOCÓN"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25488",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "NILO"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25489",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "NIMAIMA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25491",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "NOCAIMA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25506",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "VENECIA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25513",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "PACHO"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25518",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "PAIME"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25524",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "PANDI"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25530",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "PARATEBUENO"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25535",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "PASCA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25572",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "PUERTO SALGAR"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25580",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "PULÍ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25592",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "QUEBRADANEGRA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25594",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "QUETAME"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25596",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "QUIPILE"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25599",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "APULO"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25612",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "RICAURTE"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25645",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SAN ANTONIO DEL TEQUENDAMA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25649",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SAN BERNARDO"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25653",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SAN CAYETANO"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25658",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SAN FRANCISCO"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25662",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SAN JUAN DE RIOSECO"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25718",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SASAIMA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25736",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SESQUILÉ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25740",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SIBATÉ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25743",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SILVANIA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25745",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SIMIJACA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25754",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SOACHA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25758",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SOPÓ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25769",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SUBACHOQUE"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25772",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SUESCA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25777",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SUPATÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25779",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SUSA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25781",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "SUTATAUSA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25785",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "TABIO"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25793",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "TAUSA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25797",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "TENA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25799",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "TENJO"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25805",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "TIBACUY"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25807",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "TIBIRITA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25815",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "TOCAIMA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25817",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "TOCANCIPÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25823",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "TOPAIPÍ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25839",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "UBALÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25841",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "UBAQUE"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25843",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "VILLA DE SAN DIEGO DE UBATÉ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25845",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "UNE"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25851",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "ÚTICA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25862",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "VERGARA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25867",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "VIANÍ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25871",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "VILLAGÓMEZ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25873",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "VILLAPINZÓN"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25875",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "VILLETA"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25878",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "VIOTÁ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25885",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "YACOPÍ"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25898",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "ZIPACÓN"
+  },
+  {
+    "cod_depto": "25",
+    "cod_mpio": "25899",
+    "dpto": "CUNDINAMARCA",
+    "nom_mpio": "ZIPAQUIRÁ"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27001",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "QUIBDÓ"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27006",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "ACANDÍ"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27025",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "ALTO BAUDÓ"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27050",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "ATRATO"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27073",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "BAGADÓ"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27075",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "BAHÍA SOLANO"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27077",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "BAJO BAUDÓ"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27099",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "BOJAYÁ"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27135",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "EL CANTÓN DEL SAN PABLO"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27150",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "CARMEN DEL DARIÉN"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27160",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "CÉRTEGUI"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27205",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "CONDOTO"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27245",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "EL CARMEN DE ATRATO"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27250",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "EL LITORAL DEL SAN JUAN"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27361",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "ISTMINA"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27372",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "JURADÓ"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27413",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "LLORÓ"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27425",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "MEDIO ATRATO"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27430",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "MEDIO BAUDÓ"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27450",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "MEDIO SAN JUAN"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27491",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "NÓVITA"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27495",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "NUQUÍ"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27580",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "RÍO IRÓ"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27600",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "RÍO QUITO"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27615",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "RIOSUCIO"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27660",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "SAN JOSÉ DEL PALMAR"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27745",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "SIPÍ"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27787",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "TADÓ"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27800",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "UNGUÍA"
+  },
+  {
+    "cod_depto": "27",
+    "cod_mpio": "27810",
+    "dpto": "CHOCÓ",
+    "nom_mpio": "UNIÓN PANAMERICANA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41001",
+    "dpto": "HUILA",
+    "nom_mpio": "NEIVA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41006",
+    "dpto": "HUILA",
+    "nom_mpio": "ACEVEDO"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41013",
+    "dpto": "HUILA",
+    "nom_mpio": "AGRADO"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41016",
+    "dpto": "HUILA",
+    "nom_mpio": "AIPE"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41020",
+    "dpto": "HUILA",
+    "nom_mpio": "ALGECIRAS"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41026",
+    "dpto": "HUILA",
+    "nom_mpio": "ALTAMIRA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41078",
+    "dpto": "HUILA",
+    "nom_mpio": "BARAYA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41132",
+    "dpto": "HUILA",
+    "nom_mpio": "CAMPOALEGRE"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41206",
+    "dpto": "HUILA",
+    "nom_mpio": "COLOMBIA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41244",
+    "dpto": "HUILA",
+    "nom_mpio": "ELÍAS"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41298",
+    "dpto": "HUILA",
+    "nom_mpio": "GARZÓN"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41306",
+    "dpto": "HUILA",
+    "nom_mpio": "GIGANTE"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41319",
+    "dpto": "HUILA",
+    "nom_mpio": "GUADALUPE"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41349",
+    "dpto": "HUILA",
+    "nom_mpio": "HOBO"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41357",
+    "dpto": "HUILA",
+    "nom_mpio": "ÍQUIRA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41359",
+    "dpto": "HUILA",
+    "nom_mpio": "ISNOS"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41378",
+    "dpto": "HUILA",
+    "nom_mpio": "LA ARGENTINA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41396",
+    "dpto": "HUILA",
+    "nom_mpio": "LA PLATA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41483",
+    "dpto": "HUILA",
+    "nom_mpio": "NÁTAGA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41503",
+    "dpto": "HUILA",
+    "nom_mpio": "OPORAPA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41518",
+    "dpto": "HUILA",
+    "nom_mpio": "PAICOL"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41524",
+    "dpto": "HUILA",
+    "nom_mpio": "PALERMO"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41530",
+    "dpto": "HUILA",
+    "nom_mpio": "PALESTINA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41548",
+    "dpto": "HUILA",
+    "nom_mpio": "PITAL"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41551",
+    "dpto": "HUILA",
+    "nom_mpio": "PITALITO"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41615",
+    "dpto": "HUILA",
+    "nom_mpio": "RIVERA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41660",
+    "dpto": "HUILA",
+    "nom_mpio": "SALADOBLANCO"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41668",
+    "dpto": "HUILA",
+    "nom_mpio": "SAN AGUSTÍN"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41676",
+    "dpto": "HUILA",
+    "nom_mpio": "SANTA MARÍA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41770",
+    "dpto": "HUILA",
+    "nom_mpio": "SUAZA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41791",
+    "dpto": "HUILA",
+    "nom_mpio": "TARQUI"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41797",
+    "dpto": "HUILA",
+    "nom_mpio": "TESALIA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41799",
+    "dpto": "HUILA",
+    "nom_mpio": "TELLO"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41801",
+    "dpto": "HUILA",
+    "nom_mpio": "TERUEL"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41807",
+    "dpto": "HUILA",
+    "nom_mpio": "TIMANÁ"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41872",
+    "dpto": "HUILA",
+    "nom_mpio": "VILLAVIEJA"
+  },
+  {
+    "cod_depto": "41",
+    "cod_mpio": "41885",
+    "dpto": "HUILA",
+    "nom_mpio": "YAGUARÁ"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44001",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "RIOHACHA"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44035",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "ALBANIA"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44078",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "BARRANCAS"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44090",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "DIBULLA"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44098",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "DISTRACCIÓN"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44110",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "EL MOLINO"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44279",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "FONSECA"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44378",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "HATONUEVO"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44420",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "LA JAGUA DEL PILAR"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44430",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "MAICAO"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44560",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "MANAURE"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44650",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "SAN JUAN DEL CESAR"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44847",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "URIBIA"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44855",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "URUMITA"
+  },
+  {
+    "cod_depto": "44",
+    "cod_mpio": "44874",
+    "dpto": "LA GUAJIRA",
+    "nom_mpio": "VILLANUEVA"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47001",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "SANTA MARTA"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47030",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "ALGARROBO"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47053",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "ARACATACA"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47058",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "ARIGUANÍ"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47161",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "CERRO DE SAN ANTONIO"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47170",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "CHIVOLO"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47189",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "CIÉNAGA"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47205",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "CONCORDIA"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47245",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "EL BANCO"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47258",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "EL PIÑÓN"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47268",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "EL RETÉN"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47288",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "FUNDACIÓN"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47318",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "GUAMAL"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47460",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "NUEVA GRANADA"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47541",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "PEDRAZA"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47545",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "PIJIÑO DEL CARMEN"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47551",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "PIVIJAY"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47555",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "PLATO"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47570",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "PUEBLOVIEJO"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47605",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "REMOLINO"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47660",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "SABANAS DE SAN ÁNGEL"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47675",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "SALAMINA"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47692",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "SAN SEBASTIÁN DE BUENAVISTA"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47703",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "SAN ZENÓN"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47707",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "SANTA ANA"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47720",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "SANTA BÁRBARA DE PINTO"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47745",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "SITIONUEVO"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47798",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "TENERIFE"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47960",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "ZAPAYÁN"
+  },
+  {
+    "cod_depto": "47",
+    "cod_mpio": "47980",
+    "dpto": "MAGDALENA",
+    "nom_mpio": "ZONA BANANERA"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50001",
+    "dpto": "META",
+    "nom_mpio": "VILLAVICENCIO"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50006",
+    "dpto": "META",
+    "nom_mpio": "ACACÍAS"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50110",
+    "dpto": "META",
+    "nom_mpio": "BARRANCA DE UPÍA"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50124",
+    "dpto": "META",
+    "nom_mpio": "CABUYARO"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50150",
+    "dpto": "META",
+    "nom_mpio": "CASTILLA LA NUEVA"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50223",
+    "dpto": "META",
+    "nom_mpio": "CUBARRAL"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50226",
+    "dpto": "META",
+    "nom_mpio": "CUMARAL"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50245",
+    "dpto": "META",
+    "nom_mpio": "EL CALVARIO"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50251",
+    "dpto": "META",
+    "nom_mpio": "EL CASTILLO"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50270",
+    "dpto": "META",
+    "nom_mpio": "EL DORADO"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50287",
+    "dpto": "META",
+    "nom_mpio": "FUENTE DE ORO"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50313",
+    "dpto": "META",
+    "nom_mpio": "GRANADA"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50318",
+    "dpto": "META",
+    "nom_mpio": "GUAMAL"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50325",
+    "dpto": "META",
+    "nom_mpio": "MAPIRIPÁN"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50330",
+    "dpto": "META",
+    "nom_mpio": "MESETAS"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50350",
+    "dpto": "META",
+    "nom_mpio": "LA MACARENA"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50370",
+    "dpto": "META",
+    "nom_mpio": "URIBE"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50400",
+    "dpto": "META",
+    "nom_mpio": "LEJANÍAS"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50450",
+    "dpto": "META",
+    "nom_mpio": "PUERTO CONCORDIA"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50568",
+    "dpto": "META",
+    "nom_mpio": "PUERTO GAITÁN"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50573",
+    "dpto": "META",
+    "nom_mpio": "PUERTO LÓPEZ"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50577",
+    "dpto": "META",
+    "nom_mpio": "PUERTO LLERAS"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50590",
+    "dpto": "META",
+    "nom_mpio": "PUERTO RICO"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50606",
+    "dpto": "META",
+    "nom_mpio": "RESTREPO"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50680",
+    "dpto": "META",
+    "nom_mpio": "SAN CARLOS DE GUAROA"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50683",
+    "dpto": "META",
+    "nom_mpio": "SAN JUAN DE ARAMA"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50686",
+    "dpto": "META",
+    "nom_mpio": "SAN JUANITO"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50689",
+    "dpto": "META",
+    "nom_mpio": "SAN MARTÍN"
+  },
+  {
+    "cod_depto": "50",
+    "cod_mpio": "50711",
+    "dpto": "META",
+    "nom_mpio": "VISTAHERMOSA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52001",
+    "dpto": "NARIÑO",
+    "nom_mpio": "PASTO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52019",
+    "dpto": "NARIÑO",
+    "nom_mpio": "ALBÁN"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52022",
+    "dpto": "NARIÑO",
+    "nom_mpio": "ALDANA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52036",
+    "dpto": "NARIÑO",
+    "nom_mpio": "ANCUYA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52051",
+    "dpto": "NARIÑO",
+    "nom_mpio": "ARBOLEDA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52079",
+    "dpto": "NARIÑO",
+    "nom_mpio": "BARBACOAS"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52083",
+    "dpto": "NARIÑO",
+    "nom_mpio": "BELÉN"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52110",
+    "dpto": "NARIÑO",
+    "nom_mpio": "BUESACO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52203",
+    "dpto": "NARIÑO",
+    "nom_mpio": "COLÓN"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52207",
+    "dpto": "NARIÑO",
+    "nom_mpio": "CONSACÁ"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52210",
+    "dpto": "NARIÑO",
+    "nom_mpio": "CONTADERO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52215",
+    "dpto": "NARIÑO",
+    "nom_mpio": "CÓRDOBA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52224",
+    "dpto": "NARIÑO",
+    "nom_mpio": "CUASPUD CARLOSAMA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52227",
+    "dpto": "NARIÑO",
+    "nom_mpio": "CUMBAL"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52233",
+    "dpto": "NARIÑO",
+    "nom_mpio": "CUMBITARA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52240",
+    "dpto": "NARIÑO",
+    "nom_mpio": "CHACHAGÜÍ"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52250",
+    "dpto": "NARIÑO",
+    "nom_mpio": "EL CHARCO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52254",
+    "dpto": "NARIÑO",
+    "nom_mpio": "EL PEÑOL"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52256",
+    "dpto": "NARIÑO",
+    "nom_mpio": "EL ROSARIO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52258",
+    "dpto": "NARIÑO",
+    "nom_mpio": "EL TABLÓN DE GÓMEZ"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52260",
+    "dpto": "NARIÑO",
+    "nom_mpio": "EL TAMBO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52287",
+    "dpto": "NARIÑO",
+    "nom_mpio": "FUNES"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52317",
+    "dpto": "NARIÑO",
+    "nom_mpio": "GUACHUCAL"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52320",
+    "dpto": "NARIÑO",
+    "nom_mpio": "GUAITARILLA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52323",
+    "dpto": "NARIÑO",
+    "nom_mpio": "GUALMATÁN"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52352",
+    "dpto": "NARIÑO",
+    "nom_mpio": "ILES"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52354",
+    "dpto": "NARIÑO",
+    "nom_mpio": "IMUÉS"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52356",
+    "dpto": "NARIÑO",
+    "nom_mpio": "IPIALES"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52378",
+    "dpto": "NARIÑO",
+    "nom_mpio": "LA CRUZ"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52381",
+    "dpto": "NARIÑO",
+    "nom_mpio": "LA FLORIDA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52385",
+    "dpto": "NARIÑO",
+    "nom_mpio": "LA LLANADA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52390",
+    "dpto": "NARIÑO",
+    "nom_mpio": "LA TOLA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52399",
+    "dpto": "NARIÑO",
+    "nom_mpio": "LA UNIÓN"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52405",
+    "dpto": "NARIÑO",
+    "nom_mpio": "LEIVA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52411",
+    "dpto": "NARIÑO",
+    "nom_mpio": "LINARES"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52418",
+    "dpto": "NARIÑO",
+    "nom_mpio": "LOS ANDES"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52427",
+    "dpto": "NARIÑO",
+    "nom_mpio": "MAGÜÍ"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52435",
+    "dpto": "NARIÑO",
+    "nom_mpio": "MALLAMA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52473",
+    "dpto": "NARIÑO",
+    "nom_mpio": "MOSQUERA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52480",
+    "dpto": "NARIÑO",
+    "nom_mpio": "NARIÑO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52490",
+    "dpto": "NARIÑO",
+    "nom_mpio": "OLAYA HERRERA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52506",
+    "dpto": "NARIÑO",
+    "nom_mpio": "OSPINA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52520",
+    "dpto": "NARIÑO",
+    "nom_mpio": "FRANCISCO PIZARRO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52540",
+    "dpto": "NARIÑO",
+    "nom_mpio": "POLICARPA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52560",
+    "dpto": "NARIÑO",
+    "nom_mpio": "POTOSÍ"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52565",
+    "dpto": "NARIÑO",
+    "nom_mpio": "PROVIDENCIA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52573",
+    "dpto": "NARIÑO",
+    "nom_mpio": "PUERRES"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52585",
+    "dpto": "NARIÑO",
+    "nom_mpio": "PUPIALES"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52612",
+    "dpto": "NARIÑO",
+    "nom_mpio": "RICAURTE"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52621",
+    "dpto": "NARIÑO",
+    "nom_mpio": "ROBERTO PAYÁN"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52678",
+    "dpto": "NARIÑO",
+    "nom_mpio": "SAMANIEGO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52683",
+    "dpto": "NARIÑO",
+    "nom_mpio": "SANDONÁ"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52685",
+    "dpto": "NARIÑO",
+    "nom_mpio": "SAN BERNARDO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52687",
+    "dpto": "NARIÑO",
+    "nom_mpio": "SAN LORENZO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52693",
+    "dpto": "NARIÑO",
+    "nom_mpio": "SAN PABLO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52694",
+    "dpto": "NARIÑO",
+    "nom_mpio": "SAN PEDRO DE CARTAGO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52696",
+    "dpto": "NARIÑO",
+    "nom_mpio": "SANTA BÁRBARA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52699",
+    "dpto": "NARIÑO",
+    "nom_mpio": "SANTACRUZ"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52720",
+    "dpto": "NARIÑO",
+    "nom_mpio": "SAPUYES"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52786",
+    "dpto": "NARIÑO",
+    "nom_mpio": "TAMINANGO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52788",
+    "dpto": "NARIÑO",
+    "nom_mpio": "TANGUA"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52835",
+    "dpto": "NARIÑO",
+    "nom_mpio": "SAN ANDRÉS DE TUMACO"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52838",
+    "dpto": "NARIÑO",
+    "nom_mpio": "TÚQUERRES"
+  },
+  {
+    "cod_depto": "52",
+    "cod_mpio": "52885",
+    "dpto": "NARIÑO",
+    "nom_mpio": "YACUANQUER"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54001",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "SAN JOSÉ DE CÚCUTA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54003",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "ÁBREGO"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54051",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "ARBOLEDAS"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54099",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "BOCHALEMA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54109",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "BUCARASICA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54125",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "CÁCOTA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54128",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "CÁCHIRA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54172",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "CHINÁCOTA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54174",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "CHITAGÁ"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54206",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "CONVENCIÓN"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54223",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "CUCUTILLA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54239",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "DURANIA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54245",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "EL CARMEN"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54250",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "EL TARRA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54261",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "EL ZULIA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54313",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "GRAMALOTE"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54344",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "HACARÍ"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54347",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "HERRÁN"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54377",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "LABATECA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54385",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "LA ESPERANZA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54398",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "LA PLAYA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54405",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "LOS PATIOS"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54418",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "LOURDES"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54480",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "MUTISCUA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54498",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "OCAÑA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54518",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "PAMPLONA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54520",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "PAMPLONITA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54553",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "PUERTO SANTANDER"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54599",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "RAGONVALIA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54660",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "SALAZAR"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54670",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "SAN CALIXTO"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54673",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "SAN CAYETANO"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54680",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "SANTIAGO"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54720",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "SARDINATA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54743",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "SILOS"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54800",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "TEORAMA"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54810",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "TIBÚ"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54820",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "TOLEDO"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54871",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "VILLA CARO"
+  },
+  {
+    "cod_depto": "54",
+    "cod_mpio": "54874",
+    "dpto": "NORTE DE SANTANDER",
+    "nom_mpio": "VILLA DEL ROSARIO"
+  },
+  {
+    "cod_depto": "63",
+    "cod_mpio": "63001",
+    "dpto": "QUINDÍO",
+    "nom_mpio": "ARMENIA"
+  },
+  {
+    "cod_depto": "63",
+    "cod_mpio": "63111",
+    "dpto": "QUINDÍO",
+    "nom_mpio": "BUENAVISTA"
+  },
+  {
+    "cod_depto": "63",
+    "cod_mpio": "63130",
+    "dpto": "QUINDÍO",
+    "nom_mpio": "CALARCÁ"
+  },
+  {
+    "cod_depto": "63",
+    "cod_mpio": "63190",
+    "dpto": "QUINDÍO",
+    "nom_mpio": "CIRCASIA"
+  },
+  {
+    "cod_depto": "63",
+    "cod_mpio": "63212",
+    "dpto": "QUINDÍO",
+    "nom_mpio": "CÓRDOBA"
+  },
+  {
+    "cod_depto": "63",
+    "cod_mpio": "63272",
+    "dpto": "QUINDÍO",
+    "nom_mpio": "FILANDIA"
+  },
+  {
+    "cod_depto": "63",
+    "cod_mpio": "63302",
+    "dpto": "QUINDÍO",
+    "nom_mpio": "GÉNOVA"
+  },
+  {
+    "cod_depto": "63",
+    "cod_mpio": "63401",
+    "dpto": "QUINDÍO",
+    "nom_mpio": "LA TEBAIDA"
+  },
+  {
+    "cod_depto": "63",
+    "cod_mpio": "63470",
+    "dpto": "QUINDÍO",
+    "nom_mpio": "MONTENEGRO"
+  },
+  {
+    "cod_depto": "63",
+    "cod_mpio": "63548",
+    "dpto": "QUINDÍO",
+    "nom_mpio": "PIJAO"
+  },
+  {
+    "cod_depto": "63",
+    "cod_mpio": "63594",
+    "dpto": "QUINDÍO",
+    "nom_mpio": "QUIMBAYA"
+  },
+  {
+    "cod_depto": "63",
+    "cod_mpio": "63690",
+    "dpto": "QUINDÍO",
+    "nom_mpio": "SALENTO"
+  },
+  {
+    "cod_depto": "66",
+    "cod_mpio": "66001",
+    "dpto": "RISARALDA",
+    "nom_mpio": "PEREIRA"
+  },
+  {
+    "cod_depto": "66",
+    "cod_mpio": "66045",
+    "dpto": "RISARALDA",
+    "nom_mpio": "APÍA"
+  },
+  {
+    "cod_depto": "66",
+    "cod_mpio": "66075",
+    "dpto": "RISARALDA",
+    "nom_mpio": "BALBOA"
+  },
+  {
+    "cod_depto": "66",
+    "cod_mpio": "66088",
+    "dpto": "RISARALDA",
+    "nom_mpio": "BELÉN DE UMBRÍA"
+  },
+  {
+    "cod_depto": "66",
+    "cod_mpio": "66170",
+    "dpto": "RISARALDA",
+    "nom_mpio": "DOSQUEBRADAS"
+  },
+  {
+    "cod_depto": "66",
+    "cod_mpio": "66318",
+    "dpto": "RISARALDA",
+    "nom_mpio": "GUÁTICA"
+  },
+  {
+    "cod_depto": "66",
+    "cod_mpio": "66383",
+    "dpto": "RISARALDA",
+    "nom_mpio": "LA CELIA"
+  },
+  {
+    "cod_depto": "66",
+    "cod_mpio": "66400",
+    "dpto": "RISARALDA",
+    "nom_mpio": "LA VIRGINIA"
+  },
+  {
+    "cod_depto": "66",
+    "cod_mpio": "66440",
+    "dpto": "RISARALDA",
+    "nom_mpio": "MARSELLA"
+  },
+  {
+    "cod_depto": "66",
+    "cod_mpio": "66456",
+    "dpto": "RISARALDA",
+    "nom_mpio": "MISTRATÓ"
+  },
+  {
+    "cod_depto": "66",
+    "cod_mpio": "66572",
+    "dpto": "RISARALDA",
+    "nom_mpio": "PUEBLO RICO"
+  },
+  {
+    "cod_depto": "66",
+    "cod_mpio": "66594",
+    "dpto": "RISARALDA",
+    "nom_mpio": "QUINCHÍA"
+  },
+  {
+    "cod_depto": "66",
+    "cod_mpio": "66682",
+    "dpto": "RISARALDA",
+    "nom_mpio": "SANTA ROSA DE CABAL"
+  },
+  {
+    "cod_depto": "66",
+    "cod_mpio": "66687",
+    "dpto": "RISARALDA",
+    "nom_mpio": "SANTUARIO"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68001",
+    "dpto": "SANTANDER",
+    "nom_mpio": "BUCARAMANGA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68013",
+    "dpto": "SANTANDER",
+    "nom_mpio": "AGUADA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68020",
+    "dpto": "SANTANDER",
+    "nom_mpio": "ALBANIA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68051",
+    "dpto": "SANTANDER",
+    "nom_mpio": "ARATOCA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68077",
+    "dpto": "SANTANDER",
+    "nom_mpio": "BARBOSA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68079",
+    "dpto": "SANTANDER",
+    "nom_mpio": "BARICHARA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68081",
+    "dpto": "SANTANDER",
+    "nom_mpio": "BARRANCABERMEJA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68092",
+    "dpto": "SANTANDER",
+    "nom_mpio": "BETULIA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68101",
+    "dpto": "SANTANDER",
+    "nom_mpio": "BOLÍVAR"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68121",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CABRERA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68132",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CALIFORNIA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68147",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CAPITANEJO"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68152",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CARCASÍ"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68160",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CEPITÁ"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68162",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CERRITO"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68167",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CHARALÁ"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68169",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CHARTA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68176",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CHIMA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68179",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CHIPATÁ"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68190",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CIMITARRA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68207",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CONCEPCIÓN"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68209",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CONFINES"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68211",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CONTRATACIÓN"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68217",
+    "dpto": "SANTANDER",
+    "nom_mpio": "COROMORO"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68229",
+    "dpto": "SANTANDER",
+    "nom_mpio": "CURITÍ"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68235",
+    "dpto": "SANTANDER",
+    "nom_mpio": "EL CARMEN DE CHUCURI"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68245",
+    "dpto": "SANTANDER",
+    "nom_mpio": "EL GUACAMAYO"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68250",
+    "dpto": "SANTANDER",
+    "nom_mpio": "EL PEÑÓN"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68255",
+    "dpto": "SANTANDER",
+    "nom_mpio": "EL PLAYÓN"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68264",
+    "dpto": "SANTANDER",
+    "nom_mpio": "ENCINO"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68266",
+    "dpto": "SANTANDER",
+    "nom_mpio": "ENCISO"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68271",
+    "dpto": "SANTANDER",
+    "nom_mpio": "FLORIÁN"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68276",
+    "dpto": "SANTANDER",
+    "nom_mpio": "FLORIDABLANCA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68296",
+    "dpto": "SANTANDER",
+    "nom_mpio": "GALÁN"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68298",
+    "dpto": "SANTANDER",
+    "nom_mpio": "GÁMBITA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68307",
+    "dpto": "SANTANDER",
+    "nom_mpio": "GIRÓN"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68318",
+    "dpto": "SANTANDER",
+    "nom_mpio": "GUACA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68320",
+    "dpto": "SANTANDER",
+    "nom_mpio": "GUADALUPE"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68322",
+    "dpto": "SANTANDER",
+    "nom_mpio": "GUAPOTÁ"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68324",
+    "dpto": "SANTANDER",
+    "nom_mpio": "GUAVATÁ"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68327",
+    "dpto": "SANTANDER",
+    "nom_mpio": "GÜEPSA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68344",
+    "dpto": "SANTANDER",
+    "nom_mpio": "HATO"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68368",
+    "dpto": "SANTANDER",
+    "nom_mpio": "JESÚS MARÍA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68370",
+    "dpto": "SANTANDER",
+    "nom_mpio": "JORDÁN"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68377",
+    "dpto": "SANTANDER",
+    "nom_mpio": "LA BELLEZA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68385",
+    "dpto": "SANTANDER",
+    "nom_mpio": "LANDÁZURI"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68397",
+    "dpto": "SANTANDER",
+    "nom_mpio": "LA PAZ"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68406",
+    "dpto": "SANTANDER",
+    "nom_mpio": "LEBRIJA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68418",
+    "dpto": "SANTANDER",
+    "nom_mpio": "LOS SANTOS"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68425",
+    "dpto": "SANTANDER",
+    "nom_mpio": "MACARAVITA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68432",
+    "dpto": "SANTANDER",
+    "nom_mpio": "MÁLAGA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68444",
+    "dpto": "SANTANDER",
+    "nom_mpio": "MATANZA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68464",
+    "dpto": "SANTANDER",
+    "nom_mpio": "MOGOTES"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68468",
+    "dpto": "SANTANDER",
+    "nom_mpio": "MOLAGAVITA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68498",
+    "dpto": "SANTANDER",
+    "nom_mpio": "OCAMONTE"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68500",
+    "dpto": "SANTANDER",
+    "nom_mpio": "OIBA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68502",
+    "dpto": "SANTANDER",
+    "nom_mpio": "ONZAGA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68522",
+    "dpto": "SANTANDER",
+    "nom_mpio": "PALMAR"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68524",
+    "dpto": "SANTANDER",
+    "nom_mpio": "PALMAS DEL SOCORRO"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68533",
+    "dpto": "SANTANDER",
+    "nom_mpio": "PÁRAMO"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68547",
+    "dpto": "SANTANDER",
+    "nom_mpio": "PIEDECUESTA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68549",
+    "dpto": "SANTANDER",
+    "nom_mpio": "PINCHOTE"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68572",
+    "dpto": "SANTANDER",
+    "nom_mpio": "PUENTE NACIONAL"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68573",
+    "dpto": "SANTANDER",
+    "nom_mpio": "PUERTO PARRA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68575",
+    "dpto": "SANTANDER",
+    "nom_mpio": "PUERTO WILCHES"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68615",
+    "dpto": "SANTANDER",
+    "nom_mpio": "RIONEGRO"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68655",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SABANA DE TORRES"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68669",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SAN ANDRÉS"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68673",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SAN BENITO"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68679",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SAN GIL"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68682",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SAN JOAQUÍN"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68684",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SAN JOSÉ DE MIRANDA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68686",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SAN MIGUEL"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68689",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SAN VICENTE DE CHUCURÍ"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68705",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SANTA BÁRBARA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68720",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SANTA HELENA DEL OPÓN"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68745",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SIMACOTA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68755",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SOCORRO"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68770",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SUAITA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68773",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SUCRE"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68780",
+    "dpto": "SANTANDER",
+    "nom_mpio": "SURATÁ"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68820",
+    "dpto": "SANTANDER",
+    "nom_mpio": "TONA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68855",
+    "dpto": "SANTANDER",
+    "nom_mpio": "VALLE DE SAN JOSÉ"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68861",
+    "dpto": "SANTANDER",
+    "nom_mpio": "VÉLEZ"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68867",
+    "dpto": "SANTANDER",
+    "nom_mpio": "VETAS"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68872",
+    "dpto": "SANTANDER",
+    "nom_mpio": "VILLANUEVA"
+  },
+  {
+    "cod_depto": "68",
+    "cod_mpio": "68895",
+    "dpto": "SANTANDER",
+    "nom_mpio": "ZAPATOCA"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70001",
+    "dpto": "SUCRE",
+    "nom_mpio": "SINCELEJO"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70110",
+    "dpto": "SUCRE",
+    "nom_mpio": "BUENAVISTA"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70124",
+    "dpto": "SUCRE",
+    "nom_mpio": "CAIMITO"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70204",
+    "dpto": "SUCRE",
+    "nom_mpio": "COLOSÓ"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70215",
+    "dpto": "SUCRE",
+    "nom_mpio": "COROZAL"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70221",
+    "dpto": "SUCRE",
+    "nom_mpio": "COVEÑAS"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70230",
+    "dpto": "SUCRE",
+    "nom_mpio": "CHALÁN"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70233",
+    "dpto": "SUCRE",
+    "nom_mpio": "EL ROBLE"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70235",
+    "dpto": "SUCRE",
+    "nom_mpio": "GALERAS"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70265",
+    "dpto": "SUCRE",
+    "nom_mpio": "GUARANDA"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70400",
+    "dpto": "SUCRE",
+    "nom_mpio": "LA UNIÓN"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70418",
+    "dpto": "SUCRE",
+    "nom_mpio": "LOS PALMITOS"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70429",
+    "dpto": "SUCRE",
+    "nom_mpio": "MAJAGUAL"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70473",
+    "dpto": "SUCRE",
+    "nom_mpio": "MORROA"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70508",
+    "dpto": "SUCRE",
+    "nom_mpio": "OVEJAS"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70523",
+    "dpto": "SUCRE",
+    "nom_mpio": "PALMITO"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70670",
+    "dpto": "SUCRE",
+    "nom_mpio": "SAMPUÉS"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70678",
+    "dpto": "SUCRE",
+    "nom_mpio": "SAN BENITO ABAD"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70702",
+    "dpto": "SUCRE",
+    "nom_mpio": "SAN JUAN DE BETULIA"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70708",
+    "dpto": "SUCRE",
+    "nom_mpio": "SAN MARCOS"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70713",
+    "dpto": "SUCRE",
+    "nom_mpio": "SAN ONOFRE"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70717",
+    "dpto": "SUCRE",
+    "nom_mpio": "SAN PEDRO"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70742",
+    "dpto": "SUCRE",
+    "nom_mpio": "SAN LUIS DE SINCÉ"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70771",
+    "dpto": "SUCRE",
+    "nom_mpio": "SUCRE"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70820",
+    "dpto": "SUCRE",
+    "nom_mpio": "SANTIAGO DE TOLÚ"
+  },
+  {
+    "cod_depto": "70",
+    "cod_mpio": "70823",
+    "dpto": "SUCRE",
+    "nom_mpio": "SAN JOSÉ DE TOLUVIEJO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73001",
+    "dpto": "TOLIMA",
+    "nom_mpio": "IBAGUÉ"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73024",
+    "dpto": "TOLIMA",
+    "nom_mpio": "ALPUJARRA"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73026",
+    "dpto": "TOLIMA",
+    "nom_mpio": "ALVARADO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73030",
+    "dpto": "TOLIMA",
+    "nom_mpio": "AMBALEMA"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73043",
+    "dpto": "TOLIMA",
+    "nom_mpio": "ANZOÁTEGUI"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73055",
+    "dpto": "TOLIMA",
+    "nom_mpio": "ARMERO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73067",
+    "dpto": "TOLIMA",
+    "nom_mpio": "ATACO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73124",
+    "dpto": "TOLIMA",
+    "nom_mpio": "CAJAMARCA"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73148",
+    "dpto": "TOLIMA",
+    "nom_mpio": "CARMEN DE APICALÁ"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73152",
+    "dpto": "TOLIMA",
+    "nom_mpio": "CASABIANCA"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73168",
+    "dpto": "TOLIMA",
+    "nom_mpio": "CHAPARRAL"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73200",
+    "dpto": "TOLIMA",
+    "nom_mpio": "COELLO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73217",
+    "dpto": "TOLIMA",
+    "nom_mpio": "COYAIMA"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73226",
+    "dpto": "TOLIMA",
+    "nom_mpio": "CUNDAY"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73236",
+    "dpto": "TOLIMA",
+    "nom_mpio": "DOLORES"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73268",
+    "dpto": "TOLIMA",
+    "nom_mpio": "ESPINAL"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73270",
+    "dpto": "TOLIMA",
+    "nom_mpio": "FALAN"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73275",
+    "dpto": "TOLIMA",
+    "nom_mpio": "FLANDES"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73283",
+    "dpto": "TOLIMA",
+    "nom_mpio": "FRESNO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73319",
+    "dpto": "TOLIMA",
+    "nom_mpio": "GUAMO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73347",
+    "dpto": "TOLIMA",
+    "nom_mpio": "HERVEO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73349",
+    "dpto": "TOLIMA",
+    "nom_mpio": "HONDA"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73352",
+    "dpto": "TOLIMA",
+    "nom_mpio": "ICONONZO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73408",
+    "dpto": "TOLIMA",
+    "nom_mpio": "LÉRIDA"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73411",
+    "dpto": "TOLIMA",
+    "nom_mpio": "LÍBANO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73443",
+    "dpto": "TOLIMA",
+    "nom_mpio": "SAN SEBASTIÁN DE MARIQUITA"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73449",
+    "dpto": "TOLIMA",
+    "nom_mpio": "MELGAR"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73461",
+    "dpto": "TOLIMA",
+    "nom_mpio": "MURILLO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73483",
+    "dpto": "TOLIMA",
+    "nom_mpio": "NATAGAIMA"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73504",
+    "dpto": "TOLIMA",
+    "nom_mpio": "ORTEGA"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73520",
+    "dpto": "TOLIMA",
+    "nom_mpio": "PALOCABILDO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73547",
+    "dpto": "TOLIMA",
+    "nom_mpio": "PIEDRAS"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73555",
+    "dpto": "TOLIMA",
+    "nom_mpio": "PLANADAS"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73563",
+    "dpto": "TOLIMA",
+    "nom_mpio": "PRADO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73585",
+    "dpto": "TOLIMA",
+    "nom_mpio": "PURIFICACIÓN"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73616",
+    "dpto": "TOLIMA",
+    "nom_mpio": "RIOBLANCO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73622",
+    "dpto": "TOLIMA",
+    "nom_mpio": "RONCESVALLES"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73624",
+    "dpto": "TOLIMA",
+    "nom_mpio": "ROVIRA"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73671",
+    "dpto": "TOLIMA",
+    "nom_mpio": "SALDAÑA"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73675",
+    "dpto": "TOLIMA",
+    "nom_mpio": "SAN ANTONIO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73678",
+    "dpto": "TOLIMA",
+    "nom_mpio": "SAN LUIS"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73686",
+    "dpto": "TOLIMA",
+    "nom_mpio": "SANTA ISABEL"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73770",
+    "dpto": "TOLIMA",
+    "nom_mpio": "SUÁREZ"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73854",
+    "dpto": "TOLIMA",
+    "nom_mpio": "VALLE DE SAN JUAN"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73861",
+    "dpto": "TOLIMA",
+    "nom_mpio": "VENADILLO"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73870",
+    "dpto": "TOLIMA",
+    "nom_mpio": "VILLAHERMOSA"
+  },
+  {
+    "cod_depto": "73",
+    "cod_mpio": "73873",
+    "dpto": "TOLIMA",
+    "nom_mpio": "VILLARRICA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76001",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "CALI"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76020",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "ALCALÁ"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76036",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "ANDALUCÍA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76041",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "ANSERMANUEVO"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76054",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "ARGELIA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76100",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "BOLÍVAR"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76109",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "BUENAVENTURA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76111",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "GUADALAJARA DE BUGA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76113",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "BUGALAGRANDE"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76122",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "CAICEDONIA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76126",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "CALIMA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76130",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "CANDELARIA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76147",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "CARTAGO"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76233",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "DAGUA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76243",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "EL ÁGUILA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76246",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "EL CAIRO"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76248",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "EL CERRITO"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76250",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "EL DOVIO"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76275",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "FLORIDA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76306",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "GINEBRA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76318",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "GUACARÍ"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76364",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "JAMUNDÍ"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76377",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "LA CUMBRE"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76400",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "LA UNIÓN"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76403",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "LA VICTORIA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76497",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "OBANDO"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76520",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "PALMIRA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76563",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "PRADERA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76606",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "RESTREPO"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76616",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "RIOFRÍO"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76622",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "ROLDANILLO"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76670",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "SAN PEDRO"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76736",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "SEVILLA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76823",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "TORO"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76828",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "TRUJILLO"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76834",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "TULUÁ"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76845",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "ULLOA"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76863",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "VERSALLES"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76869",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "VIJES"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76890",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "YOTOCO"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76892",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "YUMBO"
+  },
+  {
+    "cod_depto": "76",
+    "cod_mpio": "76895",
+    "dpto": "VALLE DEL CAUCA",
+    "nom_mpio": "ZARZAL"
+  },
+  {
+    "cod_depto": "81",
+    "cod_mpio": "81001",
+    "dpto": "ARAUCA",
+    "nom_mpio": "ARAUCA"
+  },
+  {
+    "cod_depto": "81",
+    "cod_mpio": "81065",
+    "dpto": "ARAUCA",
+    "nom_mpio": "ARAUQUITA"
+  },
+  {
+    "cod_depto": "81",
+    "cod_mpio": "81220",
+    "dpto": "ARAUCA",
+    "nom_mpio": "CRAVO NORTE"
+  },
+  {
+    "cod_depto": "81",
+    "cod_mpio": "81300",
+    "dpto": "ARAUCA",
+    "nom_mpio": "FORTUL"
+  },
+  {
+    "cod_depto": "81",
+    "cod_mpio": "81591",
+    "dpto": "ARAUCA",
+    "nom_mpio": "PUERTO RONDÓN"
+  },
+  {
+    "cod_depto": "81",
+    "cod_mpio": "81736",
+    "dpto": "ARAUCA",
+    "nom_mpio": "SARAVENA"
+  },
+  {
+    "cod_depto": "81",
+    "cod_mpio": "81794",
+    "dpto": "ARAUCA",
+    "nom_mpio": "TAME"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85001",
+    "dpto": "CASANARE",
+    "nom_mpio": "YOPAL"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85010",
+    "dpto": "CASANARE",
+    "nom_mpio": "AGUAZUL"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85015",
+    "dpto": "CASANARE",
+    "nom_mpio": "CHÁMEZA"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85125",
+    "dpto": "CASANARE",
+    "nom_mpio": "HATO COROZAL"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85136",
+    "dpto": "CASANARE",
+    "nom_mpio": "LA SALINA"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85139",
+    "dpto": "CASANARE",
+    "nom_mpio": "MANÍ"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85162",
+    "dpto": "CASANARE",
+    "nom_mpio": "MONTERREY"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85225",
+    "dpto": "CASANARE",
+    "nom_mpio": "NUNCHÍA"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85230",
+    "dpto": "CASANARE",
+    "nom_mpio": "OROCUÉ"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85250",
+    "dpto": "CASANARE",
+    "nom_mpio": "PAZ DE ARIPORO"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85263",
+    "dpto": "CASANARE",
+    "nom_mpio": "PORE"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85279",
+    "dpto": "CASANARE",
+    "nom_mpio": "RECETOR"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85300",
+    "dpto": "CASANARE",
+    "nom_mpio": "SABANALARGA"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85315",
+    "dpto": "CASANARE",
+    "nom_mpio": "SÁCAMA"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85325",
+    "dpto": "CASANARE",
+    "nom_mpio": "SAN LUIS DE PALENQUE"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85400",
+    "dpto": "CASANARE",
+    "nom_mpio": "TÁMARA"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85410",
+    "dpto": "CASANARE",
+    "nom_mpio": "TAURAMENA"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85430",
+    "dpto": "CASANARE",
+    "nom_mpio": "TRINIDAD"
+  },
+  {
+    "cod_depto": "85",
+    "cod_mpio": "85440",
+    "dpto": "CASANARE",
+    "nom_mpio": "VILLANUEVA"
+  },
+  {
+    "cod_depto": "86",
+    "cod_mpio": "86001",
+    "dpto": "PUTUMAYO",
+    "nom_mpio": "MOCOA"
+  },
+  {
+    "cod_depto": "86",
+    "cod_mpio": "86219",
+    "dpto": "PUTUMAYO",
+    "nom_mpio": "COLÓN"
+  },
+  {
+    "cod_depto": "86",
+    "cod_mpio": "86320",
+    "dpto": "PUTUMAYO",
+    "nom_mpio": "ORITO"
+  },
+  {
+    "cod_depto": "86",
+    "cod_mpio": "86568",
+    "dpto": "PUTUMAYO",
+    "nom_mpio": "PUERTO ASÍS"
+  },
+  {
+    "cod_depto": "86",
+    "cod_mpio": "86569",
+    "dpto": "PUTUMAYO",
+    "nom_mpio": "PUERTO CAICEDO"
+  },
+  {
+    "cod_depto": "86",
+    "cod_mpio": "86571",
+    "dpto": "PUTUMAYO",
+    "nom_mpio": "PUERTO GUZMÁN"
+  },
+  {
+    "cod_depto": "86",
+    "cod_mpio": "86573",
+    "dpto": "PUTUMAYO",
+    "nom_mpio": "PUERTO LEGUÍZAMO"
+  },
+  {
+    "cod_depto": "86",
+    "cod_mpio": "86749",
+    "dpto": "PUTUMAYO",
+    "nom_mpio": "SIBUNDOY"
+  },
+  {
+    "cod_depto": "86",
+    "cod_mpio": "86755",
+    "dpto": "PUTUMAYO",
+    "nom_mpio": "SAN FRANCISCO"
+  },
+  {
+    "cod_depto": "86",
+    "cod_mpio": "86757",
+    "dpto": "PUTUMAYO",
+    "nom_mpio": "SAN MIGUEL"
+  },
+  {
+    "cod_depto": "86",
+    "cod_mpio": "86760",
+    "dpto": "PUTUMAYO",
+    "nom_mpio": "SANTIAGO"
+  },
+  {
+    "cod_depto": "86",
+    "cod_mpio": "86865",
+    "dpto": "PUTUMAYO",
+    "nom_mpio": "VALLE DEL GUAMUEZ"
+  },
+  {
+    "cod_depto": "86",
+    "cod_mpio": "86885",
+    "dpto": "PUTUMAYO",
+    "nom_mpio": "VILLAGARZÓN"
+  },
+  {
+    "cod_depto": "88",
+    "cod_mpio": "88001",
+    "dpto": "ARCHIPIÉLAGO DE SAN ANDRÉS. PROVIDENCIA Y SANTA CATALINA",
+    "nom_mpio": "SAN ANDRÉS"
+  },
+  {
+    "cod_depto": "88",
+    "cod_mpio": "88564",
+    "dpto": "ARCHIPIÉLAGO DE SAN ANDRÉS. PROVIDENCIA Y SANTA CATALINA",
+    "nom_mpio": "PROVIDENCIA"
+  },
+  {
+    "cod_depto": "91",
+    "cod_mpio": "91001",
+    "dpto": "AMAZONAS",
+    "nom_mpio": "LETICIA"
+  },
+  {
+    "cod_depto": "91",
+    "cod_mpio": "91263",
+    "dpto": "AMAZONAS",
+    "nom_mpio": "EL ENCANTO"
+  },
+  {
+    "cod_depto": "91",
+    "cod_mpio": "91405",
+    "dpto": "AMAZONAS",
+    "nom_mpio": "LA CHORRERA"
+  },
+  {
+    "cod_depto": "91",
+    "cod_mpio": "91407",
+    "dpto": "AMAZONAS",
+    "nom_mpio": "LA PEDRERA"
+  },
+  {
+    "cod_depto": "91",
+    "cod_mpio": "91430",
+    "dpto": "AMAZONAS",
+    "nom_mpio": "LA VICTORIA"
+  },
+  {
+    "cod_depto": "91",
+    "cod_mpio": "91460",
+    "dpto": "AMAZONAS",
+    "nom_mpio": "MIRITÍ - PARANÁ"
+  },
+  {
+    "cod_depto": "91",
+    "cod_mpio": "91530",
+    "dpto": "AMAZONAS",
+    "nom_mpio": "PUERTO ALEGRÍA"
+  },
+  {
+    "cod_depto": "91",
+    "cod_mpio": "91536",
+    "dpto": "AMAZONAS",
+    "nom_mpio": "PUERTO ARICA"
+  },
+  {
+    "cod_depto": "91",
+    "cod_mpio": "91540",
+    "dpto": "AMAZONAS",
+    "nom_mpio": "PUERTO NARIÑO"
+  },
+  {
+    "cod_depto": "91",
+    "cod_mpio": "91669",
+    "dpto": "AMAZONAS",
+    "nom_mpio": "PUERTO SANTANDER"
+  },
+  {
+    "cod_depto": "91",
+    "cod_mpio": "91798",
+    "dpto": "AMAZONAS",
+    "nom_mpio": "TARAPACÁ"
+  },
+  {
+    "cod_depto": "94",
+    "cod_mpio": "94001",
+    "dpto": "GUAINÍA",
+    "nom_mpio": "INÍRIDA"
+  },
+  {
+    "cod_depto": "94",
+    "cod_mpio": "94343",
+    "dpto": "GUAINÍA",
+    "nom_mpio": "BARRANCOMINAS"
+  },
+  {
+    "cod_depto": "94",
+    "cod_mpio": "94883",
+    "dpto": "GUAINÍA",
+    "nom_mpio": "SAN FELIPE"
+  },
+  {
+    "cod_depto": "94",
+    "cod_mpio": "94884",
+    "dpto": "GUAINÍA",
+    "nom_mpio": "PUERTO COLOMBIA"
+  },
+  {
+    "cod_depto": "94",
+    "cod_mpio": "94885",
+    "dpto": "GUAINÍA",
+    "nom_mpio": "LA GUADALUPE"
+  },
+  {
+    "cod_depto": "94",
+    "cod_mpio": "94886",
+    "dpto": "GUAINÍA",
+    "nom_mpio": "CACAHUAL"
+  },
+  {
+    "cod_depto": "94",
+    "cod_mpio": "94887",
+    "dpto": "GUAINÍA",
+    "nom_mpio": "PANA PANA"
+  },
+  {
+    "cod_depto": "94",
+    "cod_mpio": "94888",
+    "dpto": "GUAINÍA",
+    "nom_mpio": "MORICHAL"
+  },
+  {
+    "cod_depto": "95",
+    "cod_mpio": "95001",
+    "dpto": "GUAVIARE",
+    "nom_mpio": "SAN JOSÉ DEL GUAVIARE"
+  },
+  {
+    "cod_depto": "95",
+    "cod_mpio": "95015",
+    "dpto": "GUAVIARE",
+    "nom_mpio": "CALAMAR"
+  },
+  {
+    "cod_depto": "95",
+    "cod_mpio": "95025",
+    "dpto": "GUAVIARE",
+    "nom_mpio": "EL RETORNO"
+  },
+  {
+    "cod_depto": "95",
+    "cod_mpio": "95200",
+    "dpto": "GUAVIARE",
+    "nom_mpio": "MIRAFLORES"
+  },
+  {
+    "cod_depto": "97",
+    "cod_mpio": "97001",
+    "dpto": "VAUPÉS",
+    "nom_mpio": "MITÚ"
+  },
+  {
+    "cod_depto": "97",
+    "cod_mpio": "97161",
+    "dpto": "VAUPÉS",
+    "nom_mpio": "CARURÚ"
+  },
+  {
+    "cod_depto": "97",
+    "cod_mpio": "97511",
+    "dpto": "VAUPÉS",
+    "nom_mpio": "PACOA"
+  },
+  {
+    "cod_depto": "97",
+    "cod_mpio": "97666",
+    "dpto": "VAUPÉS",
+    "nom_mpio": "TARAIRA"
+  },
+  {
+    "cod_depto": "97",
+    "cod_mpio": "97777",
+    "dpto": "VAUPÉS",
+    "nom_mpio": "PAPUNAHUA"
+  },
+  {
+    "cod_depto": "97",
+    "cod_mpio": "97889",
+    "dpto": "VAUPÉS",
+    "nom_mpio": "YAVARATÉ"
+  },
+  {
+    "cod_depto": "99",
+    "cod_mpio": "99001",
+    "dpto": "VICHADA",
+    "nom_mpio": "PUERTO CARREÑO"
+  },
+  {
+    "cod_depto": "99",
+    "cod_mpio": "99524",
+    "dpto": "VICHADA",
+    "nom_mpio": "LA PRIMAVERA"
+  },
+  {
+    "cod_depto": "99",
+    "cod_mpio": "99624",
+    "dpto": "VICHADA",
+    "nom_mpio": "SANTA ROSALÍA"
+  },
+  {
+    "cod_depto": "99",
+    "cod_mpio": "99773",
+    "dpto": "VICHADA",
+    "nom_mpio": "CUMARIBO"
+  }
+]

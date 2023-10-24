@@ -5,10 +5,8 @@ import UserCard from "./components/UserCard";
 import OkAlert from "./components/okAlert";
 import NoAlert from "./components/NoAlert";
 import LoadingAlert from "./components/LoadingAlert";
-import ERAsegCard from "./ERAsegCard";
 
 function App() {
-
   function setLoadingState(newLoadingState) {
     setLoading(newLoadingState);
   }
@@ -21,10 +19,11 @@ function App() {
 
   const handleUserStatus = (status) => {
     SetUserStatus(status);
-    if (status === 204 || 500) {
+    if (status === 204) {
       setLoading(false);
     }
   };
+  
 
   return (
     <main className="relative">
@@ -48,6 +47,7 @@ function App() {
               <UserCard
                 PersonData={PersonData}
                 UserStatus={UserStatus}
+                ERAsegData={ERAsegData}
               />
             </div>
           </div>
@@ -57,7 +57,6 @@ function App() {
           </div>
         ) : null}
       </div>
-      <ERAsegCard ERAsegData={ERAsegData} />
     </main>
   );
 }

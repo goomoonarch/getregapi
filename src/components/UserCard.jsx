@@ -1,8 +1,49 @@
 import React from "react";
 import { BsGenderMale, BsGenderFemale } from "react-icons/bs";
 import { IconContext } from "react-icons";
+import EPScodes from "../assets/EPScodes.json";
+import Divipola from "../assets/Divipola.json";
+import ERAsegState from "../assets/ERAsegState.json";
 
-export default function ({ PersonData }) {
+export default function ({ PersonData, ERAsegData }) {
+  function getMunicipioName(codigoDivipola) {
+    const municipio = Divipola.find(
+      (municipio) => municipio.cod_mpio === codigoDivipola
+    );
+    return municipio ? municipio.nom_mpio : null;
+  }
+
+  function getDepartamentoName(departamentoAfiliacion) {
+    const departamento = Divipola.find(
+      (departamento) => departamento.cod_depto === departamentoAfiliacion
+    );
+    return departamento ? departamento.dpto : null;
+  }
+
+  function getERAsegState(estadoAfiliacion, ERAsegState) {
+    const state = ERAsegState.find(
+      (state) => state.estadoSG === estadoAfiliacion
+    );
+    return state ? state.estadoName : null;
+  }
+
+  function getERAsegClass(estadoAfiliacion, ERAsegState) {
+    const state = ERAsegState.find(
+      (state) => state.estadoSG === estadoAfiliacion
+    );
+    return state ? state.estadoClassName : null;
+  }
+
+  function getRegimenName(regimenAfiliacion) {
+    const regimen = regimenAfiliacion === "C" ? "Contributivo" : "Subsidiado";
+    return regimen;
+  }
+
+  function getEPSName(codigoEPS, EPScodes) {
+    const eps = EPScodes.find((eps) => eps.codigo === codigoEPS);
+    return eps ? eps.nombre : null;
+  }
+
   function formatDate(dateString) {
     const options = { year: "numeric", month: "2-digit", day: "2-digit" };
     return new Date(dateString).toLocaleDateString(undefined, options);
@@ -27,24 +68,43 @@ export default function ({ PersonData }) {
 
   return (
     <div>
-      <div className="flex flex-col items-start w-[400px] font-SFpro justify-center bg-white shadow-md rounded-[8px] p-4 my-1 border">
-        <div className="pt-2 px-6">
-          {console.log(PersonData)}
+      <div className="flex flex-col items-start w-[400px] font-SFpro justify-center bg-white shadow-sm rounded-b-[8px] p-4 border ">
+        <div className="flex pt-2 px-[4px] items-center">
+          <div className="pr-[4px]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.0}
+              stroke="currentColor"
+              className="w-[32px] stroke-blue-gray-700"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"
+              />
+            </svg>
+          </div>
+
           <h1 className="text-[25px] font-semibold text-blue-gray-700">
             {toPascalCase(
               PersonData.primerApellido + " " + PersonData.primerNombre
             )}
           </h1>
         </div>
-        <div className="px-6 pb-2 text-lg text-blue-gray-600">
+        <div className="px-[40px] pb-2 text-lg text-blue-gray-600">
           {`${[
             PersonData.primerApellido,
             PersonData.segundoApellido,
             PersonData.primerNombre,
-            PersonData.segundoNombre
-          ].filter(Boolean).map(toPascalCase).join(" ")}`}
+            PersonData.segundoNombre,
+          ]
+            .filter(Boolean)
+            .map(toPascalCase)
+            .join(" ")}`}
         </div>
-        <div className="px-[22px] flex">
+        <div className="px-[40px] flex">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -78,16 +138,22 @@ export default function ({ PersonData }) {
             {calcularEdad(PersonData.fechaNacimiento)} años
           </h1>
         </div>
-        <div className="flex px-[24px] py-1">
+        <div className="flex px-[40px] py-1">
           {PersonData.sexo === "M" ? (
             <IconContext.Provider
-              value={{ size: "22px", className: "fill-[#546e7a] stroke-[0.4px] stroke-[#546e7a]" }}
+              value={{
+                size: "22px",
+                className: "fill-[#546e7a] stroke-[0.4px] stroke-[#546e7a]",
+              }}
             >
               <BsGenderMale />
             </IconContext.Provider>
           ) : (
             <IconContext.Provider
-              value={{ size: "22px", className: "fill-[#546e7a] stroke-[0.4px] stroke-[#546e7a]" }}
+              value={{
+                size: "22px",
+                className: "fill-[#546e7a] stroke-[0.4px] stroke-[#546e7a]",
+              }}
             >
               <BsGenderFemale />
             </IconContext.Provider>
@@ -96,6 +162,93 @@ export default function ({ PersonData }) {
             {PersonData.sexo === "M" ? "Masculino" : "Femenino"}
           </h1>
         </div>
+        {/*<---------------- ERAsegSubComponent!---------------------->*/}
+        {ERAsegData.codigoRespuesta === '01' ? (
+          <div>
+            <div className="flex pt-2 px-[4px] items-center">
+              <div className="pl-[36px]"></div>
+              <h1 className="text-blue-gray-700 text-[20px] font-semibold">
+                {getEPSName(ERAsegData.codigoEPS, EPScodes)}
+              </h1>
+              <div className="pl-2">
+                <div
+                  className={getERAsegClass(
+                    ERAsegData.estadoAfiliacion,
+                    ERAsegState
+                  )}
+                >
+                  <div>
+                    <svg
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.0}
+                      stroke="currentColor"
+                      className="w-4 animate-pulse"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"></path>
+                    </svg>
+                  </div>
+                  <div className="pl-1">
+                    {getERAsegState(ERAsegData.estadoAfiliacion, ERAsegState)}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="px-[40px] text-blue-gray-600">
+              {ERAsegData.nombreEPS}
+            </div>
+            <div className="flex items-center">
+              <div className="pl-[40px] pr-3 text-blue-gray-700 font-bold">
+                {getRegimenName(ERAsegData.regimenAfiliacion)}
+              </div>
+            </div>
+            <div id="location" className=" flex px-[36px]">
+              <div id="location_icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-6 stroke-blue-gray-600"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                  />
+                </svg>
+              </div>
+              <div className="pl-[5px] pr-[5px] items-center justify-center text-blue-gray-600">
+                {toPascalCase(getMunicipioName(ERAsegData.codigoDivipola))}
+              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                className="w-6 fill-blue-gray-600"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M4.5 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                  clipRule="evenodd"
+                />
+              </svg>
+              <div className="pl-[5px] pr-[5px] items-center justify-center text-blue-gray-600">
+                {toPascalCase(
+                  getDepartamentoName(ERAsegData.departamentoAfiliacion)
+                )}
+              </div>
+            </div>
+          </div>
+        ) : null}
+        {/*<---------------- ERAsegSubComponent!---------------------->*/}
       </div>
     </div>
   );
