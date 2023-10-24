@@ -245,7 +245,7 @@ export default function ({ PersonData, ERAsegData, ERAsegStatus }) {
               </div>
             </div>
           </div>
-        ) : <ERAsegEmpty />}
+        ) : ERAsegData.codigoRespuesta === '02' ? <ERAsegEmpty/> : null }
         {/*<---------------- ERAsegSubComponent!---------------------->*/}
       </div>
     </div>
