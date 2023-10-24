@@ -1,13 +1,16 @@
 import React from "react";
 import { BsGenderMale, BsGenderFemale } from "react-icons/bs";
 import { IconContext } from "react-icons";
-import EPScodes from "../assets/EPScodes.json";
 import Divipola from "../assets/Divipola.json";
 import ERAsegState from "../assets/ERAsegState.json";
+import ERAsegEmpty from "./ERAsegEmpty";  
 
-export default function ({ PersonData, ERAsegData }) {
+export default function ({ PersonData, ERAsegData, ERAsegStatus }) {
+
+  
   
   function getMunicipioName(codigoDivipola) {
+
     const municipio = Divipola.find(
       (municipio) => municipio.cod_mpio === codigoDivipola
     );
@@ -242,7 +245,7 @@ export default function ({ PersonData, ERAsegData }) {
               </div>
             </div>
           </div>
-        ) : null}
+        ) : <ERAsegEmpty />}
         {/*<---------------- ERAsegSubComponent!---------------------->*/}
       </div>
     </div>

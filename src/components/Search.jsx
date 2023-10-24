@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import CustomDropdown from "./CustomSelect";
 
-export const Search = ({ onPersonData, onERAsegData, onUserStatus, setLoadingState }) => {
+export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatus, setLoadingState }) => {
   const [selectedValue, setSelectedValue] = useState("");
   const [inputValue, setInputValue] = useState("");
   const [Error, setError] = useState("");
+
 
 
   const handleDropdownChange = (value) => {
@@ -16,6 +17,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, setLoadingSta
   const fetchData = () => {
     
     setLoadingState(true);
+    
 
     var requestOptions = {
       method: "GET",
@@ -62,6 +64,9 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, setLoadingSta
       })
       .then((resultSecondFetch) => {
         onERAsegData(resultSecondFetch);
+        if (resultSecondFetch === null) {
+          onERAsegStatus(true);
+        }
       })
       .catch((error) => {
         console.log("error", error);
@@ -92,7 +97,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, setLoadingSta
 
   return (
     <div>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center translate-y-[-32px]">
         <div className="flex px-4 py-3 bg-white rounded-[8px] shadow-md w-[390px] sm:w-[490px]">
           <CustomDropdown onChange={handleDropdownChange} />
           <div className="flex pl-[4px] items-center justify-center">

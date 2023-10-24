@@ -3,7 +3,7 @@ import React from "react";
 const ERAsegWarning = () => {
   return (
     <div>
-      <div className="flex font-SFpro bg-[#FEFCE8] rounded-[8px] px-[20px] py-[10px]">
+      <div className="flex font-SFpro bg-[#FEFCE8] rounded-[8px] p-[6px] ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -16,11 +16,10 @@ const ERAsegWarning = () => {
             clipRule="evenodd"
           />
         </svg>
-
         <h1 className="px-[10px] text-[#854D0E] font-medium ">
           Active la funcionalidad ERAseg!
         </h1>
-        <button className="hover:text-[#9f5843] text-[#A1624F] flex justify-center items-center translate-x-[50px]">
+        <button className="hover:text-[#9f5843] text-[#A1624F] flex justify-center items-center">
           <h1 className="text-[15px] pr-[1px]">Detalles</h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"

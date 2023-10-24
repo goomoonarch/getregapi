@@ -5,6 +5,7 @@ import UserCard from "./components/UserCard";
 import OkAlert from "./components/okAlert";
 import NoAlert from "./components/NoAlert";
 import LoadingAlert from "./components/LoadingAlert";
+import Hero from "./components/Hero";
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
   const [PersonData, SetPersonData] = useState([]);
   const [ERAsegData, SetERAsegData] = useState([]);
   const [UserStatus, SetUserStatus] = useState("");
-  const [showAlert, setShowAlert] = useState(true);
+  const [ERAsegStatus, setERAsegStatus] = useState("");
   const [loading, setLoading] = useState(false);
 
   const handleUserStatus = (status) => {
@@ -29,10 +30,12 @@ function App() {
   return (
     <main className="relative">
       <Header />
+      <Hero />
       <Search
         onPersonData={SetPersonData}
         onERAsegData={SetERAsegData}
         onUserStatus={handleUserStatus}
+        onERAsegStatus={setERAsegStatus}
         setLoadingState={setLoadingState}
       />
       <div className="flex w-full justify-center">
@@ -49,10 +52,11 @@ function App() {
                 PersonData={PersonData}
                 UserStatus={UserStatus}
                 ERAsegData={ERAsegData}
+                ERAsegStatus={ERAsegStatus}
               />
             </div>
           </div>
-        ) : UserStatus === 204 && showAlert ? (
+        ) : UserStatus === 204 ? (
           <div className="flex w-full justify-center">
             <NoAlert />
           </div>
