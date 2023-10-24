@@ -72,6 +72,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, setLoadingSta
   const handleKeyDown = (event) => {
     if (event.key === "Enter") {
       fetchData();
+      
     }
   };
 
@@ -81,6 +82,8 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, setLoadingSta
 
   const handleButtonClick = () => {
     fetchData();
+    
+
   };
 
   const clearInput = () => {

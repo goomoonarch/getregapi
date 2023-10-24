@@ -6,6 +6,7 @@ import Divipola from "../assets/Divipola.json";
 import ERAsegState from "../assets/ERAsegState.json";
 
 export default function ({ PersonData, ERAsegData }) {
+  
   function getMunicipioName(codigoDivipola) {
     const municipio = Divipola.find(
       (municipio) => municipio.cod_mpio === codigoDivipola
@@ -39,11 +40,6 @@ export default function ({ PersonData, ERAsegData }) {
     return regimen;
   }
 
-  function getEPSName(codigoEPS, EPScodes) {
-    const eps = EPScodes.find((eps) => eps.codigo === codigoEPS);
-    return eps ? eps.nombre : null;
-  }
-
   function formatDate(dateString) {
     const options = { year: "numeric", month: "2-digit", day: "2-digit" };
     return new Date(dateString).toLocaleDateString(undefined, options);
@@ -68,7 +64,7 @@ export default function ({ PersonData, ERAsegData }) {
 
   return (
     <div>
-      <div className="flex flex-col items-start w-[400px] font-SFpro justify-center bg-white shadow-sm rounded-b-[8px] p-4 border ">
+      <div className="flex flex-col items-start w-[400px] font-SFpro justify-center bg-white shadow-sm rounded-[8px] p-4 border ">
         <div className="flex pt-2 px-[4px] items-center">
           <div className="pr-[4px]">
             <svg
@@ -162,14 +158,13 @@ export default function ({ PersonData, ERAsegData }) {
             {PersonData.sexo === "M" ? "Masculino" : "Femenino"}
           </h1>
         </div>
+        <div className="bg-blue-gray-600s pl-[40px] h-[2px]">
+        </div>
         {/*<---------------- ERAsegSubComponent!---------------------->*/}
         {ERAsegData.codigoRespuesta === '01' ? (
-          <div>
+          <div className="pt-3 pb-4">
             <div className="flex pt-2 px-[4px] items-center">
-              <div className="pl-[36px]"></div>
-              <h1 className="text-blue-gray-700 text-[20px] font-semibold">
-                {getEPSName(ERAsegData.codigoEPS, EPScodes)}
-              </h1>
+              <div className="pl-[26px]"></div>
               <div className="pl-2">
                 <div
                   className={getERAsegClass(

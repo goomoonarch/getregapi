@@ -7,6 +7,7 @@ import NoAlert from "./components/NoAlert";
 import LoadingAlert from "./components/LoadingAlert";
 
 function App() {
+
   function setLoadingState(newLoadingState) {
     setLoading(newLoadingState);
   }
