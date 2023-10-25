@@ -6,9 +6,9 @@ import OkAlert from "./components/okAlert";
 import NoAlert from "./components/NoAlert";
 import LoadingAlert from "./components/LoadingAlert";
 import Hero from "./components/Hero";
+import Error500 from "./components/Error500";
 
 function App() {
-
   function setLoadingState(newLoadingState) {
     setLoading(newLoadingState);
   }
@@ -26,7 +26,6 @@ function App() {
       setLoading(false);
     }
   };
-  
 
   return (
     <main className="relative">
@@ -63,11 +62,17 @@ function App() {
           <div className="flex w-full justify-center">
             <NoAlert />
           </div>
+        ) : UserStatus === 500 ? (
+          <div className="flex w-full justify-center">
+            <Error500 />
+          </div>
         ) : null}
       </div>
       <div className="m-5  text-blue-gray-500">
-        <h1 className="font-SFpro text-[12px]">v1.1.7</h1>
-        <h1 className="font-SFpro text-[12px]">Developer version for institutional use</h1>
+        <h1 className="font-SFpro text-[12px]">v1.1.8</h1>
+        <h1 className="font-SFpro text-[12px]">
+          Developer version for institutional use
+        </h1>
       </div>
     </main>
   );
