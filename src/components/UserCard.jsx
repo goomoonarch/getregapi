@@ -3,14 +3,10 @@ import { BsGenderMale, BsGenderFemale } from "react-icons/bs";
 import { IconContext } from "react-icons";
 import Divipola from "../assets/Divipola.json";
 import ERAsegState from "../assets/ERAsegState.json";
-import ERAsegEmpty from "./ERAsegEmpty";  
+import ERAsegEmpty from "./ERAsegEmpty";
 
 export default function ({ PersonData, ERAsegData, ERAsegStatus }) {
-
-  
-  
   function getMunicipioName(codigoDivipola) {
-
     const municipio = Divipola.find(
       (municipio) => municipio.cod_mpio === codigoDivipola
     );
@@ -31,11 +27,39 @@ export default function ({ PersonData, ERAsegData, ERAsegStatus }) {
     return state ? state.estadoName : null;
   }
 
-  function getERAsegClass(estadoAfiliacion, ERAsegState) {
-    const states = ERAsegState.filter(
-      (state) => state.estadoSG === estadoAfiliacion
-    );
-    return states.length > 0 ? states[0].estadoClassName : null;
+  function getERAsegClass(estadoAfiliacion) {
+    let className = "";
+    switch (estadoAfiliacion) {
+      case "AC":
+        className =
+          "flex justify-left items-center pl-2 pr-3 py-1 bg-[#F0FDF4] text-[#4ADE80] rounded-md text-[14px] font-regular";
+        break;
+      case "AF":
+        className =
+          "flex justify-left items-center pl-2 pr-3 py-1 bg-[#FEF2F2] text-[#F87171] rounded-md text-[14px] font-regular";
+        break;
+      case "DE":
+        className =
+          "flex justify-left items-center pl-2 pr-3 py-1 text-[#334155] bg-[#F1F5F9] rounded-md text-[14px] font-regular";
+        break;
+      case "PL":
+        className =
+          "flex justify-left items-center pl-2 pr-3 py-1 bg-[#F0FDF4] text-[#4ADE80] rounded-md text-[14px] font-regular";
+        break;
+      case "RE":
+        className =
+          "flex justify-left items-center pl-2 pr-3 py-1 text-[#334155] bg-[#F1F5F9] rounded-md text-[14px] font-regular";
+        break;
+      case "SM":
+        className =
+          "flex justify-left items-center pl-2 pr-3 py-1 text-[#FACC15] bg-[#FEFCE8] rounded-md text-[14px] font-regular";
+        break;
+      case "SD":
+        className =
+          "flex justify-left items-center pl-2 pr-3 py-1 text-[#FACC15] bg-[#FEFCE8] rounded-md text-[14px] font-regular";
+        break;
+    }
+    return className;
   }
 
   function getRegimenName(regimenAfiliacion) {
@@ -161,24 +185,14 @@ export default function ({ PersonData, ERAsegData, ERAsegStatus }) {
             {PersonData.sexo === "M" ? "Masculino" : "Femenino"}
           </h1>
         </div>
-        <div className="bg-blue-gray-600s pl-[40px] h-[2px]">
-        </div>
+        <div className="bg-blue-gray-600s pl-[40px] h-[2px]"></div>
         {/*<---------------- ERAsegSubComponent!---------------------->*/}
-        {ERAsegData.codigoRespuesta === '01' ? (
+        {ERAsegData.codigoRespuesta === "01" ? (
           <div className="pt-3 pb-4">
             <div className="flex pt-2 px-[4px] items-center">
               <div className="pl-[26px]"></div>
-              <div className="pl-2">
-                <div
-                  className={getERAsegClass(
-                    ERAsegData.estadoAfiliacion,
-                    ERAsegState
-                  )}
-                >
-                  {console.log(getERAsegClass(
-                    ERAsegData.estadoAfiliacion,
-                    ERAsegState
-                  ))}
+              <div className="pl-2 pb-1">
+                <div className={getERAsegClass(ERAsegData.estadoAfiliacion)}>
                   <div>
                     <svg
                       fill="currentColor"
@@ -249,7 +263,9 @@ export default function ({ PersonData, ERAsegData, ERAsegStatus }) {
               </div>
             </div>
           </div>
-        ) : ERAsegData.codigoRespuesta === '02' ? <ERAsegEmpty/> : null }
+        ) : ERAsegData.codigoRespuesta === "02" ? (
+          <ERAsegEmpty />
+        ) : null}
         {/*<---------------- ERAsegSubComponent!---------------------->*/}
       </div>
     </div>
