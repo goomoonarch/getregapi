@@ -6,4 +6,9 @@
   font-family: SF-Pro;
   src: url(../public/fonts/SF-Pro-Text-Light.otf);
 }
+@font-face {
+  font-family: SF-Pro-display;
+  src: url(../public/fonts/SFProDisplay_medium.OTF);
+  font-weight: 400;
+}
 
