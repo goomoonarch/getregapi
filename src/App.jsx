@@ -18,6 +18,7 @@ function App() {
   const [UserStatus, SetUserStatus] = useState("");
   const [ERAsegStatus, setERAsegStatus] = useState("");
   const [loading, setLoading] = useState(false);
+  const [showERAsegCard, setShowERAsegCard] = useState(false);
 
   const handleUserStatus = (status) => {
     SetUserStatus(status);
@@ -36,6 +37,7 @@ function App() {
         onERAsegData={SetERAsegData}
         onUserStatus={handleUserStatus}
         onERAsegStatus={setERAsegStatus}
+        onShowERAsegCard={setShowERAsegCard}
         setLoadingState={setLoadingState}
       />
       <div className="flex w-full justify-center">
@@ -53,6 +55,7 @@ function App() {
                 UserStatus={UserStatus}
                 ERAsegData={ERAsegData}
                 ERAsegStatus={ERAsegStatus}
+                showERAsegCard={showERAsegCard}
               />
             </div>
           </div>

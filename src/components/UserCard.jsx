@@ -5,7 +5,9 @@ import Divipola from "../assets/Divipola.json";
 import ERAsegState from "../assets/ERAsegState.json";
 import ERAsegEmpty from "./ERAsegEmpty";
 
-export default function ({ PersonData, ERAsegData, ERAsegStatus }) {
+export default function ({ PersonData, ERAsegData, showERAsegCard }) {
+
+
   function getMunicipioName(codigoDivipola) {
     const municipio = Divipola.find(
       (municipio) => municipio.cod_mpio === codigoDivipola
@@ -187,84 +189,88 @@ export default function ({ PersonData, ERAsegData, ERAsegStatus }) {
         </div>
         <div className="bg-blue-gray-600s pl-[40px] h-[2px]"></div>
         {/*<---------------- ERAsegSubComponent!---------------------->*/}
-        {ERAsegData.codigoRespuesta === "01" ? (
-          <div className="pt-3 pb-4">
-            <div className="flex pt-2 px-[4px] items-center">
-              <div className="pl-[26px]"></div>
-              <div className="pl-2 pb-1">
-                <div className={getERAsegClass(ERAsegData.estadoAfiliacion)}>
-                  <div>
+        {showERAsegCard ? (
+          <>
+            {ERAsegData.codigoRespuesta === "01" ? (
+              <div className="pt-3 pb-4">
+                <div className="flex pt-2 px-[4px] items-center">
+                  <div className="pl-[26px]"></div>
+                  <div className="pl-2 pb-1">
+                    <div className={getERAsegClass(ERAsegData.estadoAfiliacion)}>
+                      <div>
+                        <svg
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                          strokeWidth={1.0}
+                          stroke="currentColor"
+                          className="w-4 animate-pulse"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"></path>
+                        </svg>
+                      </div>
+                      <div className="pl-1">
+                        {getERAsegState(ERAsegData.estadoAfiliacion, ERAsegState)}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="px-[40px] text-blue-gray-600">
+                  {ERAsegData.nombreEPS}
+                </div>
+                <div className="flex items-center">
+                  <div className="pl-[40px] pr-3 text-blue-gray-700 font-bold">
+                    {getRegimenName(ERAsegData.regimenAfiliacion)}
+                  </div>
+                </div>
+                <div id="location" className=" flex px-[36px]">
+                  <div id="location_icon">
                     <svg
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.0}
-                      stroke="currentColor"
-                      className="w-4 animate-pulse"
                       xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 stroke-blue-gray-600"
                     >
-                      <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"></path>
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                      />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                      />
                     </svg>
                   </div>
-                  <div className="pl-1">
-                    {getERAsegState(ERAsegData.estadoAfiliacion, ERAsegState)}
+                  <div className="pl-[5px] pr-[5px] items-center justify-center text-blue-gray-600">
+                    {toPascalCase(getMunicipioName(ERAsegData.codigoDivipola))}
+                  </div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    className="w-6 fill-blue-gray-600"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M4.5 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  <div className="pl-[5px] pr-[5px] items-center justify-center text-blue-gray-600">
+                    {toPascalCase(
+                      getDepartamentoName(ERAsegData.departamentoAfiliacion)
+                    )}
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="px-[40px] text-blue-gray-600">
-              {ERAsegData.nombreEPS}
-            </div>
-            <div className="flex items-center">
-              <div className="pl-[40px] pr-3 text-blue-gray-700 font-bold">
-                {getRegimenName(ERAsegData.regimenAfiliacion)}
-              </div>
-            </div>
-            <div id="location" className=" flex px-[36px]">
-              <div id="location_icon">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-6 stroke-blue-gray-600"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-                  />
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-                  />
-                </svg>
-              </div>
-              <div className="pl-[5px] pr-[5px] items-center justify-center text-blue-gray-600">
-                {toPascalCase(getMunicipioName(ERAsegData.codigoDivipola))}
-              </div>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="w-6 fill-blue-gray-600"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M4.5 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              <div className="pl-[5px] pr-[5px] items-center justify-center text-blue-gray-600">
-                {toPascalCase(
-                  getDepartamentoName(ERAsegData.departamentoAfiliacion)
-                )}
-              </div>
-            </div>
-          </div>
-        ) : ERAsegData.codigoRespuesta === "02" ? (
-          <ERAsegEmpty />
+            ) : ERAsegData.codigoRespuesta === "02" ? (
+              <ERAsegEmpty />
+            ) : null}
+          </>
         ) : null}
         {/*<---------------- ERAsegSubComponent!---------------------->*/}
       </div>

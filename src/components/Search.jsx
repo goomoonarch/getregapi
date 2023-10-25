@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import CustomDropdown from "./CustomSelect";
 
-export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatus, setLoadingState }) => {
+export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatus, setLoadingState, onShowERAsegCard }) => {
   const [selectedValue, setSelectedValue] = useState("");
   const [inputValue, setInputValue] = useState("");
   const [Error, setError] = useState("");
@@ -17,7 +17,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
   const fetchData = () => {
     
     setLoadingState(true);
-    
+    onShowERAsegCard(false); 
 
     var requestOptions = {
       method: "GET",
@@ -67,6 +67,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
         if (resultSecondFetch === null) {
           onERAsegStatus(true);
         }
+        onShowERAsegCard(true);
       })
       .catch((error) => {
         console.log("error", error);
