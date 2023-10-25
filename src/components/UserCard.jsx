@@ -32,10 +32,10 @@ export default function ({ PersonData, ERAsegData, ERAsegStatus }) {
   }
 
   function getERAsegClass(estadoAfiliacion, ERAsegState) {
-    const state = ERAsegState.find(
+    const states = ERAsegState.filter(
       (state) => state.estadoSG === estadoAfiliacion
     );
-    return state ? state.estadoClassName : null;
+    return states.length > 0 ? states[0].estadoClassName : null;
   }
 
   function getRegimenName(regimenAfiliacion) {
@@ -175,6 +175,10 @@ export default function ({ PersonData, ERAsegData, ERAsegStatus }) {
                     ERAsegState
                   )}
                 >
+                  {console.log(getERAsegClass(
+                    ERAsegData.estadoAfiliacion,
+                    ERAsegState
+                  ))}
                   <div>
                     <svg
                       fill="currentColor"
