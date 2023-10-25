@@ -18,7 +18,7 @@ function Error500() {
       </svg>
 
       <h1 className="px-[10px] text-[#B91C1C] font-medium ">
-        Error en el servidor proxy, verifique los datos!
+        Usuario no encontrado, verifique los datos!
       </h1>
       <button className="hover:bg-[#b91c1c17] flex justify-center items-center h-[24px] w-[24px] rounded-[4px] translate-x-[170px]">
         <svg

@@ -6,8 +6,6 @@ import ERAsegState from "../assets/ERAsegState.json";
 import ERAsegEmpty from "./ERAsegEmpty";
 
 export default function ({ PersonData, ERAsegData, showERAsegCard }) {
-
-
   function getMunicipioName(codigoDivipola) {
     const municipio = Divipola.find(
       (municipio) => municipio.cod_mpio === codigoDivipola
@@ -86,9 +84,12 @@ export default function ({ PersonData, ERAsegData, showERAsegCard }) {
   }
 
   function toPascalCase(str) {
-    return str.replace(/(\w)(\w*)/g, function (g0, g1, g2) {
-      return g1.toUpperCase() + g2.toLowerCase();
-    });
+    return str.replace(
+      /([a-zA-ZñÑáéíóúÁÉÍÓÚüÜ])([a-zA-ZñÑáéíóúÁÉÍÓÚüÜ]*)/g,
+      function (g0, g1, g2) {
+        return g1.toUpperCase() + g2.toLowerCase();
+      }
+    );
   }
 
   return (
@@ -196,7 +197,9 @@ export default function ({ PersonData, ERAsegData, showERAsegCard }) {
                 <div className="flex pt-2 px-[4px] items-center">
                   <div className="pl-[26px]"></div>
                   <div className="pl-2 pb-1">
-                    <div className={getERAsegClass(ERAsegData.estadoAfiliacion)}>
+                    <div
+                      className={getERAsegClass(ERAsegData.estadoAfiliacion)}
+                    >
                       <div>
                         <svg
                           fill="currentColor"
@@ -210,7 +213,10 @@ export default function ({ PersonData, ERAsegData, showERAsegCard }) {
                         </svg>
                       </div>
                       <div className="pl-1">
-                        {getERAsegState(ERAsegData.estadoAfiliacion, ERAsegState)}
+                        {getERAsegState(
+                          ERAsegData.estadoAfiliacion,
+                          ERAsegState
+                        )}
                       </div>
                     </div>
                   </div>
@@ -224,7 +230,7 @@ export default function ({ PersonData, ERAsegData, showERAsegCard }) {
                   </div>
                 </div>
                 <div id="location" className=" flex px-[36px]">
-                  <div id="location_icon">
+                  <div id="location_icon" className="translate-y-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -245,25 +251,17 @@ export default function ({ PersonData, ERAsegData, showERAsegCard }) {
                       />
                     </svg>
                   </div>
-                  <div className="pl-[5px] pr-[5px] items-center justify-center text-blue-gray-600">
-                    {toPascalCase(getMunicipioName(ERAsegData.codigoDivipola))}
-                  </div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="w-6 fill-blue-gray-600"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M4.5 12a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zm6 0a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  <div className="pl-[5px] pr-[5px] items-center justify-center text-blue-gray-600">
-                    {toPascalCase(
-                      getDepartamentoName(ERAsegData.departamentoAfiliacion)
-                    )}
+                  <div className="flex flex-col">
+                    <div className="pl-[5px] pr-[5px] items-center justify-center text-blue-gray-600">
+                      {toPascalCase(
+                        getMunicipioName(ERAsegData.codigoDivipola)
+                      )}
+                    </div>
+                    <div className="pl-[5px] pr-[5px] items-center justify-center text-blue-gray-600 translate-y-[-5px]">
+                      {toPascalCase(
+                        getDepartamentoName(ERAsegData.departamentoAfiliacion)
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>

@@ -45,7 +45,7 @@ function App() {
       <div>
         {UserStatus === 200 ? (
           <div>
-            <div className="flex w-full justify-center">
+            <div className="flex items-center justify-center">
               <OkAlert />
             </div>
             <div className="flex justify-center">
