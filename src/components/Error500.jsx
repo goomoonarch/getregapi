@@ -20,7 +20,7 @@ function Error500() {
       <h1 className="px-[10px] text-[#B91C1C] font-medium ">
         Usuario no encontrado, verifique los datos!
       </h1>
-      <button className="hover:bg-[#b91c1c17] flex justify-center items-center h-[24px] w-[24px] rounded-[4px] translate-x-[170px]">
+      <button className="hover:bg-[#b91c1c17] flex justify-center items-center h-[24px] w-[24px] rounded-[4px] translate-x-[35px]">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"

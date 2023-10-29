@@ -7,6 +7,7 @@ import NoAlert from "./components/NoAlert";
 import LoadingAlert from "./components/LoadingAlert";
 import Hero from "./components/Hero";
 import Error500 from "./components/Error500";
+import Fotter from "./components/Fotter";
 
 function App() {
   function setLoadingState(newLoadingState) {
@@ -28,53 +29,50 @@ function App() {
   };
 
   return (
-    <main className="relative">
-      <Header />
-      <Hero />
-      <Search
-        onPersonData={SetPersonData}
-        onERAsegData={SetERAsegData}
-        onUserStatus={handleUserStatus}
-        onERAsegStatus={setERAsegStatus}
-        onShowERAsegCard={setShowERAsegCard}
-        setLoadingState={setLoadingState}
-      />
-      <div className="flex w-full justify-center">
-        {loading && <LoadingAlert />}
-      </div>
-      <div>
-        {UserStatus === 200 ? (
-          <div>
-            <div className="flex items-center justify-center">
-              <OkAlert />
+    <>
+      <main className="realtive">
+        <Header />
+        <Hero />
+        <Search
+          onPersonData={SetPersonData}
+          onERAsegData={SetERAsegData}
+          onUserStatus={handleUserStatus}
+          onERAsegStatus={setERAsegStatus}
+          onShowERAsegCard={setShowERAsegCard}
+          setLoadingState={setLoadingState}
+        />
+        <div className="flex w-full justify-center">
+          {loading && <LoadingAlert />}
+        </div>
+        <div>
+          {UserStatus === 200 ? (
+            <div>
+              <div className="flex items-center justify-center">
+                <OkAlert />
+              </div>
+              <div className="flex justify-center">
+                <UserCard
+                  PersonData={PersonData}
+                  UserStatus={UserStatus}
+                  ERAsegData={ERAsegData}
+                  ERAsegStatus={ERAsegStatus}
+                  showERAsegCard={showERAsegCard}
+                />
+              </div>
             </div>
-            <div className="flex justify-center">
-              <UserCard
-                PersonData={PersonData}
-                UserStatus={UserStatus}
-                ERAsegData={ERAsegData}
-                ERAsegStatus={ERAsegStatus}
-                showERAsegCard={showERAsegCard}
-              />
+          ) : UserStatus === 204 ? (
+            <div className="flex w-full justify-center">
+              <NoAlert />
             </div>
-          </div>
-        ) : UserStatus === 204 ? (
-          <div className="flex w-full justify-center">
-            <NoAlert />
-          </div>
-        ) : UserStatus === 500 ? (
-          <div className="flex w-full justify-center">
-            <Error500 />
-          </div>
-        ) : null}
-      </div>
-      <div className="m-5  text-blue-gray-500">
-        <h1 className="font-SFpro text-[12px]">v1.1.8</h1>
-        <h1 className="font-SFpro text-[12px]">
-          Developer version for institutional use
-        </h1>
-      </div>
-    </main>
+          ) : UserStatus === 500 ? (
+            <div className="flex w-full justify-center">
+              <Error500 />
+            </div>
+          ) : null}
+        </div>
+        <Fotter />
+      </main>
+    </>
   );
 }
 

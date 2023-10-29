@@ -31,7 +31,7 @@ function CustomDropdown({ onChange }) {
     >
       <div
         id="customSelect"
-        className="flex justify-end items-center px-4 py-2 bg-white cursor-pointer font-SFpro text-[16px] text-blue-gray-700"
+        className="flex justify-end items-center px-4 py-2 bg-[#F6F6F6] cursor-pointer font-SFpro text-[16px] text-blue-gray-700"
       >
         <span
           className={selectedOption ? "text-blue-gray-700" : "text-gray-400"}

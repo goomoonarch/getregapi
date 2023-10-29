@@ -9,7 +9,9 @@ module.exports = withMT({
     extend: {
       fontFamily: {
         SFpro: ["SF-Pro", "sans"],
-        SFproDisplay: ["SF-Pro-display", "sans"]
+        SFproDisplay: ["SF-Pro-display", "sans"],
+        Inter: ["Inter", "sans-serif"],
+        Raleway: ["Raleway", "sans-serif"],
       },
       colors: {
         'regal-gray': '#86868b',

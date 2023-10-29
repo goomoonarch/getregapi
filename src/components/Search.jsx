@@ -97,19 +97,19 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
   };
 
   return (
-    <div className="h-6">
-      <div className="flex items-center justify-center translate-y-[-32px]">
-        <div className="flex px-4 py-2 bg-white rounded-[8px] shadow-sm border w-[390px] sm:w-[490px]">
+    <div className="h-[10px]">
+      <div className="flex items-center justify-center translate-y-[-58px]">
+        <div className="flex h-[48px] bg-[#F6F6F6] rounded-[10px] w-[390px] sm:w-[490px] items-center">
           <CustomDropdown onChange={handleDropdownChange} />
           <div className="flex pl-[4px] items-center justify-center">
-            <div className="h-[35px] w-[1.3px] rounded-lg bg-gray-300" />
+            <div className="h-[35px] w-[1.3px] rounded-lg bg-[#F6F6F6]" />
           </div>
           <input
             placeholder="Número de documento..."
             value={inputValue}
             onChange={handleInputChange}
             onKeyDown={handleKeyDown}
-            className="flex-1 px-4 py-2 text-blue-gray-700 focus:outline-none font-SFpro"
+            className="flex-1 px-4 py-2 bg-[#F6F6F6] text-blue-gray-700 focus:outline-none font-SFpro"
           />
           {inputValue && (
             <button onClick={clearInput} className="mr-2">
@@ -117,7 +117,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
-                className="w-5 fill-blue-gray-600 hover:fill-blue-gray-700"
+                className="w-5 fill-blue-gray-600 hover:fill-blue-gray-700 animate-jump-in animate-duration-200"
               >
                 <path
                   fillRule="evenodd"
@@ -127,7 +127,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
               </svg>
             </button>
           )}
-          <button onClick={handleButtonClick}>
+          <button onClick={handleButtonClick} className="pr-[14px]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
