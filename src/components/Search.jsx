@@ -109,7 +109,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
             value={inputValue}
             onChange={handleInputChange}
             onKeyDown={handleKeyDown}
-            className="flex-1 px-4 py-2 bg-[#F6F6F6] text-blue-gray-700 focus:outline-none font-SFpro min-w-[250px]"
+            className="flex-1 px-4 py-2 bg-[#F6F6F6] text-blue-gray-700 focus:outline-none font-SFpro min-w-[200px]"
           />
           {inputValue && (
             <button onClick={clearInput} className="mr-2">
