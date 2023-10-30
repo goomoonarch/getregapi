@@ -3,7 +3,7 @@ import React from "react";
 const ERAsegWarning = () => {
   return (
     <div>
-      <div className="flex font-SFpro w-[365px] bg-[#EFF6FF] rounded-[8px] p-[6px] mt-4 ">
+      <div className="flex font-SFpro w-[300px] sm:w-[365px] bg-[#EFF6FF] rounded-[10px] p-[6px] mt-4 ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"

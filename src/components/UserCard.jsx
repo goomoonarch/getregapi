@@ -28,35 +28,56 @@ export default function ({ PersonData, ERAsegData, showERAsegCard }) {
   }
 
   function getERAsegClass(estadoAfiliacion) {
-    let className = "";
+    let className = [];
     switch (estadoAfiliacion) {
       case "AC":
-        className =
-          "flex justify-left items-center pl-2 pr-3 py-1 bg-[#F0FDF4] text-[#4ADE80] rounded-md text-[14px] font-regular";
+        className = {
+          chirp:
+            "flex justify-left items-center pl-2 pr-3 py-1 bg-[#F0FDF4] text-[#4ADE80] rounded-md text-[14px] font-regular",
+          text: "text-[#166534]",
+        };
         break;
       case "AF":
-        className =
-          "flex justify-left items-center pl-2 pr-3 py-1 bg-[#FEF2F2] text-[#F87171] rounded-md text-[14px] font-regular";
+        className = {
+          chirp:
+            "flex justify-left items-center pl-2 pr-3 py-1 bg-[#FEF2F2] text-[#F87171] rounded-md text-[14px] font-regular",
+          text: "text-[#B91C1C]",
+        };
         break;
       case "DE":
-        className =
-          "flex justify-left items-center pl-2 pr-3 py-1 text-[#334155] bg-[#F1F5F9] rounded-md text-[14px] font-regular";
+        className = {
+          chirp:
+            "flex justify-left items-center pl-2 pr-3 py-1 text-[#334155] bg-[#F1F5F9] rounded-md text-[14px] font-regular",
+          text: "text-blue-gray-700",
+        };
         break;
       case "PL":
-        className =
-          "flex justify-left items-center pl-2 pr-3 py-1 bg-[#F0FDF4] text-[#4ADE80] rounded-md text-[14px] font-regular";
+        className = {
+          chirp:
+            "flex justify-left items-center pl-2 pr-3 py-1 bg-[#F0FDF4] text-[#4ADE80] rounded-md text-[14px] font-regular",
+          text: "text-[#166534]",
+        };
         break;
       case "RE":
-        className =
-          "flex justify-left items-center pl-2 pr-3 py-1 text-[#334155] bg-[#F1F5F9] rounded-md text-[14px] font-regular";
+        className = {
+          chirp:
+            "flex justify-left items-center pl-2 pr-3 py-1 text-[#334155] bg-[#F1F5F9] rounded-md text-[14px] font-regular",
+          text: "text-blue-gray-700",
+        };
         break;
       case "SM":
-        className =
-          "flex justify-left items-center pl-2 pr-3 py-1 text-[#FACC15] bg-[#FEFCE8] rounded-md text-[14px] font-regular";
+        className = {
+          chirp:
+            "flex justify-left items-center pl-2 pr-3 py-1 text-[#FACC15] bg-[#FEFCE8] rounded-md text-[14px] font-regular",
+          text: "text-[#854D0E]",
+        };
         break;
       case "SD":
-        className =
-          "flex justify-left items-center pl-2 pr-3 py-1 text-[#FACC15] bg-[#FEFCE8] rounded-md text-[14px] font-regular";
+        className = {
+          chirp:
+            "flex justify-left items-center pl-2 pr-3 py-1 text-[#FACC15] bg-[#FEFCE8] rounded-md text-[14px] font-regular",
+          text: "text-[#854D0E]",
+        };
         break;
     }
     return className;
@@ -188,17 +209,22 @@ export default function ({ PersonData, ERAsegData, showERAsegCard }) {
             {PersonData.sexo === "M" ? "Masculino" : "Femenino"}
           </h1>
         </div>
-        <div className="bg-blue-gray-600s pl-[40px] h-[2px]"></div>
+
         {/*<---------------- ERAsegSubComponent!---------------------->*/}
         {showERAsegCard ? (
           <>
+            <div className="pt-3 pl-10">
+              <div className="bg-blue-gray-200 h-[1px] w-[250px] sm:w-[300px]" />
+            </div>
             {ERAsegData.codigoRespuesta === "01" ? (
-              <div className="pt-3 pb-4">
+              <div className="pt-0 pb-4">
                 <div className="flex pt-2 px-[4px] items-center">
                   <div className="pl-[26px]"></div>
                   <div className="pl-2 pb-1">
                     <div
-                      className={getERAsegClass(ERAsegData.estadoAfiliacion)}
+                      className={
+                        getERAsegClass(ERAsegData.estadoAfiliacion).chirp
+                      }
                     >
                       <div>
                         <svg
@@ -212,7 +238,11 @@ export default function ({ PersonData, ERAsegData, showERAsegCard }) {
                           <path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"></path>
                         </svg>
                       </div>
-                      <div className="pl-1">
+                      <div
+                        className={
+                          getERAsegClass(ERAsegData.estadoAfiliacion).text
+                        }
+                      >
                         {getERAsegState(
                           ERAsegData.estadoAfiliacion,
                           ERAsegState
