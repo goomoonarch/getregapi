@@ -56,7 +56,7 @@ function CustomDropdown({ onChange }) {
       {isOpen && (
         <div
           id="dropdown"
-          className={"absolute w-full font-SFpro text-center text-[16px] text-blue-gray-700 px-[10px] py-[8px] bg-white rounded-[8px] shadow-md translate-y-[18px] animate-fade-down animate-duration-[150ms] animate-ease-in"}
+          className={"absolute w-full font-SFpro text-center text-[16px] text-blue-gray-700 px-[10px] py-[8px] bg-[#F6F6F6] rounded-[8px] translate-y-[18px] animate-fade-down animate-duration-[150ms] animate-ease-in"}
         >
           <div
             onClick={() => handleOptionClick("CC")}

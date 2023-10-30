@@ -94,7 +94,7 @@ export default function ({ PersonData, ERAsegData, showERAsegCard }) {
 
   return (
     <div>
-      <div className="flex flex-col items-start w-[400px] font-SFpro justify-center rounded-[10px] bg-[#f6f6f64a] p-4 ">
+      <div className="flex flex-col items-start w-[350px] sm:w-[400px] font-SFpro justify-center rounded-[10px] bg-[#f6f6f64a] p-4 ">
         <div className="flex pt-2 px-[4px] items-center">
           <div className="pr-[4px]">
             <svg

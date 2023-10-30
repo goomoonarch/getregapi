@@ -2,7 +2,7 @@ import React from "react";
 
 function LoadingAlert() {
   return (
-    <div className="flex font-SFpro bg-[#efeff25e] rounded-[8px] px-[20px] py-[10px] m-4 w-[450px]">
+    <div className="flex font-SFpro bg-[#efeff25e] rounded-[10px] px-[20px] py-[10px] mb-5 w-[350px] justify-between sm:w-[450px]">
       <div>
         <div className="flex justify-center items-center">
           <svg

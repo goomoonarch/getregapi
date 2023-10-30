@@ -3,7 +3,7 @@ import MoonArchLogo from "../assets/moonarch_logo_black.png";
 
 function Header() {
   return (
-    <div className="sm:scale-[1.2] sm:p-2">
+    <div className="sm:scale-[1.2] sm:p-2 pt-2">
       <div className="flex justify-center">
         <h1 className="text-[40px] font-bold font-Inter text-[#1D1D1F]">
           Moon

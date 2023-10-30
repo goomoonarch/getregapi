@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import { Search } from "./components/Search";
 import { useState } from "react";
 import UserCard from "./components/UserCard";
-import OkAlert from "./components/okAlert";
+import OkAlert from "./components/OkAlert";
 import NoAlert from "./components/NoAlert";
 import LoadingAlert from "./components/LoadingAlert";
 import Hero from "./components/Hero";

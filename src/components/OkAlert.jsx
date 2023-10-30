@@ -2,7 +2,7 @@ import React from "react";
 function OkAlert() {
   return (
     <div>
-      <div className="flex font-SFpro bg-[#F0FDF4] rounded-[8px] px-[20px] py-[10px] m-4 min-w-[370px] justify-between">
+      <div className="flex font-SFpro bg-[#F0FDF4] rounded-[10px] px-[10px] py-[10px] mb-5 w-[350px] justify-between sm:w-[450px]">
         <div className="flex justify-start">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ function OkAlert() {
           </h1>
         </div>
 
-        <button className="hover:bg-[#4ade801d] flex h-[24px] w-[24px] rounded-[4px] items-center justify-end">
+        <button className="hover:bg-[#4ade801d] flex h-[24px] w-[24px] rounded-[4px] items-center justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
