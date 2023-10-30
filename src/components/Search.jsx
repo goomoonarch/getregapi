@@ -99,7 +99,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
   return (
     <div className="h-[10px]">
       <div className="flex items-center justify-center translate-y-[-58px]">
-        <div className="flex h-[48px] bg-[#F6F6F6] rounded-[10px] w-[390px] sm:w-[490px] items-center">
+        <div className="flex h-[48px] bg-[#F6F6F6] rounded-[10px] w-[350px] sm:w-[490px] items-center">
           <CustomDropdown onChange={handleDropdownChange} />
           <div className="flex pl-[4px] items-center justify-center">
             <div className="h-[35px] w-[1.3px] rounded-lg bg-[#F6F6F6]" />
