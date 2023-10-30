@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      <main className="realtive">
+      <main className="realtive scale-95 sm:scale-100">
         <Header />
         <Hero />
         <Search
