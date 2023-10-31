@@ -99,7 +99,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
   };
 
   return (
-    <div className="h-[10px]">
+    <div className="h-[0px]">
       <div className="flex items-center justify-center translate-y-[-58px]">
         <div className="flex h-[48px] bg-[#F6F6F6] rounded-[10px] w-[350px] sm:w-[490px] items-center">
           <CustomDropdown onChange={handleDropdownChange} />
@@ -111,7 +111,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
             value={inputValue}
             onChange={handleInputChange}
             onKeyDown={handleKeyDown}
-            className="flex-1 px-4 py-2 bg-[#F6F6F6] text-blue-gray-700 focus:outline-none font-SFpro min-w-[200px]"
+            className="flex-1 px-4 py-2 bg-[#F6F6F6] text-blue-gray-700 focus:outline-none font-SFpro min-w-[150px]"
           />
           {inputValue && (
             <button onClick={clearInput} className="mr-2">

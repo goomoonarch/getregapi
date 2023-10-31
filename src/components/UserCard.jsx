@@ -122,7 +122,7 @@ export default function ({
 
   return (
     <div>
-      <div className="flex flex-col items-start w-[350px] sm:w-[400px] font-SFpro justify-center rounded-[10px] bg-[#f6f6f64a] p-4 ">
+      <div className="flex flex-col items-start w-[350px] sm:w-[400px] font-SFpro justify-center rounded-[10px] bg-[#f6f6f64a] p-4">
         {/*<---------------- UserCardSubComponent!---------------------->*/}
         {showUserCard ? (
           <>
@@ -224,7 +224,7 @@ export default function ({
           <UserSqueleton />
         )}
         <div className="pt-3 pl-10">
-          <div className="bg-blue-gray-200 h-[1px] w-[250px] sm:w-[300px]" />
+          <div className="bg-blue-gray-200 h-[2px] w-[250px] sm:w-[300px] rounded-full" />
         </div>
         {/*<---------------- ERAsegSubComponent!---------------------->*/}
         {showERAsegCard ? (
