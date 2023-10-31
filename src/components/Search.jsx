@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import CustomDropdown from "./CustomSelect";
 
-export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatus, setLoadingState, onShowERAsegCard }) => {
+export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatus, setLoadingState, onShowERAsegCard, onShowUserCard }) => {
   const [selectedValue, setSelectedValue] = useState("");
   const [inputValue, setInputValue] = useState("");
   const [Error, setError] = useState("");
@@ -18,6 +18,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
     
     setLoadingState(true);
     onShowERAsegCard(false); 
+    onShowUserCard(false);
 
     var requestOptions = {
       method: "GET",
@@ -37,6 +38,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
       .then((result) => {
 
         onPersonData(result);
+        onShowUserCard(true);
 
         var myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
