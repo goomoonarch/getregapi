@@ -1,24 +1,29 @@
 import React, { useState } from "react";
 import CustomDropdown from "./CustomSelect";
 
-export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatus, setLoadingState, onShowERAsegCard, onShowUserCard }) => {
+export const Search = ({
+  onPersonData,
+  onERAsegData,
+  onUserStatus,
+  onERAsegStatus,
+  setLoadingState,
+  onShowERAsegCard,
+  onShowUserCard,
+  onShowERAsegWarning,
+}) => {
   const [selectedValue, setSelectedValue] = useState("");
   const [inputValue, setInputValue] = useState("");
-  const [Error, setError] = useState("");
-
-
 
   const handleDropdownChange = (value) => {
     setSelectedValue(value);
   };
 
-  
-
   const fetchData = () => {
-    
+
     setLoadingState(true);
-    onShowERAsegCard(false); 
+    onShowERAsegCard(false);
     onShowUserCard(false);
+    onShowERAsegWarning(false);
 
     var requestOptions = {
       method: "GET",
@@ -30,13 +35,10 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
       requestOptions
     )
       .then((response) => {
-
         onUserStatus(response.status);
         return response.json();
-
       })
       .then((result) => {
-
         onPersonData(result);
         onShowUserCard(true);
 
@@ -54,15 +56,17 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
           headers: myHeaders,
           body: raw,
           redirect: "follow",
+          origin: "https://paiwebservices.paiweb.gov.co:8081"
         };
         return fetch(
-          "https://proxy-cors-service.onrender.com/api/interoperabilidad/GetEPSPersonaMSS",
+          /*"https://proxy-cors-service.onrender.com/api/interoperabilidad/GetEPSPersonaMSS",*/
+          "https://paiwebservices.paiweb.gov.co:8081/api/interoperabilidad/GetEPSPersonaMSS",
           requestOptionsSecondFetch
         );
       })
       .then((response) => {
         setLoadingState(false);
-        return response.json();
+        return response.json();     
       })
       .then((resultSecondFetch) => {
         onERAsegData(resultSecondFetch);
@@ -72,15 +76,17 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
         onShowERAsegCard(true);
       })
       .catch((error) => {
-        console.log("error", error);
-        setError("Hubo un error al obtener los datos.");
+        if (error.message === "Failed to fetch") {
+          setLoadingState(false);
+          onShowERAsegCard(false);
+          onShowERAsegWarning(true);
+        }
       });
   };
 
   const handleKeyDown = (event) => {
     if (event.key === "Enter") {
       fetchData();
-      
     }
   };
 
@@ -90,8 +96,6 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
 
   const handleButtonClick = () => {
     fetchData();
-    
-
   };
 
   const clearInput = () => {
@@ -101,7 +105,7 @@ export const Search = ({ onPersonData, onERAsegData, onUserStatus, onERAsegStatu
   return (
     <div className="h-[0px]">
       <div className="flex items-center justify-center translate-y-[-58px]">
-        <div className="flex h-[48px] bg-[#F6F6F6] rounded-[10px] w-[350px] sm:w-[490px] items-center">
+        <div className="flex h-[48px] bg-[#F6F6F6] rounded-[8px] w-[350px] sm:w-[490px] items-center">
           <CustomDropdown onChange={handleDropdownChange} />
           <div className="flex pl-[4px] items-center justify-center">
             <div className="h-[35px] w-[1.3px] rounded-lg bg-[#F6F6F6]" />

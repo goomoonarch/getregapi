@@ -12,7 +12,9 @@ export default function ({
   ERAsegData,
   showERAsegCard,
   showUserCard,
+  showERAsegWarning,
 }) {
+  console.log(showERAsegWarning);
   function getMunicipioName(codigoDivipola) {
     const municipio = Divipola.find(
       (municipio) => municipio.cod_mpio === codigoDivipola
@@ -314,7 +316,7 @@ export default function ({
           </>
         ) : (
           <ERAsegSqueleton />
-        )}
+        ) }
       </div>
     </div>
   );

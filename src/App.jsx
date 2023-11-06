@@ -8,13 +8,12 @@ import LoadingAlert from "./components/LoadingAlert";
 import Hero from "./components/Hero";
 import Error500 from "./components/Error500";
 import Fotter from "./components/Fotter";
-import UserSqueleton from "./components/UserSqueleton";
+import ERAsegWarning from "./components/ERAsegWarning";
 
 function App() {
   function setLoadingState(newLoadingState) {
     setLoading(newLoadingState);
   }
-
   const [PersonData, SetPersonData] = useState([]);
   const [ERAsegData, SetERAsegData] = useState([]);
   const [UserStatus, SetUserStatus] = useState("");
@@ -22,6 +21,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [showERAsegCard, setShowERAsegCard] = useState(false);
   const [showUserCard, setShowUserCard] = useState(false);
+  const [showERAsegWarning, setShowERAsegWarning] = useState(false);
 
   const handleUserStatus = (status) => {
     SetUserStatus(status);
@@ -43,9 +43,11 @@ function App() {
           onShowERAsegCard={setShowERAsegCard}
           onShowUserCard={setShowUserCard}
           setLoadingState={setLoadingState}
+          onShowERAsegWarning={setShowERAsegWarning}
         />
         <div className="flex w-full justify-center">
           {loading && <LoadingAlert />}
+          {showERAsegWarning && <ERAsegWarning />}
         </div>
         <div>
           {UserStatus === 200 ? (
@@ -61,6 +63,7 @@ function App() {
                   ERAsegStatus={ERAsegStatus}
                   showERAsegCard={showERAsegCard}
                   showUserCard={showUserCard}
+                  showERAsegWarning
                 />
               </div>
             </div>
@@ -72,7 +75,7 @@ function App() {
             <div className="flex w-full justify-center">
               <Error500 />
             </div>
-          ) : null}
+          ) :  null }
         </div>
         <Fotter />
       </main>
