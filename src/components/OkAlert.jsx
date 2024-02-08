@@ -1,5 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+
 function OkAlert() {
+  const [close, setClose] = useState(false);
+
+  const handleClose = (close) => {
+    setClose(close);
+    console.log(close);
+  };
   return (
     <div>
       <div className="flex font-SFpro bg-[#F0FDF4] rounded-[10px] px-[10px] py-[10px] mb-5 w-[350px] justify-between sm:w-[450px]">
@@ -21,7 +28,10 @@ function OkAlert() {
           </h1>
         </div>
 
-        <button className="hover:bg-[#4ade801d] flex h-[24px] w-[24px] rounded-[4px] items-center justify-center">
+        <button
+          className="hover:bg-[#4ade801d] flex h-[24px] w-[24px] rounded-[4px] items-center justify-center"
+          onClick={() => handleClose(true)}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

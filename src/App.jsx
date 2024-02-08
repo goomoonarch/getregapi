@@ -63,7 +63,6 @@ function App() {
                   ERAsegStatus={ERAsegStatus}
                   showERAsegCard={showERAsegCard}
                   showUserCard={showUserCard}
-                  showERAsegWarning
                 />
               </div>
             </div>
