@@ -16,7 +16,6 @@ export const Search = ({
 
   const handleDropdownChange = (value) => {
     setSelectedValue(value);
-    console.log(value);
   };
 
   const fetchData = () => {

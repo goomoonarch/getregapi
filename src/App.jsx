@@ -31,7 +31,7 @@ function App() {
   };
 
   return (
-    <>
+    <div>
       <main className="realtive">
         <Header />
         <Hero />
@@ -79,7 +79,7 @@ function App() {
         </div>
         <Fotter />
       </main>
-    </>
+    </div>
   );
 }
 

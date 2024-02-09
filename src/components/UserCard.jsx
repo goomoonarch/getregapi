@@ -14,7 +14,6 @@ export default function ({
   showUserCard,
   showERAsegWarning,
 }) {
-  console.log(showERAsegWarning);
   function getMunicipioName(codigoDivipola) {
     const municipio = Divipola.find(
       (municipio) => municipio.cod_mpio === codigoDivipola
@@ -114,6 +113,7 @@ export default function ({
   }
 
   function toPascalCase(str) {
+    console.log(str);
     return str.replace(
       /([a-zA-ZñÑáéíóúÁÉÍÓÚüÜ])([a-zA-ZñÑáéíóúÁÉÍÓÚüÜ]*)/g,
       function (g0, g1, g2) {
