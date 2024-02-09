@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 
-function CustomDropdown({ onChange }) {
+function CustomDropdown({onChange}) {
   const [isOpen, setIsOpen] = useState(false);
   const [selectedOption, setSelectedOption] = useState(null);
   const wrapperRef = useRef(null);

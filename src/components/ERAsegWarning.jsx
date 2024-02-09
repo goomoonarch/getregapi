@@ -1,8 +1,6 @@
-import React from "react";
-
 const ERAsegWarning = () => {
   return (
-    <div>
+    <div className="z-[-10]">
       <div className="flex font-SFpro bg-[#FEFCE8] rounded-[10px] px-[10px] py-[10px] mb-5 w-[350px] justify-between sm:w-[450px]">
         <div className="flex justify-start">
           <svg
@@ -24,10 +22,9 @@ const ERAsegWarning = () => {
 
         <a
           href="https://chrome.google.com/webstore/detail/cors-unblock/lfhmikememgdcahcdlaciloancbhjino?hl=es"
-          target="_blank"
-        >
+          target="_blank" rel="noreferrer"
+        />
           <button
-            a="https://www.google.com"
             className="hover:text-[#9f5843] text-[#A1624F] flex justify-center items-center"
           >
             <h1 className="text-[15px] pr-[1px]">Detalles</h1>
@@ -44,7 +41,6 @@ const ERAsegWarning = () => {
               />
             </svg>
           </button>
-        </a>
       </div>
     </div>
   );

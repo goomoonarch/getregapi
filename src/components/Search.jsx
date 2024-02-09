@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import CustomDropdown from "./CustomSelect";
 
 export const Search = ({
@@ -16,6 +16,7 @@ export const Search = ({
 
   const handleDropdownChange = (value) => {
     setSelectedValue(value);
+    console.log(value);
   };
 
   const fetchData = () => {
