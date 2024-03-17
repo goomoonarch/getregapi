@@ -12,6 +12,14 @@ export const CustomDropdown = ({ onChange, enterKey }) => {
     onChange(id);
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      enterKey(true);
+      onChange(selectedOption);
+    } else return;
+  };
+
   const handleClickOutside = (event) => {
     if (wrapperRef.current && !wrapperRef.current.contains(event.target)) {
       setIsOpen(false);
@@ -30,9 +38,7 @@ export const CustomDropdown = ({ onChange, enterKey }) => {
       className="w-[68px] px-[2px] focus:outline-none"
       onClick={() => setIsOpen(!isOpen)}
       tabIndex={0}
-      onKeyDown={(e) =>
-        e.key === "Enter" ? enterKey(true) /*-> Fetching de datos devuelve un prop boleano*/ : null
-      }
+      onKeyDown={handleKeyPress}
       ref={wrapperRef} //----> indica la referencia a este div
     >
       <div

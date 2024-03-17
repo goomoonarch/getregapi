@@ -4,8 +4,14 @@ import PropTypes from "prop-types";
 export const InputData = ({ onChange, enterKey }) => {
   const [docNumber, setDocNumber] = useState("");
   const onInputChange = ({ target }) => {
-    onChange(target.value);
     setDocNumber(target.value);
+    onChange(target.value);
+  };
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      enterKey(true);
+      onChange(docNumber);
+    } else return;
   };
 
   return (
@@ -13,14 +19,10 @@ export const InputData = ({ onChange, enterKey }) => {
       <input
         type="text"
         placeholder="Número de documento"
-        className="bg-[#F6F6F6] pl-2 focus:outline-none font-Inter font-light text-gray-700"
+        className="bg-[#F6F6F6] px-2 focus:outline-none font-Inter font-light text-gray-700 w-[280px]"
         value={docNumber}
         onChange={onInputChange}
-        onKeyDown={(e) =>
-          e.key === "Enter"
-            ? enterKey(true) /*-> Fetching de datos devuelve un prop boleano*/
-            : null
-        }
+        onKeyDown={handleKeyPress}
       />
       {docNumber && (
         <button onClick={() => setDocNumber("")}>
