@@ -2,7 +2,7 @@ import malog from "../assets/new_ma_logo.png";
 export const HeroBar = () => {
   return (
     <div>
-      <div className="flex justify-center">
+      <div className="flex justify-center cursor-default">
         <div className="flex">
           <h1 className="text-[40px] font-bold font-Inter text-[#1D1D1F]">
             Moon

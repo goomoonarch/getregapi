@@ -9,5 +9,9 @@ export const getDataReg = async (tid, document) => {
     requestOptions
   );
   const data = await response.json();
-  return data;
+  const isLoading = response.status;
+  return {
+    dataResponse: data,
+    isLoading: isLoading,
+  };
 };

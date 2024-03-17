@@ -1,13 +1,26 @@
 import { useEffect, useState } from "react";
 import { CustomDropdown } from "./CustomDropdown";
 import { InputData } from "./InputData";
+import { ButtonSearch } from "./ButtonSearch";
+import { getDataReg } from "../utils/getDataReg";
 
 export const SearchBar = () => {
   const [tid, setTid] = useState("");
   const [docNumber, setDocNumber] = useState("");
   const [onKey, setOnKey] = useState(false);
+  const [userData, setUserData] = useState([]);
 
-  console.log(tid, docNumber, onKey);
+  useEffect(() => {
+    const fetchData = async () => {
+      if (onKey === true) {
+        const { dataResponse, isLoading } = await getDataReg(tid, docNumber);
+        console.log(dataResponse, isLoading);
+        setUserData(dataResponse);
+      }
+    };
+
+    fetchData();
+  }, [onKey,tid, docNumber]);
 
   useEffect(() => {
     setOnKey(false);
@@ -32,7 +45,11 @@ export const SearchBar = () => {
             setOnKey(onKey);
           }}
         />
-        {/*<ButtonSearch />*/}
+        <ButtonSearch
+          enterKey={(onKey) => {
+            setOnKey(onKey);
+          }}
+        />
       </div>
     </div>
   );
