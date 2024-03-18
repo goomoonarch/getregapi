@@ -4,23 +4,22 @@ import { InputData } from "./InputData";
 import { ButtonSearch } from "./ButtonSearch";
 import { getDataReg } from "../utils/getDataReg";
 
-export const SearchBar = () => {
+// eslint-disable-next-line react/prop-types
+export const SearchBar = ({onUserData}) => {
   const [tid, setTid] = useState("");
   const [docNumber, setDocNumber] = useState("");
   const [onKey, setOnKey] = useState(false);
-  const [userData, setUserData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       if (onKey === true) {
         const { dataResponse, isLoading } = await getDataReg(tid, docNumber);
-        console.log(dataResponse, isLoading);
-        setUserData(dataResponse);
+        onUserData({dataResponse, isLoading, onKey});
       }
     };
 
     fetchData();
-  }, [onKey,tid, docNumber]);
+  }, [onKey]);
 
   useEffect(() => {
     setOnKey(false);
