@@ -12,7 +12,7 @@ export const App = () => {
       <HeroBar />
       <SearchBar onUserData={(userData) => setFromSearch(userData)} />
       {(onKey && !isReady) && <LoadingBar />} {/* write the fuking ! when you finish */}
-      {isReady && <UserCard userInfo = {[dataResponse, statusCode]}/>}
+      {isReady && <UserCard userInfo = {{dataResponse, statusCode}}/>}
     </div>
   );
 };

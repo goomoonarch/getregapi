@@ -1,5 +1,5 @@
 export const getDataReg = async (tid, document) => {
-  if ((tid || document) === "") {
+  if ((tid && document) === "") {
     return {
       dataResponse: null,
       statusCode: 0,

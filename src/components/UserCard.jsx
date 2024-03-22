@@ -1,5 +1,6 @@
-// eslint-disable-next-line react/prop-types
-export const UserCard = ({ userInfo }) => {
-  console.log(userInfo);
-  return <div>{JSON.stringify(userInfo)}</div>;
+/* eslint-disable react/prop-types */
+export const UserCard = ({userInfo}) => {
+  const {dataResponse, statusCode} = userInfo;
+  console.log(dataResponse, statusCode);
+  return <div>N</div>;
 };
