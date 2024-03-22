@@ -31,7 +31,7 @@ export const InputData = ({ onChange, enterKey }) => {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-5 fill-gray-600 hover:fill-gray-500 animate-jump-in animate-duration-200"
+              className="w-5 fill-[#546E7A] hover:fill-[#455A64] animate-jump-in animate-duration-200"
             >
               <path
                 fillRule="evenodd"

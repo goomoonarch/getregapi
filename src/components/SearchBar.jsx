@@ -5,25 +5,37 @@ import { ButtonSearch } from "./ButtonSearch";
 import { getDataReg } from "../utils/getDataReg";
 
 // eslint-disable-next-line react/prop-types
-export const SearchBar = ({onUserData}) => {
+export const SearchBar = ({ onUserData }) => {
   const [tid, setTid] = useState("");
   const [docNumber, setDocNumber] = useState("");
   const [onKey, setOnKey] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
-      if (onKey === true) {
-        const { dataResponse, isLoading } = await getDataReg(tid, docNumber);
-        onUserData({dataResponse, isLoading, onKey});
+      if (onKey) {
+        onUserData({
+          onKey,
+          isReady: false,
+          dataResponse: null,
+          statusCode: null,
+        });
+        try {
+          const { dataResponse, statusCode } = await getDataReg(tid, docNumber);
+          onUserData({ dataResponse, statusCode, onKey, isReady: true });
+        } catch (e) {
+          console.error("error fetching data:", e);
+          onUserData({
+            dataResponse: null,
+            statusCode: e,
+            onKey,
+            isReady: true,
+          });
+        }
       }
     };
-
     fetchData();
-  }, [onKey]);
-
-  useEffect(() => {
     setOnKey(false);
-  }, [tid, docNumber]);
+  }, [onKey]);
 
   return (
     <div className="flex justify-center">

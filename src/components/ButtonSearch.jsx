@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 export const ButtonSearch = ({enterKey}) => {
   return (
-    <div className="flex pl-1 pr-2">
+    <div className="flex pl-1 pr-[14px]">
       <button onClick={() => enterKey(true)}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +10,7 @@ export const ButtonSearch = ({enterKey}) => {
           viewBox="0 0 24 24"
           strokeWidth="2.5"
           stroke="currentColor"
-          className="h-5 w-5 stroke-gray-600 hover:stroke-[#b3b4b9]"
+          className="h-5 w-5 stroke-[#B3B4B9] hover:stroke-[#86878b]"
         >
           <path
             strokeLinecap="round"
