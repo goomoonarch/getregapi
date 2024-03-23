@@ -6,6 +6,6 @@ export const UserCard = ({userInfo}) => {
   console.log(dataResponse, statusCode);
 
   return <div>
-    {statusCode && <StatusUserInfo />}
+    {statusCode && <StatusUserInfo statusCode = {statusCode} />}
   </div>;
 };
