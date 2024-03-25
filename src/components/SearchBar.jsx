@@ -3,6 +3,7 @@ import { CustomDropdown } from "./CustomDropdown";
 import { InputData } from "./InputData";
 import { ButtonSearch } from "./ButtonSearch";
 import { getDataReg } from "../utils/getDataReg";
+import { getERAseg } from "../utils/getERAseg";
 
 // eslint-disable-next-line react/prop-types
 export const SearchBar = ({ onUserData }) => {
@@ -22,6 +23,7 @@ export const SearchBar = ({ onUserData }) => {
         try {
           const { dataResponse, statusCode } = await getDataReg(tid, docNumber);
           onUserData({ dataResponse, statusCode, onKey, isReady: true });
+          statusCode === 200 ? getERAseg({dataResponse}) : null; //---> fetching the ERAseg data in the SearchBar!
         } catch (e) {
           console.error("error fetching data:", e);
           onUserData({
