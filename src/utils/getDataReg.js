@@ -14,8 +14,9 @@ export const getDataReg = async (tid, document) => {
       requestOptions
     );
     let data;
-    response.status === 200 ? (data = await response.json()) : null;
     const status = response.status;
+    status === 200 ? (data = await response.json()) : null;
+
     return {
       dataResponse: data,
       statusCode: status,

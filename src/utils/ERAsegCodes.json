@@ -1,0 +1,608 @@
+[
+  {
+    "id": 64,
+    "codigo": "EMP017",
+    "nombre": "Colmédica"
+  },
+  {
+    "id": 65,
+    "codigo": "EPSS02",
+    "nombre": "SALUD TOTAL S.A. E.P.S. CM"
+  },
+  {
+    "id": 67,
+    "codigo": "EPS005",
+    "nombre": "SANITAS EPS"
+  },
+  {
+    "id": 69,
+    "codigo": "EPS008",
+    "nombre": "Compensar"
+  },
+  {
+    "id": 71,
+    "codigo": "EPS010",
+    "nombre": "EPS SURA"
+  },
+  {
+    "id": 73,
+    "codigo": "EPS012",
+    "nombre": "COMFENALCO VALLE EPS"
+  },
+  {
+    "id": 74,
+    "codigo": "EPS013",
+    "nombre": "Saludcoop"
+  },
+  {
+    "id": 77,
+    "codigo": "EPS016",
+    "nombre": "COOMEVA EPS S A"
+  },
+  {
+    "id": 78,
+    "codigo": "EPS017",
+    "nombre": "FAMISANAR E.P.S. LTDA - CAFAM - COLSUBSIDIO"
+  },
+  {
+    "id": 79,
+    "codigo": "EPS018",
+    "nombre": "SERVICIO OCCIDENTAL DE SALUD SA SOS"
+  },
+  {
+    "id": 80,
+    "codigo": "EPS023",
+    "nombre": "Cruz Blanca"
+  },
+  {
+    "id": 83,
+    "codigo": "EPS033",
+    "nombre": "SALUDVIDA S.A. EPS"
+  },
+  {
+    "id": 86,
+    "codigo": "EAS016",
+    "nombre": "Empresas Públicas de Medellín"
+  },
+  {
+    "id": 87,
+    "codigo": "EPS027",
+    "nombre": "Fondo de Pasivo Social de Ferrocarriles Nacionales de Colombia"
+  },
+  {
+    "id": 88,
+    "codigo": "EPS037",
+    "nombre": "LA NUEVA EPS S.A."
+  },
+  {
+    "id": 90,
+    "codigo": "EPS039",
+    "nombre": "GOLDEN GROUP S.A. EPS"
+  },
+  {
+    "id": 102,
+    "codigo": "EPSIC1",
+    "nombre": "ASOCIACIÓN DE CABILDOS INDÍGENAS DEL CESAR Y GUAJIRA-DUSAKAWI A.R.S.I. -CM"
+  },
+  {
+    "id": 215,
+    "codigo": "EAS027",
+    "nombre": "Fondo de Pasivo Social de Ferrocarriles Nacionales de Colombia"
+  },
+  {
+    "id": 228,
+    "codigo": "EPS001",
+    "nombre": "ALIANSALUD EPS - CM"
+  },
+  {
+    "id": 231,
+    "codigo": "UT-002",
+    "nombre": "Comfamiliares En Salud UD UT"
+  },
+  {
+    "id": 232,
+    "codigo": "CCF054",
+    "nombre": "Comfenalco Cundinamarca - Caja De Compensación Familiar De Fenalco  Comfenalco Cundinamarca"
+  },
+  {
+    "id": 233,
+    "codigo": "UT-004",
+    "nombre": "Comfama UT- Convenio Camacol"
+  },
+  {
+    "id": 238,
+    "codigo": "EPS040",
+    "nombre": "SAVIA SALUD E.P.S. -CM"
+  },
+  {
+    "id": 241,
+    "codigo": "ESSC02",
+    "nombre": "EMPRESA MUTUAL PARA EL DESARROLLO INTEGRAL  DE LA SALUD E.S.S. EMDISALUD ESS-CM"
+  },
+  {
+    "id": 242,
+    "codigo": "ESSC07",
+    "nombre": "Asociación Mutual SER Empresa Solidaria de Salud ESS-CM"
+  },
+  {
+    "id": 243,
+    "codigo": "ESSC18",
+    "nombre": "ASOCIACIÓN MUTUAL EMPRESA SOLIDARIA DE SALUD DE NARIÑO E.S.S. EMSSANAR E.S.S.-CM"
+  },
+  {
+    "id": 244,
+    "codigo": "ESSC33",
+    "nombre": "COOPERATIVA DE SALUD COMUNITARIA-COMPARTA-CM"
+  },
+  {
+    "id": 245,
+    "codigo": "ESSC62",
+    "nombre": "ASOCIACIÓN MUTUAL LA ESPERANZA ASMET  SALUD-CM"
+  },
+  {
+    "id": 246,
+    "codigo": "ESSC76",
+    "nombre": "ASOCIACIÓN MUTUAL BARRIOS UNIDOS DE QUIBDÓ E.S.S.-CM"
+  },
+  {
+    "id": 247,
+    "codigo": "ESSC91",
+    "nombre": "ENTIDAD COOPERATIVA SOL.DE SALUD DEL NORTE DE SOACHA ECOOPSOS-CM"
+  },
+  {
+    "id": 265,
+    "codigo": "EPSC34",
+    "nombre": "CAPITAL SALUD E.P.S. -CM"
+  },
+  {
+    "id": 270,
+    "codigo": "EPS044",
+    "nombre": "MEDIMAS EPS S.A.S"
+  },
+  {
+    "id": 273,
+    "codigo": "EPS041",
+    "nombre": "LA NUEVA EPS S.A.-CM"
+  },
+  {
+    "id": 276,
+    "codigo": "EPSC33",
+    "nombre": "SALUDVIDA S.A .E.P.S -CM"
+  },
+  {
+    "id": 277,
+    "codigo": "EPS045",
+    "nombre": "MEDIMÁS EPS S.A.S. -CM"
+  },
+  {
+    "id": 279,
+    "codigo": "EPSC22",
+    "nombre": "EPS CONVIDA -CM"
+  },
+  {
+    "id": 280,
+    "codigo": "EPS046",
+    "nombre": "FUNDACION SALUD MIA EPS"
+  },
+  {
+    "id": 282,
+    "codigo": "EPSIC5",
+    "nombre": "MALLAMAS EPSI"
+  },
+  {
+    "id": 283,
+    "codigo": "EPSI05",
+    "nombre": "Entidad Promotora de Salud Mallamas EPSI"
+  },
+  {
+    "id": 284,
+    "codigo": "CCFC55",
+    "nombre": "CAJA DE COMPENSACION FAMILIAR CAJACOPI ATLANTICO -CM"
+  },
+  {
+    "id": 285,
+    "codigo": "CCFC33",
+    "nombre": "Comfasucre"
+  },
+  {
+    "id": 286,
+    "codigo": "EPSIC3",
+    "nombre": "Asociación Indígena Del Cauca"
+  },
+  {
+    "id": 287,
+    "codigo": "CCFC50",
+    "nombre": "CAJA DE COMPENSACIÓN FAMILIAR C.C.F. DEL ORIENTE COLOMBIANO - COMFAORIENTE CM"
+  },
+  {
+    "id": 289,
+    "codigo": "CCFC24",
+    "nombre": "CAJA DE COMPENSACIÓN FAMILIAR DEL HUILA - COMFAMILIAR HUILA CM"
+  },
+  {
+    "id": 290,
+    "codigo": "EPSC25",
+    "nombre": "Capresoca E.P.S.-CM"
+  },
+  {
+    "id": 291,
+    "codigo": "CCFC23",
+    "nombre": "CAJA DE COMPENSACIÓN FAMILIAR DE LA GUAJIRA - COMFAGUAJIRA -CM"
+  },
+  {
+    "id": 292,
+    "codigo": "CCFC20",
+    "nombre": "CAJA DE COMPENSACIÓN FAMILIAR DEL CHOCÓ - COMFACHOCO -CM"
+  },
+  {
+    "id": 293,
+    "codigo": "EPSIC6",
+    "nombre": "PIJAOS SALUD EPSI -CM"
+  },
+  {
+    "id": 294,
+    "codigo": "ESSC24",
+    "nombre": "COOSALUD EPS S.A.Contributivo"
+  },
+  {
+    "id": 302,
+    "codigo": "EPS042",
+    "nombre": "COOSALUD EPS S.A. Contributivo"
+  },
+  {
+    "id": 305,
+    "codigo": "EPS002",
+    "nombre": "SALUD TOTAL EPS-S S.A. Contributivo"
+  },
+  {
+    "id": 307,
+    "codigo": "EPSS47",
+    "nombre": "SALUD BOLÍVAR EPS SAS -CM"
+  },
+
+  {
+    "id": 95,
+    "codigo": "ESS002",
+    "nombre": "Empresa Mutual para el Desarrollo Integral de la salud E.S.S."
+  },
+  {
+    "id": 96,
+    "codigo": "ESS024",
+    "nombre": "COOSALUD ESS EPS-S"
+  },
+  {
+    "id": 97,
+    "codigo": "ESS062",
+    "nombre": "ASMET - ASOCIACIÓN MUTUAL LA ESPERANZA DE EL TAMBO ASMET ESS"
+  },
+  {
+    "id": 98,
+    "codigo": "ESS091",
+    "nombre": "ECOOPSOS - ENTIDAD COOPERATIVA SOLIDADARIA DE SALUD ECOOPSOS ESS EPS-S"
+  },
+  {
+    "id": 99,
+    "codigo": "ESS118",
+    "nombre": "EMSSANAR - ASOCIACION MUTIAL EMPRESA SOLIDARIA DE SALUD EMSSANAR ESS"
+  },
+  {
+    "id": 100,
+    "codigo": "ESS133",
+    "nombre": "COMPARTA - COOPERATIVA DE SALUD COMUNITARIA COMPARTA EPS S"
+  },
+  {
+    "id": 101,
+    "codigo": "ESS207",
+    "nombre": "ASOCIACION MUTUAL SER EPS-S"
+  },
+  {
+    "id": 104,
+    "codigo": "EPSI03",
+    "nombre": "Asociación Indígena del Cauca "
+  },
+  {
+    "id": 105,
+    "codigo": "EPSIC4",
+    "nombre": "ENTIDAD PROMOTORA DE SALUD INDIGENA ANAS WAYUU"
+  },
+  {
+    "id": 106,
+    "codigo": "EPSI05",
+    "nombre": "Entidad Promotora de Salud Mallamas EPSI"
+  },
+  {
+    "id": 107,
+    "codigo": "EPSI06",
+    "nombre": "PIJAOS SALUD EPSI"
+  },
+  {
+    "id": 110,
+    "codigo": "EPS025",
+    "nombre": "Capresoca E.P.S."
+  },
+  {
+    "id": 114,
+    "codigo": "EPSSO2",
+    "nombre": "SALUD TOTAL S.A. E.P.S."
+  },
+  {
+    "id": 121,
+    "codigo": "EPSS40",
+    "nombre": "SAVIA SALUD E.P.S."
+  },
+  {
+    "id": 130,
+    "codigo": "CCF031",
+    "nombre": "Cajasan"
+  },
+  {
+    "id": 131,
+    "codigo": "CCF032",
+    "nombre": "Comfenalco Santander"
+  },
+  {
+    "id": 132,
+    "codigo": "CCF033",
+    "nombre": "Comfasucre"
+  },
+  {
+    "id": 133,
+    "codigo": "CCF035",
+    "nombre": "Cafaba"
+  },
+  {
+    "id": 134,
+    "codigo": "CCF037",
+    "nombre": "Comfenalco Tolima"
+  },
+  {
+    "id": 135,
+    "codigo": "CCF045",
+    "nombre": "Comfanorte"
+  },
+  {
+    "id": 136,
+    "codigo": "CCF050",
+    "nombre": "CAJA DE COMPENSACIÓN FAMILIAR C.C.F. DEL ORIENTE COLOMBIANO - COMFAORIENTE"
+  },
+  {
+    "id": 137,
+    "codigo": "CCF053",
+    "nombre": "Comfacundi"
+  },
+  {
+    "id": 138,
+    "codigo": "CCF055",
+    "nombre": "CAJA DE COMPENSACION FAMILIAR CAJACOPI ATLANTICO"
+  },
+  {
+    "id": 139,
+    "codigo": "CCF101",
+    "nombre": "Colsubsidio"
+  },
+  {
+    "id": 140,
+    "codigo": "CCF102",
+    "nombre": "CAJA DE COMPENSACIÓN FAMILIAR DEL CHOCÓ - COMFACHOCO"
+  },
+  {
+    "id": 141,
+    "codigo": "CCF103",
+    "nombre": "Comfaca Caqueta"
+  },
+  {
+    "id": 150,
+    "codigo": "EMP023",
+    "nombre": "Colsanitas"
+  },
+  {
+    "id": 151,
+    "codigo": "EMP015",
+    "nombre": "Medisanitas"
+  },
+  {
+    "id": 152,
+    "codigo": "EMP021",
+    "nombre": "Salud Sura"
+  },
+  {
+    "id": 153,
+    "codigo": "EMP028",
+    "nombre": "Salud Coomeva"
+  },
+  {
+    "id": 155,
+    "codigo": "PREP08",
+    "nombre": "Medisalud"
+  },
+  {
+    "id": 156,
+    "codigo": "EMP002",
+    "nombre": "Cafesalud"
+  },
+  {
+    "id": 158,
+    "codigo": "EMP017",
+    "nombre": "Colmédica"
+  },
+  {
+    "id": 159,
+    "codigo": "EMP025",
+    "nombre": "Comfenalco Valle del Cauca"
+  },
+  {
+    "id": 160,
+    "codigo": "EMP024",
+    "nombre": "Servicios de Salud Inmediato"
+  },
+  {
+    "id": 161,
+    "codigo": "EMP022",
+    "nombre": "Vivir Medicina Prepagada"
+  },
+  {
+    "id": 168,
+    "codigo": "Emdis",
+    "nombre": "EMDISALUD - EMPRESA MUTUAL PARA EL DESARROLLO INTEGRAL DE LA SALUD EMDISALUD ESS-EPS-S"
+  },
+  {
+    "id": 216,
+    "codigo": "EPSS34",
+    "nombre": "CAPITAL SALUD"
+  },
+  {
+    "id": 217,
+    "codigo": "ESS076",
+    "nombre": "AMBUQ"
+  },
+  {
+    "id": 227,
+    "codigo": "EPSI01",
+    "nombre": "ASOCIACIÓN DE CABILDOS INDÍGENAS DEL CESAR Y GUAJIRA-DUSAKAWI A.R.S.I."
+  },
+  {
+    "id": 236,
+    "codigo": "EPS013",
+    "nombre": "Saludcoop"
+  },
+  {
+    "id": 239,
+    "codigo": "EPSS37",
+    "nombre": "LA NUEVA EPS S.A.-CM"
+  },
+  {
+    "id": 240,
+    "codigo": "EPSS42",
+    "nombre": "Coosalud E.S.S. Subsidiado"
+  },
+  {
+    "id": 248,
+    "codigo": "EPSS01",
+    "nombre": "ALIANSALUD EPS"
+  },
+  {
+    "id": 251,
+    "codigo": "EPSS05",
+    "nombre": "SANITAS  S.A. E.P.S.  -CM"
+  },
+  {
+    "id": 252,
+    "codigo": "EPSS08",
+    "nombre": "COMPENSAR   E.P.S.-CM"
+  },
+  {
+    "id": 253,
+    "codigo": "EPSS09",
+    "nombre": "PROGRAMA COMFENALCO ANTIOQUIA DE LA CAJA DE COMPENSACION FAMILIAR COMFENALCO ANTIOQUIA"
+  },
+  {
+    "id": 254,
+    "codigo": "EPSS10",
+    "nombre": "EPS Y MEDICINA PREPAGADA SURAMERICANA S.A-CM"
+  },
+  {
+    "id": 255,
+    "codigo": "EPSS12",
+    "nombre": "COMFENALCO  VALLE  E.P.S.-CM"
+  },
+  {
+    "id": 256,
+    "codigo": "EPSS13",
+    "nombre": "SALUDCOOP E.P.S.  -CM"
+  },
+  {
+    "id": 257,
+    "codigo": "EPSS14",
+    "nombre": "HUMANA VIVIR SA EPS"
+  },
+  {
+    "id": 258,
+    "codigo": "EPSS15",
+    "nombre": "SALUD  COLPATRIA  E.P.S.-CM"
+  },
+  {
+    "id": 259,
+    "codigo": "EPSS16",
+    "nombre": "COOMEVA   E.P.S.  S.A.-CM"
+  },
+  {
+    "id": 261,
+    "codigo": "EPSS18",
+    "nombre": "EPS SERVICIO OCCIDENTAL DE SALUD  S.A. - EPS S.O.S. S.A.-CM"
+  },
+  {
+    "id": 262,
+    "codigo": "EPSS23",
+    "nombre": "CRUZ BLANCA  EPS S.A.-CM"
+  },
+  {
+    "id": 263,
+    "codigo": "EPSS26",
+    "nombre": "SOLIDARIA DE SALUD SOLSALUD"
+  },
+  {
+    "id": 264,
+    "codigo": "EPSS33",
+    "nombre": "SALUDVIDA EPS SA"
+  },
+  {
+    "id": 266,
+    "codigo": "EPSS39",
+    "nombre": "GOLDEN GROUP S.A. EPS-CM"
+  },
+  {
+    "id": 267,
+    "codigo": "EPSS17",
+    "nombre": "FAMISANAR E.P.S. LTDA - CAFAM - COLSUBSIDIO"
+  },
+  {
+    "id": 271,
+    "codigo": "EPSS45",
+    "nombre": "MEDIMAS EPS S.A.S"
+  },
+  {
+    "id": 274,
+    "codigo": "EPSS41",
+    "nombre": "LA NUEVA EPS S.A."
+  },
+  {
+    "id": 278,
+    "codigo": "EPSS44",
+    "nombre": "MEDIMÁS EPS S.A.S. -CM"
+  },
+  {
+    "id": 281,
+    "codigo": "EPSS46",
+    "nombre": "FUNDACION SALUD MIA EPS"
+  },
+  {
+    "id": 295,
+    "codigo": "EPSS48",
+    "nombre": "ASOCIACION MUTUAL SER EPS Subsidiado"
+  },
+  {
+    "id": 296,
+    "codigo": "EPSI04",
+    "nombre": "EMPRESA PROMOTORA DE SALUD INDIGENA ANAS WAYUU EPSI Subsidiado"
+  },
+  {
+    "id": 297,
+    "codigo": "EPS022",
+    "nombre": "ENTIDAD PROMOTORA DE SALUD DEL REGIMEN SUBSIDIADO EPS CONVIDA Subsidiado"
+  },
+  {
+    "id": 298,
+    "codigo": "EPST01",
+    "nombre": "SAVIA SALUD EPS Subsidiado"
+  },
+  {
+    "id": 303,
+    "codigo": "EPS048",
+    "nombre": "ASOCIACION MUTUAL SER EPS Subsidiado"
+  },
+  {
+    "id": 306,
+    "codigo": "CCF002",
+    "nombre": "COMFAMA CAJA DE COMPENSACIÓN FAMILIAR DE ANTIOQUIA"
+  }
+]
