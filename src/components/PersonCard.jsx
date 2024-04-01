@@ -1,5 +1,6 @@
-export const PersonCard = () => {
+/* eslint-disable react/prop-types */
+export const PersonCard = ({dataResponse}) => {
   return (
-    <div>PersonCard</div>
+    <div>{JSON.stringify(dataResponse)}</div>
   )
 }

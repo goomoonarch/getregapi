@@ -1,15 +1,15 @@
-import { ERAsegCard } from "./ERAsegCard";
+//import { ERAsegCard } from "./ERAsegCard";
 import { PersonCard } from "./PersonCard";
 
 /* eslint-disable react/prop-types */
 export const UserCard = ({ userInfo }) => {
-  const { dataResponse, statusCode } = userInfo;
-  console.log(dataResponse);
+  const { dataResponse, statusCode, ERAsegData } = userInfo;
 
   return (
     <div>
-      {statusCode === 200 ? <PersonCard dataResponse /> : null}
-      {statusCode === 200 ? <ERAsegCard dataResponse={dataResponse} /> : null}
+      UserCard is rendered
+      <PersonCard dataResponse={dataResponse} />
+      {/*statusCode === 200 ? <ERAsegCard dataResponse={ERAsegData} /> : null*/}
     </div>
   );
 };

@@ -18,18 +18,22 @@ export const SearchBar = ({ onUserData }) => {
           isReady: false,
           isAuthReady: false,
           dataResponse: null,
+          ERAsegData: null,
           statusCode: null,
+          isERAsegReady: false,
           LoadingLabel: "Cargando informaciónd de usuario ...",
         });
         try {
           const { dataResponse, statusCode } = await getDataReg(tid, docNumber);
           onUserData({
             dataResponse,
+            isReady: true,
             statusCode,
             LoadingLabel: "Cargando informaciónd de usuario ...",
             onKey,
-            isReady: true,
-            isAuthReady: false
+            isERAsegReady: false,
+            ERAsegData: null,
+            isAuthReady: false,
           });
           if (statusCode === 200) {
             onUserData({
@@ -37,8 +41,10 @@ export const SearchBar = ({ onUserData }) => {
               statusCode,
               LoadingLabel: "Cargando ERAseg ...",
               onKey,
-              isReady: false,
-              isAuthReady: false
+              ERAsegData: null,
+              isERAsegReady: false,
+              isReady: true,
+              isAuthReady: false,
             });
             const { data } = await getERAseg(dataResponse);
             console.log(data);
@@ -48,7 +54,9 @@ export const SearchBar = ({ onUserData }) => {
               LoadingLabel: "Cargando ERAseg ...",
               onKey,
               isReady: true,
-              isAuthReady: false
+              isERAsegReady: true,
+              ERAsegData: data,
+              isAuthReady: false,
             });
             let authERAseg;
             if (data.codigoRespuesta === "01") {
@@ -57,20 +65,24 @@ export const SearchBar = ({ onUserData }) => {
                 statusCode,
                 LoadingLabel: "Autenticando ERAseg ...",
                 onKey,
-                isReady: false,
-                isAuthReady: false
+                isERAsegReady: true,
+                ERAsegData: data,
+                isReady: true,
+                isAuthReady: false,
               });
-               authERAseg = await ERAsegAuthenticator(data)
-               onUserData({
+              authERAseg = await ERAsegAuthenticator(data);
+              onUserData({
                 dataResponse,
                 statusCode,
                 LoadingLabel: "ERAseg",
                 onKey,
+                isERAsegReady: true,
+                ERAsegData: data,
                 isReady: true,
                 isAuthReady: true,
               });
             }
-            console.log(authERAseg);
+            console.log(authERAseg); //---> Manejar los resultados de la autenticación de ERAseg!
           } //---> fetching the ERAseg data in the SearchBar!
         } catch (e) {
           console.error("error fetching data:", e);

@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 //import { getERAseg } from "../utils/getERAseg";
 
-export const ERAsegCard = ({ dataResponse }) => {
+export const ERAsegCard = ({ ERAsegData }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -15,5 +15,5 @@ export const ERAsegCard = ({ dataResponse }) => {
     fetchData();
   }, []);
 
-  return <div>ERAsegCard</div>;
+  return <div>{ERAsegData}</div>;
 };

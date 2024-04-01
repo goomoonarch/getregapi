@@ -13,17 +13,17 @@ export const App = () => {
     onKey: false,
     isReady: false,
     isAuthReady: false,
+    isERAsegReady: false,
   });
-  const { dataResponse, statusCode, onKey, isReady, isAuthReady, LoadingLabel } = fromSearch;
-  console.log(dataResponse, statusCode, onKey, isReady, isAuthReady, LoadingLabel);
+  const { isReady, dataResponse, statusCode, onKey, isERAsegReady, ERAsegData, isAuthReady, LoadingLabel } = fromSearch;
 
   return (
     <div>
       <HeroBar />
       <SearchBar onUserData={(userData) => setFromSearch(userData)} />
-      {onKey && !isReady && <LoadingBar LoadingLabel={LoadingLabel} />}{/* write the fuking ! when you finish */}
+      { !isAuthReady && (onKey || isReady || isERAsegReady) && <LoadingBar LoadingLabel={LoadingLabel} />}
       {<StatusUserInfo codes={{statusCode, isAuthReady}} />}
-      {isReady && <UserCard userInfo={{ dataResponse, statusCode }} />}
+      {isReady && <UserCard userInfo={{ dataResponse, isERAsegReady, ERAsegData, statusCode }} />}
     </div>
   );
 };
