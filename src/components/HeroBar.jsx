@@ -12,7 +12,7 @@ export const HeroBar = () => {
           </h1>
         </div>
         <div className="flex absolute justify-center items-center text-[#1D1D1F] h-10 translate-y-[50px] translate-x-[90px]">
-          <h1 className="px-[1px] text-[16px] font-Inter">by</h1>
+          <h1 className="px-[1px] text-[16px] font-Inter translate-y-[-0.5px]">by</h1>
           <img className="w-25 h-[21px]" src={malog} alt="moonarchLogo" />
         </div>
       </div>

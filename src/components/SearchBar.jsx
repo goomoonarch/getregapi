@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { CustomDropdown } from "./CustomDropdown";
 import { InputData } from "./InputData";
 import { ButtonSearch } from "./ButtonSearch";
-import { getDataReg, getERAseg, ERAsegAuthenticator } from "../utils";
+import { getDataReg, getERAseg, ERAsegAuthenticator, EPSCodes } from "../utils";
 
 // eslint-disable-next-line react/prop-types
 export const SearchBar = ({ onUserData }) => {
@@ -22,6 +22,7 @@ export const SearchBar = ({ onUserData }) => {
           statusCode: null,
           isERAsegReady: false,
           LoadingLabel: "Cargando informaciónd de usuario ...",
+          allReady: false,
         });
         try {
           const { dataResponse, statusCode } = await getDataReg(tid, docNumber);
@@ -34,6 +35,7 @@ export const SearchBar = ({ onUserData }) => {
             isERAsegReady: false,
             ERAsegData: null,
             isAuthReady: false,
+            allReady: false,
           });
           if (statusCode === 200) {
             onUserData({
@@ -45,6 +47,7 @@ export const SearchBar = ({ onUserData }) => {
               isERAsegReady: false,
               isReady: true,
               isAuthReady: false,
+              allReady: false,
             });
             const { data } = await getERAseg(dataResponse);
             console.log(data);
@@ -57,9 +60,10 @@ export const SearchBar = ({ onUserData }) => {
               isERAsegReady: true,
               ERAsegData: data,
               isAuthReady: false,
+              allReady: false,
             });
             let authERAseg;
-            if (data.codigoRespuesta === "01") {
+            if (data.codigoRespuesta === "01" && EPSCodes.has(data.codigoEPS)) {
               onUserData({
                 dataResponse,
                 statusCode,
@@ -69,6 +73,7 @@ export const SearchBar = ({ onUserData }) => {
                 ERAsegData: data,
                 isReady: true,
                 isAuthReady: false,
+                allReady: false,
               });
               authERAseg = await ERAsegAuthenticator(data);
               onUserData({
@@ -80,9 +85,34 @@ export const SearchBar = ({ onUserData }) => {
                 ERAsegData: data,
                 isReady: true,
                 isAuthReady: true,
+                allReady: true,
+              });
+            } else {
+              onUserData({
+                dataResponse,
+                statusCode,
+                LoadingLabel: "ERAseg",
+                onKey,
+                isERAsegReady: true,
+                ERAsegData: data,
+                isReady: true,
+                isAuthReady: false,
+                allReady: true,
               });
             }
             console.log(authERAseg); //---> Manejar los resultados de la autenticación de ERAseg!
+          } else if (statusCode === 204) {
+            onUserData({
+              onKey,
+              isReady: false,
+              isAuthReady: false,
+              dataResponse: null,
+              ERAsegData: null,
+              statusCode: 204,
+              isERAsegReady: true,
+              LoadingLabel: "Cargando informaciónd de usuario ...",
+              allReady: true,
+            });
           } //---> fetching the ERAseg data in the SearchBar!
         } catch (e) {
           console.error("error fetching data:", e);

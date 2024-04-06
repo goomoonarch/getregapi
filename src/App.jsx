@@ -14,16 +14,23 @@ export const App = () => {
     isReady: false,
     isAuthReady: false,
     isERAsegReady: false,
+    allReady: false,
   });
-  const { isReady, dataResponse, statusCode, onKey, isERAsegReady, ERAsegData, isAuthReady, LoadingLabel } = fromSearch;
-
+  const { isReady, dataResponse, statusCode, onKey, isERAsegReady, ERAsegData, isAuthReady, LoadingLabel, allReady } = fromSearch;
+  console.log({
+    "onkey": onKey,
+    "personInfo": isReady,
+    "ERAsegInfo": isERAsegReady,
+    "Authenticator": isAuthReady,
+    "allReady": allReady
+  });
   return (
     <div>
       <HeroBar />
       <SearchBar onUserData={(userData) => setFromSearch(userData)} />
-      { !isAuthReady && (onKey || isReady || isERAsegReady) && <LoadingBar LoadingLabel={LoadingLabel} />}
+      {!allReady && (onKey || isReady || isERAsegReady) && <LoadingBar LoadingLabel={LoadingLabel} />}
       {<StatusUserInfo codes={{statusCode, isAuthReady}} />}
-      {isReady && <UserCard userInfo={{ dataResponse, isERAsegReady, ERAsegData, statusCode }} />}
+      {isReady && <UserCard userInfo={{ dataResponse, isERAsegReady, ERAsegData, isReady }} />}
     </div>
   );
 };
