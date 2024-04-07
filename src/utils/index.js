@@ -6,3 +6,4 @@ export * from "./CoosaludESPAuth";
 export * from "./birthFormatter";
 export * from "./toTitleCase";
 export * from "./ageCalculator";
+export * from "./copyFunction";

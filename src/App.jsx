@@ -17,13 +17,7 @@ export const App = () => {
     allReady: false,
   });
   const { isReady, dataResponse, statusCode, onKey, isERAsegReady, ERAsegData, isAuthReady, LoadingLabel, allReady } = fromSearch;
-  console.log({
-    "onkey": onKey,
-    "personInfo": isReady,
-    "ERAsegInfo": isERAsegReady,
-    "Authenticator": isAuthReady,
-    "allReady": allReady
-  });
+  
   return (
     <div>
       <HeroBar />
