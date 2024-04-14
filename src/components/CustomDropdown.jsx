@@ -67,7 +67,7 @@ export const CustomDropdown = ({ onChange, enterKey }) => {
         <div
           id="dropdown"
           className={
-            "flex-col mt-[25px] w-[68px] font-Inter font-[350] text-center text-[16px] text-[#455a64] px-[10px] py-[8px] bg-[#F6F6F6] rounded-[8px] animate-fade-down animate-duration-[150ms] animate-ease-in"
+            "flex-col mt-[22px] w-[68px] font-Inter font-[350] text-center text-[16px] text-[#455a64] px-[10px] py-[8px] bg-[#F6F6F6] rounded-[8px] animate-fade-down animate-duration-[150ms] animate-ease-in"
           }
         >
           {tid.map((id) => (
@@ -87,5 +87,5 @@ export const CustomDropdown = ({ onChange, enterKey }) => {
 
 CustomDropdown.propTypes = {
   onChange: PropTypes.func.isRequired,
-  enterKey: PropTypes.func
+  enterKey: PropTypes.func.isRequired
 };

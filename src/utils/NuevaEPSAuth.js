@@ -36,7 +36,7 @@ export const NuevaEPSAuth = ({ tipoDocumento, numerodocumento }) => {
       credentials: "include",
     };
 
-    const url = `http://localhost:5000/proxy/ofVirtual/V_AFILIADO_POSlist.php?tipoDocumento=${tipoDocumento}&numeroDocumento=${numerodocumento}`;
+    const url = `http://localhost:3000/nuevaeps/proxy/ofVirtual/V_AFILIADO_POSlist.php?tipoDocumento=${tipoDocumento}&numeroDocumento=${numerodocumento}`;
 
     window
       .fetch(url, requestOptions)
@@ -65,6 +65,7 @@ export const NuevaEPSAuth = ({ tipoDocumento, numerodocumento }) => {
               categoria: cells.eq(14).text().trim(),
             };
             attributes.push(attribute);
+            console.log(attributes);
           }
         });
 

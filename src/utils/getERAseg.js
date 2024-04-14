@@ -7,7 +7,7 @@ export const getERAseg = async (dataResponse) => {
   } = dataResponse;
 
   const myHeaders = new Headers();
-  myHeaders.append("Content-Type", "application/json");
+  myHeaders.append("Content-Type", "application/json; charset=utf-8");
 
   const raw = JSON.stringify({
     tipoDocumento: tipoIdentificacion,
@@ -38,7 +38,7 @@ export const getERAseg = async (dataResponse) => {
       data,
       status,
     };
-    //---> Lógica de población del régimen especial o no asegurada! <---//
+  //---> Lógica de población del régimen especial o no asegurada! <---//
   } else {
     return {
       data,

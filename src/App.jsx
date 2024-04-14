@@ -7,6 +7,7 @@ import {
   LoadingBar,
   StatusUserInfo,
 } from "./components";
+import { loadingBar } from "./utils";
 
 export const App = () => {
   const [fromSearch, setFromSearch] = useState({
@@ -16,15 +17,18 @@ export const App = () => {
     isERAsegReady: false,
     allReady: false,
   });
-  const { isReady, dataResponse, statusCode, onKey, isERAsegReady, ERAsegData, isAuthReady, LoadingLabel, allReady } = fromSearch;
+  const { isReady, dataResponse, statusCode, onKey, isERAsegReady, ERAsegData, isAuthReady, LoadingLabel, allReady, authERAdata } = fromSearch;
+  const loadingBarS = loadingBar({onKey, isReady, isERAsegReady, allReady, statusCode});
+  console.log(onKey, isReady, isERAsegReady, isAuthReady, allReady, statusCode);
+  console.log(authERAdata);
   
   return (
     <div>
       <HeroBar />
       <SearchBar onUserData={(userData) => setFromSearch(userData)} />
-      {!allReady && (onKey || isReady || isERAsegReady) && <LoadingBar LoadingLabel={LoadingLabel} />}
+      {loadingBarS && <LoadingBar LoadingLabel={LoadingLabel} />}
       {<StatusUserInfo codes={{statusCode, isAuthReady}} />}
-      {isReady && <UserCard userInfo={{ dataResponse, isERAsegReady, ERAsegData, isReady }} />}
+      {isReady && <UserCard userInfo={{ dataResponse, isERAsegReady, ERAsegData, isReady, authERAdata, isAuthReady }} />}
     </div>
   );
 };

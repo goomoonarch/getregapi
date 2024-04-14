@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { CustomDropdown } from "./CustomDropdown";
 import { InputData } from "./InputData";
 import { ButtonSearch } from "./ButtonSearch";
-import { getDataReg, getERAseg, ERAsegAuthenticator, EPSCodes } from "../utils";
+import { getDataReg, getERAseg, ERAsegAuthenticator, EPSCodes, normAuthERA } from "../utils";
 
 // eslint-disable-next-line react/prop-types
 export const SearchBar = ({ onUserData }) => {
@@ -10,8 +10,11 @@ export const SearchBar = ({ onUserData }) => {
   const [docNumber, setDocNumber] = useState("");
   const [onKey, setOnKey] = useState(false);
 
+  const handleKey = (value) => { if(tid && docNumber && !isNaN(docNumber)){ setOnKey(value)}} // ---> manejador de alerta para llenar los campos
+  
   useEffect(() => {
     const fetchData = async () => {
+    
       if (onKey) {
         onUserData({
           onKey,
@@ -21,8 +24,9 @@ export const SearchBar = ({ onUserData }) => {
           ERAsegData: null,
           statusCode: null,
           isERAsegReady: false,
-          LoadingLabel: "Cargando informaciónd de usuario ...",
+          LoadingLabel: "Cargando información de usuario ...",
           allReady: false,
+          authERAdata: null,
         });
         try {
           const { dataResponse, statusCode } = await getDataReg(tid, docNumber);
@@ -36,6 +40,7 @@ export const SearchBar = ({ onUserData }) => {
             ERAsegData: null,
             isAuthReady: false,
             allReady: false,
+            authERAdata: null,
           });
           if (statusCode === 200) {
             onUserData({
@@ -48,9 +53,9 @@ export const SearchBar = ({ onUserData }) => {
               isReady: true,
               isAuthReady: false,
               allReady: false,
+              authERAdata: null,
             });
             const { data } = await getERAseg(dataResponse);
-            console.log(data);
             onUserData({
               dataResponse,
               statusCode,
@@ -61,6 +66,7 @@ export const SearchBar = ({ onUserData }) => {
               ERAsegData: data,
               isAuthReady: false,
               allReady: false,
+              authERAdata: null,
             });
             let authERAseg;
             if (data.codigoRespuesta === "01" && EPSCodes.has(data.codigoEPS)) {
@@ -74,8 +80,10 @@ export const SearchBar = ({ onUserData }) => {
                 isReady: true,
                 isAuthReady: false,
                 allReady: false,
+                authERAdata: null,
               });
               authERAseg = await ERAsegAuthenticator(data);
+              const ERAsegAuth = normAuthERA(authERAseg);
               onUserData({
                 dataResponse,
                 statusCode,
@@ -83,9 +91,10 @@ export const SearchBar = ({ onUserData }) => {
                 onKey,
                 isERAsegReady: true,
                 ERAsegData: data,
+                authERAdata: ERAsegAuth,
                 isReady: true,
-                isAuthReady: true,
                 allReady: true,
+                isAuthReady: true,
               });
             } else {
               onUserData({
@@ -98,9 +107,9 @@ export const SearchBar = ({ onUserData }) => {
                 isReady: true,
                 isAuthReady: false,
                 allReady: true,
-              });
+                authERAdata: null,
+              });      
             }
-            console.log(authERAseg); //---> Manejar los resultados de la autenticación de ERAseg!
           } else if (statusCode === 204) {
             onUserData({
               onKey,
@@ -112,14 +121,16 @@ export const SearchBar = ({ onUserData }) => {
               isERAsegReady: true,
               LoadingLabel: "Cargando informaciónd de usuario ...",
               allReady: true,
+              authERAdata: null,
             });
           } //---> fetching the ERAseg data in the SearchBar!
         } catch (e) {
           console.error("error fetching data:", e);
           onUserData({
             dataResponse: null,
-            statusCode: e,
+            statusCode: null,
             onKey,
+            data: null,
             isReady: true,
           });
         }
@@ -136,22 +147,16 @@ export const SearchBar = ({ onUserData }) => {
           onChange={(tid) => {
             setTid(tid);
           }}
-          enterKey={(onKey) => {
-            setOnKey(onKey);
-          }}
+          enterKey={() => handleKey(true)}
         />
         <InputData
           onChange={(docNumber) => {
             setDocNumber(docNumber);
           }}
-          enterKey={(onKey) => {
-            setOnKey(onKey);
-          }}
+          enterKey={() => handleKey(true)}
         />
         <ButtonSearch
-          enterKey={(onKey) => {
-            setOnKey(onKey);
-          }}
+          enterKey={() => handleKey(true)}
         />
       </div>
     </div>
