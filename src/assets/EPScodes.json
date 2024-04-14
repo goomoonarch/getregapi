@@ -1,0 +1,10 @@
+[
+    {
+        "codigo": "EPSS05",
+        "nombre": "Sanitas EPS"
+    },
+    {
+        "codigo": "ESS024",
+        "nombre": "Coosalud EPS"
+    }
+]
