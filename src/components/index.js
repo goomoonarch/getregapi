@@ -6,3 +6,5 @@ export * from "./UserCard";
 export * from "./LoadingBar";
 export * from "./StatusUserInfo";
 export * from "./PersonCard";
+export * from "./Fotter";
+export * from "./ERAsegEmpty";

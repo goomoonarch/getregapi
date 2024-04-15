@@ -14,7 +14,6 @@ export const SearchBar = ({ onUserData }) => {
   
   useEffect(() => {
     const fetchData = async () => {
-    
       if (onKey) {
         onUserData({
           onKey,
@@ -69,7 +68,7 @@ export const SearchBar = ({ onUserData }) => {
               authERAdata: null,
             });
             let authERAseg;
-            if (data.codigoRespuesta === "01" && EPSCodes.has(data.codigoEPS)) {
+            if (data.codigoRespuesta === "01" && EPSCodes.has(data.codigoEPS) && data.estadoAfiliacion ==="AC") {
               onUserData({
                 dataResponse,
                 statusCode,

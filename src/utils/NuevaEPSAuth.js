@@ -65,7 +65,6 @@ export const NuevaEPSAuth = ({ tipoDocumento, numerodocumento }) => {
               categoria: cells.eq(14).text().trim(),
             };
             attributes.push(attribute);
-            console.log(attributes);
           }
         });
 
