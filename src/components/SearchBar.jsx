@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { CustomDropdown } from "./CustomDropdown";
 import { InputData } from "./InputData";
 import { ButtonSearch } from "./ButtonSearch";
-import { getDataReg, getERAseg, ERAsegAuthenticator, EPSCodes, normAuthERA } from "../utils";
+import { getDataReg, getERAseg} from "../utils";
+//import { getDataReg, getERAseg, ERAsegAuthenticator, EPSCodes, normAuthERA } from "../utils";
 
 // eslint-disable-next-line react/prop-types
 export const SearchBar = ({ onUserData }) => {
@@ -67,7 +68,7 @@ export const SearchBar = ({ onUserData }) => {
               allReady: false,
               authERAdata: null,
             });
-            let authERAseg;
+            /*let authERAseg;
             if (data.codigoRespuesta === "01" && EPSCodes.has(data.codigoEPS) && data.estadoAfiliacion ==="AC") {
               onUserData({
                 dataResponse,
@@ -95,7 +96,7 @@ export const SearchBar = ({ onUserData }) => {
                 allReady: true,
                 isAuthReady: true,
               });
-            } else {
+            }  else*/ {
               onUserData({
                 dataResponse,
                 statusCode,
