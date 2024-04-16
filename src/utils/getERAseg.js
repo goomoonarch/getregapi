@@ -24,8 +24,8 @@ export const getERAseg = async (dataResponse) => {
   };
 
   const response = await fetch(
-    `http://localhost:3000/api/interoperabilidad/GetEPSPersonaMSS`,
-    //"https://paiwebservices.paiweb.gov.co:8081/api/interoperabilidad/GetEPSPersonaMSS",
+    //`http://localhost:3000/api/interoperabilidad/GetEPSPersonaMSS`,
+    "https://paiwebservices.paiweb.gov.co:8081/api/interoperabilidad/GetEPSPersonaMSS",
     requestOptions
   );
   let data;
