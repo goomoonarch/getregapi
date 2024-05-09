@@ -35,7 +35,7 @@ export const CustomDropdown = ({ onChange, enterKey }) => {
 
   return (
     <div
-      className="w-[80px] focus:outline-none items-center justify-center translate-y-[12px]"
+      className="w-[80px] focus:outline-none items-center justify-center translate-y-[12px] z-30"
       onClick={() => setIsOpen(!isOpen)}
       tabIndex={0}
       onKeyDown={handleKeyPress}

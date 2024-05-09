@@ -28,7 +28,7 @@ export const App = () => {
       <div className="flex flex-col justify-center items-center translate-y-[-12px]">
       {loadingBarS && <LoadingBar LoadingLabel={LoadingLabel} />}
       {<StatusUserInfo codes={{statusCode, isAuthReady, ERAsegData}} />}
-      {loadingBarS && <PersonSqueleton />}  
+      {loadingBarS && <PersonSqueleton />}
       {isReady && <UserCard userInfo={{ dataResponse, isERAsegReady, ERAsegData, isReady, authERAdata, isAuthReady }} />}
       </div>
       <Fotter />

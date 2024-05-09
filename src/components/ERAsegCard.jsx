@@ -8,7 +8,6 @@ import {
 } from "../utils";
 import ERAsegState from "../assets/ERAsegState.json";
 import { useEffect, useState } from "react";
-import PnaOrRegEsp from "./PnaOrRegEsp";
 
 /* eslint-disable react/prop-types */
 export const ERAsegCard = ({ ERAsegData }) => {
@@ -34,40 +33,40 @@ export const ERAsegCard = ({ ERAsegData }) => {
 
   return (
     <>
-      <div className="flex">
+      <div className="flex mt-[18px]">
         <div
           id="userinfoheader"
-          className={
+          className={`mr-[11px] ${
             isStateMatching
               ? getERAsegClass(ERAsegData.ERAsegData.estadoAfiliacion).gold
               : getERAsegClass(ERAsegData.ERAsegData.estadoAfiliacion).lm
-          }
+          }`}
         >
-          {(ERAsegData.ERAsegData.codigoRespuesta === "01") && <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#ffffff"
-            strokeWidth="1.75"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            style={{
-              stroke: isStateMatching
-                ? getERAsegClass(ERAsegData.ERAsegData.estadoAfiliacion)
-                    .strokeGold
-                : getERAsegClass(ERAsegData.ERAsegData.estadoAfiliacion).stroke,
-            }}
-            className="icon icon-tabler icons-tabler-outline icon-tabler-medical-cross"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M13 3a1 1 0 0 1 1 1v4.535l3.928 -2.267a1 1 0 0 1 1.366 .366l1 1.732a1 1 0 0 1 -.366 1.366l-3.927 2.268l3.927 2.269a1 1 0 0 1 .366 1.366l-1 1.732a1 1 0 0 1 -1.366 .366l-3.928 -2.269v4.536a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1v-4.536l-3.928 2.268a1 1 0 0 1 -1.366 -.366l-1 -1.732a1 1 0 0 1 .366 -1.366l3.927 -2.268l-3.927 -2.268a1 1 0 0 1 -.366 -1.366l1 -1.732a1 1 0 0 1 1.366 -.366l3.928 2.267v-4.535a1 1 0 0 1 1 -1h2z" />
-          </svg>}
+          {ERAsegData.ERAsegData.codigoRespuesta === "01" && (
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              style={{
+                fill: isStateMatching
+                  ? getERAsegClass(ERAsegData.ERAsegData.estadoAfiliacion)
+                      .strokeGold
+                  : getERAsegClass(ERAsegData.ERAsegData.estadoAfiliacion)
+                      .stroke,
+              }}
+            >
+              <path
+                d="M23.9062 11.9648C23.9062 18.5039 18.4922 23.918 11.9531 23.918C5.42578 23.918 0 18.5039 0 11.9648C0 5.4375 5.41406 0.0117188 11.9414 0.0117188C18.4805 0.0117188 23.9062 5.4375 23.9062 11.9648ZM10.6641 5.28516C9.92578 5.28516 9.42188 5.78906 9.42188 6.55078V9.42188H6.51562C5.77734 9.42188 5.27344 9.9375 5.27344 10.6758V13.2305C5.27344 13.9688 5.78906 14.4727 6.51562 14.4727H9.42188V17.3672C9.42188 18.1289 9.92578 18.6211 10.6641 18.6211H13.2188C13.9688 18.6211 14.4609 18.1289 14.4609 17.3672V14.4727H17.3672C18.1172 14.4727 18.6211 13.9688 18.6211 13.2305V10.6758C18.6211 9.9375 18.1172 9.42188 17.3672 9.42188H14.4609V6.55078C14.4609 5.78906 13.9688 5.28516 13.2188 5.28516H10.6641Z"
+                fillOpacity="0.85"
+              />
+            </svg>
+          )}
         </div>
-        <div className="flex mb-2">
+        <div className="flex">
           {ERAsegData.ERAsegData.codigoRespuesta === "01" ? (
-            <div className="flex flex-col pl-2 w-[300px]">
+            <div className="flex flex-col w-[300px]">
               <div id="chirp" className="flex">
                 <div
                   className={
@@ -104,18 +103,21 @@ export const ERAsegCard = ({ ERAsegData }) => {
                   </div>
                 </div>
               </div>
-              <div id="erasegname" className="text-[15px] text-[#1d1d1d] leading-4">
-                {ERAsegData.ERAsegData.nombreEPS}
+              <div
+                id="erasegname"
+                className="text-[16px] text-[#292929] leading-4 mb-[3px]"
+              >
+                {toTitleCase(ERAsegData.ERAsegData.nombreEPS)}
               </div>
               {ERAsegData.isAuthReady && (
-                <div className="font-light text-[14px] text-[#6c6c6e]">
+                <div className="text-[14px] text-[#656565]">
                   {ERAsegData.authERAdata.ipsAsignada}
                 </div>
               )}
-              <div className="font-light text-[14px] text-[#6c6c6e]">
+              <div className="text-[14px] text-[#656565]">
                 {ERAsegData.authERAdata && !isRegimenMatching ? (
                   <div className="flex items-center">
-                    <span className="line-through">
+                    <span>
                       {toTitleCase(
                         getERAsegReg(ERAsegData.ERAsegData.regimenAfiliacion)
                       )}
@@ -137,7 +139,7 @@ export const ERAsegCard = ({ ERAsegData }) => {
                   )
                 )}
               </div>
-              <div className="font-light text-[14px] leading-none text-[#6c6c6e]">
+              <div className="font-Inter text-[14px] text-[#656565] leading-4">
                 {toTitleCase(getMunName(ERAsegData.ERAsegData.codigoDivipola))}{" "}
                 •{" "}
                 {toTitleCase(
@@ -146,7 +148,7 @@ export const ERAsegCard = ({ ERAsegData }) => {
               </div>
             </div>
           ) : ERAsegData.ERAsegData.codigoRespuesta === "02" ? (
-            <PnaOrRegEsp />
+            null
           ) : (
             "usuario pobre o del régimen especial"
           )}

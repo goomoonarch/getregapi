@@ -1,9 +1,7 @@
+import { format } from 'date-fns';
+import { es } from 'date-fns/locale';
+
 export const birthFormatter = (date) => {
- const dateObj =  new Date(date);
-
- const day = dateObj.getDate().toString().padStart(2, '0');
- const month = (dateObj.getMonth() + 1).toString().padStart(2, '0');
- const year = dateObj.getFullYear();
-
- return `${day} • ${month} • ${year}`;
+    const dateObj = new Date(date);
+    return format(dateObj, `dd 'de' MMMM 'de' yyyy`, { locale: es });
 }

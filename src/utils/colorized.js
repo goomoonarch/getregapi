@@ -1,15 +1,15 @@
 export const colorized = ( sexo ) => {
     if ( sexo === "M" ){
         return {
-            iconconlor: "#00aeef60",
+            iconconlor: "#3B8FF6",
             bgcolor : "",
-            lmcolor : "#E6FAFE",
+            lmcolor : "#EFF6FF",
         }
     } else {
         return {
-            iconconlor: "#d0a6ee",
+            iconconlor: "#A967E5",
             bgcolor : "",
-            lmcolor : "#ecdefb",
+            lmcolor : "#F3EAFD",
           }
     }
 }
