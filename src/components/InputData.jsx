@@ -19,7 +19,7 @@ export const InputData = ({ onChange, enterKey }) => {
       <input
         type="text"
         placeholder="Número de documento"
-        className="bg-[#F6F6F6] px-2 focus:outline-none font-Inter font-light text-gray-700 w-[270px]"
+        className="bg-[#f6f6f6] px-2 focus:outline-none font-Inter text-[#1C1C1E] w-[270px]"
         value={docNumber}
         onChange={onInputChange}
         onKeyDown={handleKeyPress}
@@ -31,7 +31,7 @@ export const InputData = ({ onChange, enterKey }) => {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-5 fill-[#546E7A] hover:fill-[#455A64] animate-jump-in animate-duration-200"
+              className="w-5 fill-[#9c9cac] hover:fill-[#1D1D1F] animate-jump-in animate-duration-200"
             >
               <path
                 fillRule="evenodd"

@@ -8,3 +8,4 @@ export * from "./StatusUserInfo";
 export * from "./PersonCard";
 export * from "./Fotter";
 export * from "./ERAsegEmpty";
+export * from "./PersonSqueleton";

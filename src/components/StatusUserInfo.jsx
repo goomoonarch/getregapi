@@ -11,7 +11,7 @@ export const StatusUserInfo = ({codes}) => {
     return statusCode === 500 || statusCode === 404 || statusCode === 204;
   };
   return (
-    <div>
+    <div className="mb-[12px]">
       {isAuthReady ? <OkERAsegAuthAlert /> : null}
       {(ERAsegData && ERAsegData.codigoRespuesta === "02") ? <ERAsegWarning /> : null}
       {statusCode === 200 ? <OkAlert /> : null}  

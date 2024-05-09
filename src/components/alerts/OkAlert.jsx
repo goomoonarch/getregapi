@@ -5,22 +5,23 @@ export const OkAlert = () => {
   return (
     <>
       {!close && (
-        <div className="flex justify-center">
-          <div className="flex font-Inter font-light bg-[#F0FDF4] rounded-[8px] w-[400px] justify-between py-2 px-3">
-            <div className="flex justify-start">
+        <div className="flex justify-center animate-fade-up animate-duration-[250ms] animate-ease-in-out">
+          <div className="flex font-Inter bg-[#f0fdf4] rounded-[6px] w-[400px] h-[40px] justify-between items-center pl-[14px] pr-2">
+            <div className="flex justify-start items-center">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                width="23"
+                height="24"
                 viewBox="0 0 24 24"
-                fill="currentColor"
-                className="w-6 fill-[#4ade80]"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="animate-jump"
               >
                 <path
-                  fillRule="evenodd"
-                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z"
-                  clipRule="evenodd"
+                  d="M21.7101 11.9951C21.7101 17.4532 17.2464 21.9901 11.8551 21.9901C6.47343 21.9901 2 17.4532 2 11.9951C2 6.52718 6.46377 2 11.8454 2C17.2367 2 21.7101 6.52718 21.7101 11.9951ZM14.8599 8.10484L10.7343 14.827L8.77295 12.2596C8.53141 11.9363 8.31884 11.8481 8.03865 11.8481C7.60387 11.8481 7.2657 12.2106 7.2657 12.6516C7.2657 12.877 7.35266 13.0926 7.49759 13.2886L9.92271 16.3067C10.1739 16.6496 10.4445 16.7869 10.7729 16.7869C11.1015 16.7869 11.3816 16.6301 11.5845 16.3067L16.1256 9.05536C16.2415 8.84958 16.3672 8.6242 16.3672 8.40861C16.3672 7.94806 15.971 7.65409 15.5459 7.65409C15.2947 7.65409 15.0435 7.81087 14.8599 8.10484Z"
+                  fill="#4ADE80"
                 />
               </svg>
-              <h1 className="px-[10px] text-[#166534] ">Usuario encontrado!</h1>
+              <h1 className="px-[8px] text-[#166534] ">Usuario encontrado!</h1>
             </div>
 
             <button
@@ -28,17 +29,25 @@ export const OkAlert = () => {
               onClick={() => setClose(true)}
             >
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
                 fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.6}
-                stroke="currentColor"
-                className="w-4 stroke-[#4ade80] "
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
+                  d="M15 5L5 15"
+                  stroke="#4ADE80"
+                  strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
+                />
+                <path
+                  d="M5 5L15 15"
+                  stroke="#4ADE80"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </button>

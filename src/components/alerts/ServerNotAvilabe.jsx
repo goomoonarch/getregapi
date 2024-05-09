@@ -22,7 +22,7 @@ export const UserNotFound = () => {
                 />
               </svg>
               <h1 className="px-[8px] text-[#B91C1C]">
-                Usuario no encontrado!
+                Servicio no disponible
               </h1>
             </div>
             <button

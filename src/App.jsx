@@ -5,7 +5,8 @@ import {
   UserCard,
   LoadingBar,
   StatusUserInfo,
-  Fotter
+  Fotter,
+  PersonSqueleton,
 } from "./components";
 import { loadingBar } from "./utils";
 
@@ -24,9 +25,12 @@ export const App = () => {
     <div>
       <HeroBar />
       <SearchBar onUserData={(userData) => setFromSearch(userData)} />
+      <div className="flex flex-col justify-center items-center translate-y-[-12px]">
       {loadingBarS && <LoadingBar LoadingLabel={LoadingLabel} />}
       {<StatusUserInfo codes={{statusCode, isAuthReady, ERAsegData}} />}
+      {loadingBarS && <PersonSqueleton />}  
       {isReady && <UserCard userInfo={{ dataResponse, isERAsegReady, ERAsegData, isReady, authERAdata, isAuthReady }} />}
+      </div>
       <Fotter />
     </div>
   );

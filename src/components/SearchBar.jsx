@@ -34,7 +34,7 @@ export const SearchBar = ({ onUserData }) => {
             dataResponse,
             isReady: true,
             statusCode,
-            LoadingLabel: "Cargando informaciónd de usuario ...",
+            LoadingLabel: "Cargando información de usuario ...",
             onKey,
             isERAsegReady: false,
             ERAsegData: null,
@@ -46,7 +46,7 @@ export const SearchBar = ({ onUserData }) => {
             onUserData({
               dataResponse,
               statusCode,
-              LoadingLabel: "Cargando ERAseg ...",
+              LoadingLabel: "Cargando información de ERAseg ...",
               onKey,
               ERAsegData: null,
               isERAsegReady: false,
@@ -59,7 +59,7 @@ export const SearchBar = ({ onUserData }) => {
             onUserData({
               dataResponse,
               statusCode,
-              LoadingLabel: "Cargando ERAseg ...",
+              LoadingLabel: "Cargando información de ERAseg ...",
               onKey,
               isReady: true,
               isERAsegReady: true,
@@ -119,7 +119,7 @@ export const SearchBar = ({ onUserData }) => {
               ERAsegData: null,
               statusCode: 204,
               isERAsegReady: true,
-              LoadingLabel: "Cargando informaciónd de usuario ...",
+              LoadingLabel: "Cargando información de usuario ...",
               allReady: true,
               authERAdata: null,
             });
@@ -141,8 +141,8 @@ export const SearchBar = ({ onUserData }) => {
   }, [onKey]);
 
   return (
-    <div className="flex justify-center">
-      <div className="flex translate-y-[-10px] bg-[#F6F6F6] h-[48px] rounded-[8px] w-[350px] sm:w-[400px]">
+    <div className="flex justify-center items-center translate-y-[-25px]">
+      <div className="flex bg-[#F6F6F6] h-[48px] w-[400px] rounded-[6px] ">
         <CustomDropdown
           onChange={(tid) => {
             setTid(tid);

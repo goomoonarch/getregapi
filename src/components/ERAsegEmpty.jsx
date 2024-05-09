@@ -5,39 +5,51 @@ export const ERAsegWarning = () => {
   return (
     <>
       {!close && (
-        <div className="flex justify-center mb-2">
-          <div className="flex font-Inter font-light bg-[#EFF6FF] rounded-[8px] w-[400px] justify-between py-2 px-3">
-            <div className="flex justify-start">
+        <div className="flex animate-fade-up animate-duration-[250ms] animate-ease-in-out mb-[8px]">
+          <div className="flex font-Inter bg-[#EFF6FF] rounded-[6px] w-[400px] h-[40px] justify-between items-center pl-[14px] pr-2">
+            <div className="flex justify-start items-center">
               <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="w-6 fill-[#60A5FA]"
+                className="animate-jump"
               >
                 <path
-                  fillRule="evenodd"
-                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm8.706-1.442c1.146-.573 2.437.463 2.126 1.706l-.709 2.836.042-.02a.75.75 0 01.67 1.34l-.04.022c-1.147.573-2.438-.463-2.127-1.706l.71-2.836-.042.02a.75.75 0 11-.671-1.34l.041-.022zM12 9a.75.75 0 100-1.5.75.75 0 000 1.5z"
-                  clipRule="evenodd"
+                  d="M19.7101 9.85514C19.7101 15.2369 15.2464 19.7103 9.85506 19.7103C4.47343 19.7103 0 15.2369 0 9.85514C0 4.4638 4.46377 0 9.84541 0C15.2367 0 19.7101 4.4638 19.7101 9.85514ZM8.28022 8.06771C7.8744 8.06771 7.55556 8.38657 7.55556 8.773C7.55556 9.18846 7.8744 9.48799 8.28022 9.48799H9.34297V14.0291H8.11595C7.70048 14.0291 7.38164 14.3479 7.38164 14.7344C7.38164 15.1499 7.70048 15.4494 8.11595 15.4494H12.1643C12.5797 15.4494 12.8985 15.1499 12.8985 14.7344C12.8985 14.3479 12.5797 14.0291 12.1643 14.0291H10.9372V8.97591C10.9372 8.43488 10.6667 8.06771 10.1546 8.06771H8.28022ZM8.46375 5.11116C8.46375 5.84546 9.04352 6.42518 9.76816 6.42518C10.4928 6.42518 11.0628 5.84546 11.0628 5.11116C11.0628 4.37685 10.4928 3.79714 9.76816 3.79714C9.04352 3.79714 8.46375 4.37685 8.46375 5.11116Z"
+                  fill="#60A5FA"
+                  fillOpacity="0.85"
                 />
               </svg>
-              <h1 className="px-[10px] text-[#1D4EDA]">Usuario Pobre o del régimen especial</h1>
+              <h1 className="px-[8px] text-[#1D4EDA]">
+                Usuario PNA o del régimen especial
+              </h1>
             </div>
             <button
               className="hover:bg-[#60A5FA1d] flex h-[24px] w-[24px] rounded-[4px] items-center justify-center"
               onClick={() => setClose(true)}
             >
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
                 fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.6}
-                stroke="currentColor"
-                className="w-4 stroke-[#60A5FA] "
+                xmlns="http://www.w3.org/2000/svg"
               >
                 <path
+                  d="M11 1L1 11"
+                  stroke="#60A5FA"
+                  strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
+                />
+                <path
+                  d="M1 1L11 11"
+                  stroke="#60A5FA"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </button>

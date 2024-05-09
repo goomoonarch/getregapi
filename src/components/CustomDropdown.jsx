@@ -35,7 +35,7 @@ export const CustomDropdown = ({ onChange, enterKey }) => {
 
   return (
     <div
-      className="w-[68px] px-[2px] focus:outline-none"
+      className="w-[80px] focus:outline-none items-center justify-center translate-y-[12px]"
       onClick={() => setIsOpen(!isOpen)}
       tabIndex={0}
       onKeyDown={handleKeyPress}
@@ -43,32 +43,36 @@ export const CustomDropdown = ({ onChange, enterKey }) => {
     >
       <div
         id="customSelect"
-        className="flex items-center justify-center m-3 bg-[#F6F6F6] cursor-pointer font-Inter font-[350] text-[#455a64]"
+        className="flex bg-[#f6f6f6] cursor-pointer font-Inter text-[16px] items-center justify-center text-[#1d1d1f35]"
       >
-        <span className={selectedOption ? "text-[#455a64]" : "text-gray-400"}>
-          {selectedOption || "Tid"}
+        <span
+          className={`px-2 ${
+            selectedOption ? "text-[#1d1d1f]" : "text-[#9c9cac]"
+          }`}
+        >
+          {selectedOption || "tid"}
         </span>
         <svg
-          className={`h-5 w-5 text-gray-400 transform translate-x-3 transition ${
-            isOpen ? "rotate-180" : ""
-          }`}
+          width="14"
+          height="8"
+          viewBox="0 0 14 8"
+          fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          fill="currentColor"
+          className={`transition ${isOpen ? "rotate-180" : ""}`}
         >
           <path
-            fillRule="evenodd"
-            d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z"
-            clipRule="evenodd"
+            d="M1 1L7 7L13 1"
+            stroke="#9C9CAC"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </div>
       {isOpen && (
         <div
           id="dropdown"
-          className={
-            "flex-col mt-[22px] w-[68px] font-Inter font-[350] text-center text-[16px] text-[#455a64] px-[10px] py-[8px] bg-[#F6F6F6] rounded-[8px] animate-fade-down animate-duration-[150ms] animate-ease-in"
-          }
+          className="flex-col mt-[22px] w-[64px] font-Inter font-[16px] text-center text-[16px] text-[#1d1d1f] px-[10px] py-[8px] bg-[#F6F6F6] rounded-[6px] animate-fade-down animate-duration-[150ms] animate-ease-in"
         >
           {tid.map((id) => (
             <div
@@ -87,5 +91,5 @@ export const CustomDropdown = ({ onChange, enterKey }) => {
 
 CustomDropdown.propTypes = {
   onChange: PropTypes.func.isRequired,
-  enterKey: PropTypes.func.isRequired
+  enterKey: PropTypes.func.isRequired,
 };

@@ -1,0 +1,40 @@
+{
+  "hash": "7f16e8a5",
+  "configHash": "4f971610",
+  "lockfileHash": "7fac5ec6",
+  "browserHash": "d353909d",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "4255a4cd",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "3e0f469c",
+      "needsInterop": true
+    },
+    "cheerio": {
+      "src": "../../node_modules/cheerio/lib/esm/index.js",
+      "file": "cheerio.js",
+      "fileHash": "d48840f6",
+      "needsInterop": false
+    },
+    "prop-types": {
+      "src": "../../node_modules/prop-types/index.js",
+      "file": "prop-types.js",
+      "fileHash": "c7e7cb66",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-FQO5W7GE": {
+      "file": "chunk-FQO5W7GE.js"
+    },
+    "chunk-ZS7NZCD4": {
+      "file": "chunk-ZS7NZCD4.js"
+    }
+  }
+}

@@ -3,20 +3,16 @@ export const HeroBar = () => {
   return (
     <div>
       <div className="flex justify-center cursor-default">
-        <div className="flex">
-          <h1 className="text-[50px] font-bold font-Inter text-[#1D1D1F]">
-            Moon
-          </h1>
-          <h1 className="text-[50px] font-light font-Inter text-[#1D1D1F]">
-            Search
-          </h1>
-        </div>
-        <div className="flex absolute justify-center items-center text-[#1D1D1F] h-10 translate-y-[50px] translate-x-[90px]">
-          <h1 className="px-[1px] text-[16px] font-Inter translate-y-[-0.5px]">by</h1>
-          <img className="w-25 h-[21px]" src={malog} alt="moonarchLogo" />
+          <div id="moonserachtitle" className="flex font-Inter text-[64px] tracking-tight">
+            <div className="font-bold">Moon</div>
+            <div className="font-light">Search</div>
+          </div>
+        <div className="flex absolute justify-center items-center h-10 translate-y-[68px] translate-x-[117px]">
+          <h1 className="px-[1px] text-[18px] font-Inter translate-y-[-0.5px]">by</h1>
+          <img className="w-[111px] h-[24px]" src={malog} alt="moonarchLogo" />
         </div>
       </div>
-      <div className="items-center justify-center h-[80px] bg-gradient-to-r from-[#E6FAFE] to-[#ECDDFB] translate-y-5"></div>
+      <div className="items-center justify-center h-[80px] bg-gradient-to-r from-[#E6FAFE] to-[#ECDDFB] mt-4"></div>
     </div>
   );
 };
