@@ -72,7 +72,7 @@ export const CustomDropdown = ({ onChange, enterKey }) => {
       {isOpen && (
         <div
           id="dropdown"
-          className="flex-col mt-[22px] w-[64px] font-Inter font-[16px] text-center text-[16px] text-[#1d1d1f] px-[10px] py-[8px] bg-[#F6F6F6] rounded-[6px] animate-fade-down animate-duration-[150ms] animate-ease-in"
+          className={"mt-[22px] w-[64px] font-Inter font-[16px] text-center text-[16px] text-[#1d1d1f] px-[10px] py-[8px] bg-[#F6F6F6] rounded-[6px] animate-fade-down animate-duration-[100ms] animate-ease-in"}
         >
           {tid.map((id) => (
             <div

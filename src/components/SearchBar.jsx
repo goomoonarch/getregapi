@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { CustomDropdown } from "./CustomDropdown";
 import { InputData } from "./InputData";
 import { ButtonSearch } from "./ButtonSearch";
-import { getDataReg, getERAseg} from "../utils";
+import { getDataReg, getERAseg } from "../utils";
 //import { getDataReg, getERAseg, ERAsegAuthenticator, EPSCodes, normAuthERA } from "../utils";
 
 // eslint-disable-next-line react/prop-types
@@ -11,8 +11,12 @@ export const SearchBar = ({ onUserData }) => {
   const [docNumber, setDocNumber] = useState("");
   const [onKey, setOnKey] = useState(false);
 
-  const handleKey = (value) => { if(tid && docNumber && !isNaN(docNumber)){ setOnKey(value)}} // ---> manejador de alerta para llenar los campos
-  
+  const handleKey = (value) => {
+    if (tid && docNumber && !isNaN(docNumber)) {
+      setOnKey(value);
+    }
+  }; // ---> manejador de alerta para llenar los campos
+
   useEffect(() => {
     const fetchData = async () => {
       if (onKey) {
@@ -108,7 +112,7 @@ export const SearchBar = ({ onUserData }) => {
                 isAuthReady: false,
                 allReady: true,
                 authERAdata: null,
-              });      
+              });
             }
           } else if (statusCode === 204) {
             onUserData({
@@ -138,11 +142,11 @@ export const SearchBar = ({ onUserData }) => {
     };
     fetchData();
     setOnKey(false);
-  }, [onKey]);
+  }, [docNumber, onKey, onUserData, tid]);
 
   return (
-    <div className="flex justify-center items-center translate-y-[-25px] z-30">
-      <div className="flex bg-[#F6F6F6] h-[48px] w-[400px] rounded-[6px] ">
+    <div className="flex justify-center items-center translate-y-[-25px] z-10">
+      <div className="flex bg-[#F6F6F6] h-[48px] w-[400px] rounded-[6px] z-20">
         <CustomDropdown
           onChange={(tid) => {
             setTid(tid);
@@ -155,9 +159,7 @@ export const SearchBar = ({ onUserData }) => {
           }}
           enterKey={() => handleKey(true)}
         />
-        <ButtonSearch
-          enterKey={() => handleKey(true)}
-        />
+        <ButtonSearch enterKey={() => handleKey(true)} />
       </div>
     </div>
   );

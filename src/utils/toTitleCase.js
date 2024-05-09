@@ -1,6 +1,6 @@
 export const toTitleCase = (str) => {
   if (str) {
-    const exceptions = ["EPS", "IPS", "ESE", "SAS", "S.A.S.", "E.S.E", "S.A.", "D.C."];
+    const exceptions = ["EPS", "IPS", "ESE", "SAS", "S.A.S.", "E.S.E", "S.A.", "D.C.", "CM"];
     return str
       .toLowerCase()
       .split(" ")

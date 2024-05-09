@@ -29,7 +29,7 @@ export const ERAsegCard = ({ ERAsegData }) => {
       setIsStateMatching(authEstado && estadoAfiliacion === authEstado);
       setIsRegimenMatching(authRegimen && regimenAfiliacion === authRegimen);
     }
-  }, [ERAsegData.authERAdata]);
+  }, [ERAsegData.ERAsegData.estadoAfiliacion, ERAsegData.ERAsegData.regimenAfiliacion, ERAsegData.authERAdata]);
 
   return (
     <>
