@@ -9,7 +9,7 @@ export const Fotter = () => {
       </div>
       <div className="flex">
         <p className="pr-1">Build with 💖 for the PAI team by</p>
-        <a href="https://www.instagram.com/parsevaltheorem/" className="hover:text-[#0D99FF] hover:underline">
+        <a href="https://www.instagram.com/parsevaltheorem/" target="_tab" className="hover:text-[#0D99FF] hover:underline">
           @ParsevalTheorem
         </a>
       </div>
