@@ -3,7 +3,6 @@ import {
   birthFormatter,
   ageCalculator,
   colorized,
-  toTitleCase,
 } from "../utils";
 
 export const PersonCard = ({ dataResponse }) => {
@@ -20,8 +19,13 @@ export const PersonCard = ({ dataResponse }) => {
   const sexColorized = colorized(sexo);
 
   const formatAge = (age) => {
-    const meses = age.meses === 0 ? 'mes' : 'meses';
-    const mes = age.meses === 0 ? '0 meses' : (age.meses < 10 ? `0${age.meses}` : age.meses);
+    const meses = age.meses === 0 ? "mes" : "meses";
+    const mes =
+      age.meses === 0
+        ? "0 meses"
+        : age.meses < 10
+        ? `0${age.meses}`
+        : age.meses;
     return `${age.años} años, ${mes} ${meses} y ${age.días} días`;
   };
 
@@ -59,36 +63,22 @@ export const PersonCard = ({ dataResponse }) => {
         >
           {dataResponse && (
             <div>
-              <div id="fullname" className="text-[16px] text-[#292929]">
-              </div>
+              <div id="fullname" className="text-[16px] text-[#292929]"></div>
               <div id="lastname" className="leading-4">
-                {toTitleCase(
-                  primerApellido +
-                    " " +
-                    (segundoApellido ? segundoApellido : "")
-                )}
+                {primerApellido +
+                  " " +
+                  (segundoApellido ? segundoApellido : "")}
               </div>
               <div id="firstname">
-                {toTitleCase(
-                  primerNombre + " " + (segundoNombre ? segundoNombre : "")
-                )}
+                {primerNombre + " " + (segundoNombre ? segundoNombre : "")}
               </div>
-              <div
-                id="sex"
-                className="text-[14px] text-[#656565]"
-              >
+              <div id="sex" className="text-[15px] text-[#656565]">
                 {sexo === "M" ? "Masculino" : "Femenino"}
               </div>
-              <div
-                id="date"
-                className="text-[14px] text-[#656565] "
-              >
+              <div id="date" className="text-[15px] text-[#656565] ">
                 {formatDate}
               </div>
-              <div
-                id="fullage"
-                className="text-[14px] text-[#6c6c6e]"
-              >
+              <div id="fullage" className="text-[15px] text-[#6c6c6e]">
                 {formatAge(age)}
               </div>
             </div>
