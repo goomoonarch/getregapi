@@ -1,11 +1,18 @@
 export const Fotter = () => {
   return (
-    <footer className="flex items-center justify-center">
-      <div className=" flex-col px-8 py-4 font-Inter text-[14px] z-[-8] text-center">
-        <div className="flex font-light"><h1 className="font-normal pr-1 text-center">v2.0.3</h1>Development version for institutional use</div>
-        <div className="">Build with 💖 for the PAI team by @ParsevalTheorem</div>
+    <footer className="flex flex-col justify-center items-center font-Inter">
+      <div className="flex leading-4">
+        <p className="font-normal">v2.0.3</p>
+        <p className="font-light pl-1">
+          Development version for institutional use
+        </p>
+      </div>
+      <div className="flex">
+        <p className="pr-1">Build with 💖 for the PAI team by</p>
+        <a href="https://www.instagram.com/parsevaltheorem/" className="hover:text-[#0D99FF] hover:underline">
+          @ParsevalTheorem
+        </a>
       </div>
     </footer>
   );
-}
-
+};

@@ -40,7 +40,7 @@ export const App = () => {
 
   return (
     <div>
-      <main>
+      <main className="font-Inter">
         <HeroBar />
         <div className="flex justify-center">
           <SearchBar onUserData={(userData) => setFromSearch(userData)} />
