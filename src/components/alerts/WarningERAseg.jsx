@@ -5,7 +5,7 @@ export const WarningERAseg = () => {
   return (
     <>
       {!close && (
-        <div className="flex justify-center animate-fade-up animate-duration-[250ms] animate-ease-in-out">
+        <div className="flex justify-center animate-fade-up animate-duration-[250ms] animate-ease-in-out mb-[10px]">
           <div className="flex font-Inter bg-[#fefce8] rounded-[6px] w-[400px] h-[40px] justify-between items-center pl-[14px] pr-2">
             <div className="flex justify-start items-center">
               <svg
