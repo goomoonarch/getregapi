@@ -25,7 +25,7 @@ export const WarningERAseg = () => {
               </h1>
             </div>
             <div className="flex items-center">
-              <a href="google.com" className="group flex items-center pr-[8px] cursor-pointer">
+              <a href="https://webextension.org/listing/access-control.html" target="_tab" className="group flex items-center pr-[8px] cursor-pointer">
                 <h1 className="text-[#89550E] pr-[6px] group-hover:text-[#0D99FF] group-hover:underline">Detalles</h1>
                 <svg
                   width="11"
