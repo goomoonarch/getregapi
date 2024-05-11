@@ -105,16 +105,16 @@ export const ERAsegCard = ({ ERAsegData }) => {
               </div>
               <div
                 id="erasegname"
-                className="text-[16px] text-[#292929] leading-4 mb-[3px]"
+                className="text-[16px] text-[#292929]"
               >
-                {toTitleCase(ERAsegData.ERAsegData.nombreEPS)}
+                {ERAsegData.ERAsegData.nombreEPS}
               </div>
               {ERAsegData.isAuthReady && (
-                <div className="text-[14px] text-[#656565]">
+                <div className="text-[15px] text-[#656565]">
                   {ERAsegData.authERAdata.ipsAsignada}
                 </div>
               )}
-              <div className="text-[14px] text-[#656565]">
+              <div className="text-[15px] text-[#656565]">
                 {ERAsegData.authERAdata && !isRegimenMatching ? (
                   <div className="flex items-center">
                     <span>
@@ -139,9 +139,8 @@ export const ERAsegCard = ({ ERAsegData }) => {
                   )
                 )}
               </div>
-              <div className="font-Inter text-[14px] text-[#656565] leading-4">
-                {toTitleCase(getMunName(ERAsegData.ERAsegData.codigoDivipola))}{" "}
-                •{" "}
+              <div className="font-Inter text-[15px] text-[#656565]">
+                {toTitleCase(getMunName(ERAsegData.ERAsegData.codigoDivipola))}{", "}
                 {toTitleCase(
                   getDepName(ERAsegData.ERAsegData.departamentoAfiliacion)
                 )}
@@ -150,7 +149,7 @@ export const ERAsegCard = ({ ERAsegData }) => {
           ) : ERAsegData.ERAsegData.codigoRespuesta === "02" ? (
             null
           ) : (
-            "usuario pobre o del régimen especial"
+            ""
           )}
         </div>
       </div>
