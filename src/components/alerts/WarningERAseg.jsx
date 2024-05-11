@@ -2,6 +2,8 @@ import { useState } from "react";
 
 export const WarningERAseg = () => {
   const [close, setClose] = useState(false);
+  const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
   return (
     <>
       {!close && (
@@ -21,7 +23,7 @@ export const WarningERAseg = () => {
                 />
               </svg>
               <h1 className="px-[8px] text-[#89550E] ">
-                Ejecute el controlador
+                {isMobileDevice ? "ERAseg no disponible!" : "Ejecute el controlador"}
               </h1>
             </div>
             <div className="flex items-center">

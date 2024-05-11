@@ -38,6 +38,7 @@ export const App = () => {
     statusCode,
   });
 
+
   return (
     <div>
       <main className="font-Inter">

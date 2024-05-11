@@ -18,7 +18,9 @@ export const SearchBar = ({ onUserData }) => {
   }; // ---> manejador de alerta para llenar los campos
 
   useEffect(() => {
+
     const fetchData = async () => {
+
       if (onKey) {
         onUserData({
           onKey,
@@ -72,35 +74,7 @@ export const SearchBar = ({ onUserData }) => {
               allReady: false,
               authERAdata: null,
             });
-            /*let authERAseg;
-            if (data.codigoRespuesta === "01" && EPSCodes.has(data.codigoEPS) && data.estadoAfiliacion ==="AC") {
-              onUserData({
-                dataResponse,
-                statusCode,
-                LoadingLabel: "Autenticando ERAseg ...",
-                onKey,
-                isERAsegReady: true,
-                ERAsegData: data,
-                isReady: true,
-                isAuthReady: false,
-                allReady: false,
-                authERAdata: null,
-              });
-              authERAseg = await ERAsegAuthenticator(data);
-              const ERAsegAuth = normAuthERA(authERAseg);
-              onUserData({
-                dataResponse,
-                statusCode,
-                LoadingLabel: "ERAseg",
-                onKey,
-                isERAsegReady: true,
-                ERAsegData: data,
-                authERAdata: ERAsegAuth,
-                isReady: true,
-                allReady: true,
-                isAuthReady: true,
-              });
-            }  else*/ {
+            {
               onUserData({
                 dataResponse,
                 statusCode,
@@ -129,13 +103,46 @@ export const SearchBar = ({ onUserData }) => {
             });
           } //---> fetching the ERAseg data in the SearchBar!
         } catch (e) {
-          console.error("error fetching data:", e);
+          const { dataResponse, statusCode } = await getDataReg(tid, docNumber);
+          console.log(JSON.stringify(dataResponse));
+          console.error("error fetching data", e);
+          const edata = {
+            tipoDocumento: "CC",
+            numerodocumento: "1234567890",
+            primerApellido: "DOE",
+            segundoApellido: null,
+            primerNombre: "JANE",
+            segundoNombre: null,
+            regimenAfiliacion: null,
+            codigoRespuesta: "03",
+            codigoEPS: null,
+            nombreEPS: null,
+            fechaCorteSAT: null,
+            fechaConsulta: null,
+            fechaNacimiento: null,
+            sexo: null,
+            fechaCorteBDEX: null,
+            fechaCorteEvol: null,
+            estadoBDEX: null,
+            estadoEvol: null,
+            estadoAfiliacion: null,
+            estadoMIPRES: null,
+            fechaAfiliacionEntidad: null,
+            tipoAfiliado: null,
+            departamentoAfiliacion: null,
+            municipioAfiliacion: null,
+            codigoDivipola: null,
+          };
           onUserData({
-            dataResponse: null,
-            statusCode: null,
+            dataResponse,
+            statusCode,
+            LoadingLabel: "Cargando información de ERAseg ...",
             onKey,
-            data: null,
+            ERAsegData: edata,
+            isERAsegReady: true,
             isReady: true,
+            allReady: true,
+            authERAdata: null,
           });
         }
       }
