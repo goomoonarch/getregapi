@@ -35,7 +35,7 @@ export const CustomDropdown = ({ onChange, enterKey }) => {
 
   return (
     <div
-      className="w-[80px] focus:outline-none items-center justify-center translate-y-[12px] z-30"
+      className="w-[80px] focus:outline-none items-center justify-center z-30 translate-y-[12px]"
       onClick={() => setIsOpen(!isOpen)}
       tabIndex={0}
       onKeyDown={handleKeyPress}
@@ -72,7 +72,7 @@ export const CustomDropdown = ({ onChange, enterKey }) => {
       {isOpen && (
         <div
           id="dropdown"
-          className={"mt-[22px] w-[64px] font-Inter font-[16px] text-center text-[16px] text-[#1d1d1f] px-[10px] py-[8px] bg-[#F6F6F6] rounded-[6px] animate-fade-down animate-duration-[100ms] animate-ease-in"}
+          className={"mt-[22px] sm:w-[60px] w-[60px] font-Inter font-[16px] text-center text-[16px] text-[#1d1d1f] px-[10px] py-[8px] bg-[#F6F6F6] rounded-[6px] animate-fade-down animate-duration-[100ms] animate-ease-in"}
         >
           {tid.map((id) => (
             <div

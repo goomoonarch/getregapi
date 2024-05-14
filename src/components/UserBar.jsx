@@ -14,8 +14,8 @@ export const UserBar = ({ userInfo }) => {
   };
 
   return (
-    <div className="flex items-center justify-center w-[358] mb-[18px]">
-      <div className="flex items-center justify-start bg-[#EFEFEF] w-[314px] h-[40px] rounded-[4px]">
+    <div className="flex items-center justify-center mb-[18px]">
+      <div className="flex items-center justify-start bg-[#EFEFEF] w-[294px] sm:w-[314px] h-[40px] rounded-[4px]">
         <div className="pl-[14px] pr-[24px]">
           <svg
             width="24"

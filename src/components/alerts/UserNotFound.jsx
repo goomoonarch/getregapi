@@ -6,7 +6,7 @@ export const UserNotFound = () => {
     <>
       {!close && (
         <div className="flex animate-fade-up animate-duration-[250ms] animate-ease-in-out">
-          <div className="flex font-Inter bg-[#FEF2F2] rounded-[6px] w-[400px] h-[40px] justify-between items-center pl-[14px] pr-2">
+          <div className="flex font-Inter bg-[#FEF2F2] rounded-[6px] w-[360px] sm:w-[400px] h-[40px] justify-between items-center pl-[14px] pr-2">
             <div className="flex justify-center items-center">
               <svg
                 width="20"

@@ -153,7 +153,7 @@ export const SearchBar = ({ onUserData }) => {
 
   return (
     <div className="flex justify-center items-center translate-y-[-25px] z-10">
-      <div className="flex bg-[#F6F6F6] h-[48px] w-[400px] rounded-[6px] z-20">
+      <div className="flex bg-[#F6F6F6] h-[48px] w-[360px] sm:w-[400px] rounded-[6px] z-20">
         <CustomDropdown
           onChange={(tid) => {
             setTid(tid);

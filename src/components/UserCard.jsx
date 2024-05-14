@@ -18,7 +18,7 @@ export const UserCard = ({ userInfo }) => {
     <>
       {dataResponse && (
         <div className="flex justify-center animate-fade-up animate-ease-in-out -z-50">
-          <div className="flex flex-col font-Inter items-center mt-[4px] bg-[#FDFDFD] w-[400px] rounded-[6px] p-[20px]">
+          <div className="flex flex-col font-Inter items-center mt-[4px] bg-[#FDFDFD] sm:w-[400px] w-[360px] rounded-[6px] p-4">
             {showCard && (
               <div>
                 <UserBar userInfo={userInfo} />

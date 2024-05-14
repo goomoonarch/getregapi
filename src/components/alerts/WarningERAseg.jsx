@@ -8,7 +8,7 @@ export const WarningERAseg = () => {
     <>
       {!close && (
         <div className="flex justify-center animate-fade-up animate-duration-[250ms] animate-ease-in-out mb-[10px]">
-          <div className="flex font-Inter bg-[#fefce8] rounded-[6px] w-[400px] h-[40px] justify-between items-center pl-[14px] pr-2">
+          <div className="flex font-Inter bg-[#fefce8] rounded-[6px] w-[360px] sm:w-[400px] h-[40px] justify-between items-center pl-[14px] pr-2">
             <div className="flex justify-start items-center">
               <svg
                 width="20"
@@ -16,6 +16,7 @@ export const WarningERAseg = () => {
                 viewBox="0 0 20 20"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="animate-jump"
               >
                 <path
                   d="M19.7101 9.85506C19.7101 15.2367 15.2464 19.7101 9.85506 19.7101C4.47343 19.7101 0 15.2367 0 9.85506C0 4.46377 4.46377 0 9.84541 0C15.2367 0 19.7101 4.46377 19.7101 9.85506ZM8.77293 13.8551C8.77293 14.4251 9.27537 14.8889 9.85506 14.8889C10.4347 14.8889 10.9372 14.4348 10.9372 13.8551C10.9372 13.2754 10.4445 12.8116 9.85506 12.8116C9.26572 12.8116 8.77293 13.285 8.77293 13.8551ZM8.93717 5.59421L9.06282 10.8599C9.07246 11.372 9.3527 11.6522 9.85506 11.6522C10.3382 11.6522 10.6184 11.3817 10.628 10.8599L10.7633 5.60387C10.7729 5.09179 10.3768 4.71498 9.84541 4.71498C9.30439 4.71498 8.92752 5.08213 8.93717 5.59421Z"

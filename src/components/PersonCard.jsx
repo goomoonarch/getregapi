@@ -31,7 +31,7 @@ export const PersonCard = ({ dataResponse }) => {
 
   return (
     <>
-      <div className="flex">
+      <div className="flex sm:mx-0 sm:translate-x-0 translate-x-3">
         <div
           id="userinfoheader"
           className="flex justify-center items-center w-[52px] rounded-[2px]"

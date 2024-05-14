@@ -33,10 +33,10 @@ export const ERAsegCard = ({ ERAsegData }) => {
 
   return (
     <>
-      <div className="flex mt-[18px]">
+      <div className="flex sm:mx-0 mt-3 sm:translate-x-0 translate-x-3">
         <div
           id="userinfoheader"
-          className={`mr-[11px] ${
+          className={`${
             isStateMatching
               ? getERAsegClass(ERAsegData.ERAsegData.estadoAfiliacion).gold
               : getERAsegClass(ERAsegData.ERAsegData.estadoAfiliacion).lm
@@ -66,7 +66,7 @@ export const ERAsegCard = ({ ERAsegData }) => {
         </div>
         <div className="flex">
           {ERAsegData.ERAsegData.codigoRespuesta === "01" ? (
-            <div className="flex flex-col w-[300px]">
+            <div className="flex flex-col w-[300px] ml-[11px]">
               <div id="chirp" className="flex">
                 <div
                   className={

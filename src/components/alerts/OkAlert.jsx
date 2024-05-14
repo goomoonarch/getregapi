@@ -6,7 +6,7 @@ export const OkAlert = () => {
     <>
       {!close && (
         <div className="flex justify-center animate-fade-up animate-duration-[250ms] animate-ease-in-out">
-          <div className="flex font-Inter bg-[#f0fdf4] rounded-[6px] w-[400px] h-[40px] justify-between items-center pl-[14px] pr-2">
+          <div className="flex font-Inter bg-[#f0fdf4] rounded-[6px] w-[360px] h-[40px] sm:w-[400px] justify-between items-center pl-[14px] pr-2">
             <div className="flex justify-start items-center">
               <svg
                 width="20"
