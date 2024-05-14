@@ -2,7 +2,7 @@ export const Fotter = () => {
   return (
     <footer className="sm:flex flex flex-col justify-center items-center font-Inter">
       <div className="sm:flex leading-4 sm:mx-0 mx-4">
-        <p className="font-normal">v2.0.3</p>
+        <p className="font-normal">v2.0.4</p>
         <p className="font-light sm:pl-1">
           Development version for institutional use
         </p>
