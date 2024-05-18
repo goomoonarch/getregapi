@@ -38,7 +38,6 @@ export const App = () => {
     statusCode,
   });
 
-
   return (
     <div>
       <main className="font-Inter">
@@ -62,9 +61,9 @@ export const App = () => {
               }}
             />
           )}
+          <Fotter />
         </div>
       </main>
-      <Fotter />
     </div>
   );
 };

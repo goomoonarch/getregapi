@@ -20,7 +20,7 @@ export const UserCard = ({ userInfo }) => {
         <div className="flex justify-center animate-fade-up animate-ease-in-out -z-50">
           <div className="flex flex-col font-Inter items-center mt-[4px] bg-[#FDFDFD] sm:w-[400px] w-[360px] rounded-[6px] p-4">
             {showCard && (
-              <div>
+              <div className="animate-fade delay-[500ms]">
                 <UserBar userInfo={userInfo} />
                 <PersonCard dataResponse={dataResponse} />
                 <ERAsegCard
