@@ -2,7 +2,7 @@ export const Fotter = () => {
   return (
     <div className="font-Inter leading-4 mt-4 sm:w-[400px] w-[360px]">
       <p className="text-center">
-        v2.0.5
+        v2.0.6
         <span className="font-light">
           {" "}
           Development version for institutional use
