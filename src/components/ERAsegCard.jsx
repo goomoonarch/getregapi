@@ -33,7 +33,7 @@ export const ERAsegCard = ({ ERAsegData }) => {
 
   return (
     <>
-      <div className="flex sm:mx-0 mt-3 sm:translate-x-0 translate-x-3">
+      <div className="flex sm:mx-0 mt-3 sm:translate-x-0">
         <div
           id="userinfoheader"
           className={`${
@@ -64,9 +64,9 @@ export const ERAsegCard = ({ ERAsegData }) => {
             </svg>
           )}
         </div>
-        <div className="flex">
+        <div>
           {ERAsegData.ERAsegData.codigoRespuesta === "01" ? (
-            <div className="flex flex-col w-[300px] ml-[11px]">
+            <div className="flex flex-col ml-[11px] w-[280px]">
               <div id="chirp" className="flex">
                 <div
                   className={

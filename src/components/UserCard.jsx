@@ -18,9 +18,9 @@ export const UserCard = ({ userInfo }) => {
     <>
       {dataResponse && (
         <div className="flex justify-center animate-fade-up animate-ease-in-out -z-50">
-          <div className="flex flex-col font-Inter items-center mt-[4px] bg-[#FDFDFD] sm:w-[400px] w-[360px] rounded-[6px] p-4">
+          <div className="flex flex-col font-Inter items-center bg-[#FDFDFD] sm:w-[400px] w-[360px] rounded-[6px] py-3">
             {showCard && (
-              <div className="animate-fade delay-[500ms]">
+              <div className="animate-fade animate-delay-[200ms]">
                 <UserBar userInfo={userInfo} />
                 <PersonCard dataResponse={dataResponse} />
                 <ERAsegCard

@@ -43,7 +43,7 @@ export const UserBar = ({ userInfo }) => {
       </div>
       <button
         onClick={handleCopy}
-        className="flex justify-center items-center w-[40px] h-[40px] rounded-[5px] bg-[#EFEFEF] ml-[4px] hover:bg-[#F6F6F6]"
+        className="w-[40px] h-[40px] rounded-[5px] bg-[#EFEFEF] ml-[4px] hover:bg-[#F6F6F6] flex items-center justify-center relative"
       >
         {copied ? (
             <svg

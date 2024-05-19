@@ -31,7 +31,7 @@ export const PersonCard = ({ dataResponse }) => {
 
   return (
     <>
-      <div className="flex sm:mx-0 sm:translate-x-0 translate-x-3">
+      <div className="flex sm:mx-0 sm:translate-x-0">
         <div
           id="userinfoheader"
           className="flex justify-center items-center w-[52px] rounded-[2px]"
@@ -58,7 +58,7 @@ export const PersonCard = ({ dataResponse }) => {
           </svg>
         </div>
         <div
-          className="flex flex-col ml-[11px]"
+          className="flex flex-col ml-[11px] w-[280px]"
           style={{ backgroundColor: sexColorized.bgcolor }}
         >
           {dataResponse && (
